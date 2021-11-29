@@ -20,7 +20,10 @@ public class DragDrop : MonoBehaviour
         shredAnimator = shredAnimator.GetComponent<Animator>();
         isDragging = false;
     }
-
+    private void Update()
+    {
+        
+    }
     private void OnTriggerStay2D(Collider2D triggercollider)
     {
         if (triggercollider.tag == "shred")
@@ -39,7 +42,14 @@ public class DragDrop : MonoBehaviour
     }
     private void OnMouseDrag()
     {
-        transform.position = GetMousePos() + dragOffset;
+        
+        if (GetMousePos().y >= 0.5f)
+        {
+            transform.position = new Vector3(GetMousePos().x, 0.5f, GetMousePos().z) + dragOffset;
+        }else
+        {
+            transform.position = GetMousePos() + dragOffset;
+        }
         isDragging = true;
     }
     private void OnMouseUp()
