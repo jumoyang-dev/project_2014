@@ -8,5 +8,6 @@ public class DetailFile : ScriptableObject
     public string title; 
     public string description; 
     public Sprite artwork;
+    public bool isLeft;
 }
 
