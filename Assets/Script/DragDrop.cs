@@ -10,6 +10,7 @@ public class DragDrop : MonoBehaviour
     private Camera cam;
 
     public Animator shredAnimator;
+    public Animator blenderAnimator;
 
     private void Awake()
     {
@@ -18,6 +19,7 @@ public class DragDrop : MonoBehaviour
     private void Start()
     {
         shredAnimator = shredAnimator.GetComponent<Animator>();
+        blenderAnimator = blenderAnimator.GetComponent<Animator>();
         isDragging = false;
         FileUIController.Instance.DisplayReadFIleUI(false);
     }
@@ -27,7 +29,7 @@ public class DragDrop : MonoBehaviour
     }
     private void OnTriggerStay2D(Collider2D triggercollider)
     {
-        if (triggercollider.tag == "shred")
+        if (triggercollider.tag == "shred" && gameObject.tag == "paper")
         {
             Debug.Log("shredder detected");
             if (!isDragging)

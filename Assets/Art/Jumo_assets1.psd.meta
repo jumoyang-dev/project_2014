@@ -1,7 +1,34 @@
 fileFormatVersion: 2
 guid: 2b8d8d360b3bf1f4db8aad5490b7b551
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 1784241270803617077
+    second: blender
+  - first:
+      213: -9133387236597887206
+    second: fruit1
+  - first:
+      213: 2547888097972647196
+    second: fruitbox_out
+  - first:
+      213: 8003649623252720498
+    second: fruitbox_in
+  - first:
+      213: -4762462884839650408
+    second: fruit2
+  - first:
+      213: -7612170394506519981
+    second: fruit3
+  - first:
+      213: -4177646699036969623
+    second: table_big
+  - first:
+      213: 7795869041601865003
+    second: light_off
+  - first:
+      213: -6356365824104999338
+    second: light_on
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -89,7 +116,196 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: blender
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 219
+        width: 109
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53557d38bf5e2c810800000000000000
+      internalID: 1784241270803617077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit1
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 306
+        width: 57
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f0f76f2b0bf3180800000000000000
+      internalID: -9133387236597887206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruitbox_out
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 278
+        width: 79
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15fa1fc9baeb5320800000000000000
+      internalID: 2547888097972647196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruitbox_in
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 278
+        width: 79
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27bdaac5deca21f60800000000000000
+      internalID: 8003649623252720498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit2
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 258
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b86252d3558edb0800000000000000
+      internalID: -4762462884839650408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fruit3
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 209
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a91b17b532c5690800000000000000
+      internalID: -7612170394506519981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: table_big
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 44
+        width: 400
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96571da16740606c0800000000000000
+      internalID: -4177646699036969623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: light_off
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 200
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b25e42cc69d703c60800000000000000
+      internalID: 7795869041601865003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: light_on
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 186
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 656d9cfd5f6a9c7a0800000000000000
+      internalID: -6356365824104999338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

@@ -5,7 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - shred
-  - ReadZone
+  - paper
+  - blender
+  - fruit
   layers:
   - Default
   - TransparentFX
