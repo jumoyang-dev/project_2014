@@ -18,12 +18,14 @@ public class CameraSwitcher : MonoBehaviour
     }
     private void Update()
     {
+        /*
         if (Input.GetKeyDown(KeyCode.Space))
         {
             SwitchPriority();
         }
+        */
     }
-    private void SwitchPriority()
+    public void SwitchPriority()
     {
         if (mainCam)
         {
@@ -36,5 +38,9 @@ public class CameraSwitcher : MonoBehaviour
         }
 
         mainCam = !mainCam;
+    }
+    public void Test()
+    {
+        Debug.Log("switch");
     }
 }

@@ -222,6 +222,7 @@ GameObject:
   - component: {fileID: 218609458}
   - component: {fileID: 218609459}
   - component: {fileID: 218609460}
+  - component: {fileID: 218609461}
   m_Layer: 0
   m_Name: fruit2
   m_TagString: fruit
@@ -315,7 +316,7 @@ PolygonCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 218609456}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -343,6 +344,32 @@ PolygonCollider2D:
       - {x: 0.16535823, y: -0.0568064}
       - {x: 0.16303723, y: 0.06697792}
       - {x: 0.13679114, y: 0.10626146}
+--- !u!61 &218609461
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218609456}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.34, y: 0.33}
+    newSize: {x: 0.34, y: 0.33}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.34, y: 0.33}
+  m_EdgeRadius: 0
 --- !u!1 &225847698
 GameObject:
   m_ObjectHideFlags: 0
@@ -545,6 +572,7 @@ GameObject:
   - component: {fileID: 440964903}
   - component: {fileID: 440964904}
   - component: {fileID: 440964905}
+  - component: {fileID: 440964906}
   m_Layer: 0
   m_Name: papershredder
   m_TagString: shred
@@ -706,6 +734,18 @@ MonoBehaviour:
   - {fileID: 2989007724091723403, guid: 889c4fd2e4dd0f04b8faf78540932d41, type: 3}
   paperTrash: []
   spawnLocation: {fileID: 1901222606}
+--- !u!114 &440964906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 440964899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca6287b0c1fffae42bd6a5260aecc36d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -834,10 +874,9 @@ GameObject:
   m_Component:
   - component: {fileID: 572413351}
   - component: {fileID: 572413350}
-  - component: {fileID: 572413352}
   m_Layer: 0
   m_Name: blender
-  m_TagString: blender
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -908,32 +947,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &572413352
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 572413349}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.07856691, y: 0.28807873}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.09, y: 1.09}
-    newSize: {x: 1.09, y: 1.09}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.5995519, y: 0.32337737}
-  m_EdgeRadius: 0
 --- !u!1 &610154489
 GameObject:
   m_ObjectHideFlags: 0
@@ -1257,6 +1270,7 @@ GameObject:
   - component: {fileID: 769221360}
   - component: {fileID: 769221361}
   - component: {fileID: 769221362}
+  - component: {fileID: 769221363}
   m_Layer: 0
   m_Name: fruit1
   m_TagString: fruit
@@ -1350,7 +1364,7 @@ PolygonCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 769221358}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -1382,6 +1396,32 @@ PolygonCollider2D:
       - {x: 0.24090329, y: -0.11375381}
       - {x: 0.2733957, y: -0.009455027}
       - {x: 0.08803746, y: -0.044096794}
+--- !u!61 &769221363
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769221358}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.57, y: 0.32}
+    newSize: {x: 0.57, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.57, y: 0.32}
+  m_EdgeRadius: 0
 --- !u!1 &812121126
 GameObject:
   m_ObjectHideFlags: 0
@@ -2354,6 +2394,7 @@ GameObject:
   - component: {fileID: 1310563416}
   - component: {fileID: 1310563417}
   - component: {fileID: 1310563418}
+  - component: {fileID: 1310563419}
   m_Layer: 0
   m_Name: fruit3
   m_TagString: fruit
@@ -2447,7 +2488,7 @@ PolygonCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1310563414}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -2477,6 +2518,32 @@ PolygonCollider2D:
       - {x: 0.14571646, y: 0.07214938}
       - {x: 0.08267331, y: 0.093856454}
       - {x: 0.050186835, y: 0.11805257}
+--- !u!61 &1310563419
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1310563414}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.31, y: 0.38}
+    newSize: {x: 0.31, y: 0.38}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.31, y: 0.38}
+  m_EdgeRadius: 0
 --- !u!4 &1337413458 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5536050406503866731, guid: 9fa3842e14a30b347a3bfc6fb2667a1b, type: 3}
@@ -2829,8 +2896,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1401712122}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0088, y: -0.6699, z: 0}
-  m_LocalScale: {x: 3.9388661, y: 1.319, z: 1}
+  m_LocalPosition: {x: -0.0033, y: -0.6699, z: 0}
+  m_LocalScale: {x: 4.5951376, y: 1.319, z: 1}
   m_Children:
   - {fileID: 1447878537}
   m_Father: {fileID: 0}
@@ -3602,6 +3669,9 @@ GameObject:
   - component: {fileID: 1912674931}
   - component: {fileID: 1912674933}
   - component: {fileID: 1912674932}
+  - component: {fileID: 1912674934}
+  - component: {fileID: 1912674935}
+  - component: {fileID: 1912674936}
   m_Layer: 0
   m_Name: light
   m_TagString: blender
@@ -3693,6 +3763,65 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1912674934
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912674930}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.28367364, y: 0.67120266}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.09, y: 0.09}
+    newSize: {x: 0.09, y: 0.09}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.91688704, y: 0.47043514}
+  m_EdgeRadius: 0
+--- !u!50 &1912674935
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912674930}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &1912674936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912674930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca6287b0c1fffae42bd6a5260aecc36d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1917473914
 GameObject:
   m_ObjectHideFlags: 0
