@@ -19,6 +19,7 @@ public class DragDrop : MonoBehaviour
     {
         shredAnimator = shredAnimator.GetComponent<Animator>();
         isDragging = false;
+        FileUIController.Instance.DisplayReadFIleUI(false);
     }
     private void Update()
     {
@@ -33,6 +34,18 @@ public class DragDrop : MonoBehaviour
             {
                 gameObject.SetActive(false);
                 shredAnimator.SetTrigger("destory");
+            }
+        }
+
+        if (triggercollider.tag == "ReadZone")
+        {
+            Debug.Log("Enter Read Zone");
+            FileUIController.Instance.DisplayReadFIleUI(true);
+            if (!isDragging)
+            {
+                gameObject.SetActive(false);
+                FileUIController.Instance.ShowDetailFile();
+                FileUIController.Instance.DisplayReadFIleUI(false);
             }
         }
     }
@@ -51,6 +64,9 @@ public class DragDrop : MonoBehaviour
             transform.position = GetMousePos() + dragOffset;
         }
         isDragging = true;
+
+        // set current chosen file
+        FileUIController.Instance.SetCurrentFile(gameObject);
     }
     private void OnMouseUp()
     {
