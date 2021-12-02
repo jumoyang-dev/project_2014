@@ -19,6 +19,7 @@ public class FileUIController : MonoBehaviour
     public DetailFileShow detailFileShow;
 
     public GameObject readUI;
+    public GameObject readZone;
 
     public GameObject filespawnLeft;    // reset the left file transform
     public GameObject filespawnRight;   // reset the right file transform
@@ -54,6 +55,7 @@ public class FileUIController : MonoBehaviour
     public void DisplayReadFIleUI(bool visible)
     {
         readUI.SetActive(visible);
+        readZone.GetComponent<SpriteRenderer>().enabled = visible;
         // Add animation here...
     }
 
