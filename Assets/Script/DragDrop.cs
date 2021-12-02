@@ -19,7 +19,6 @@ public class DragDrop : MonoBehaviour
     {
         shredAnimator = shredAnimator.GetComponent<Animator>();
         isDragging = false;
-        FileUIController.Instance.DisplayReadFIleUI(false);
     }
     private void Update()
     {

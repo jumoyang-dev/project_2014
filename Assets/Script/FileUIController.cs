@@ -9,19 +9,15 @@ public class FileUIController : MonoBehaviour
 
     public Transform MainCanvas; 
 
-    public GameObject TestObject;   // The detailed file stencil that will be displayed
+    public GameObject TestObject;   // The detailed file that will be displayed
 
     public bool isReading = false;
-    public DetailFile currentFile;  // The file to read
-    public GameObject currentThmbn; // The thumbnail player chooses
+    public DetailFile currentFile;  // The player choose a file to read
     public Transform readSpawnPoint;
     public GameObject detailFileParent;
     public DetailFileShow detailFileShow;
 
     public GameObject readUI;
-
-    public GameObject filespawnLeft;    // reset the left file transform
-    public GameObject filespawnRight;   // reset the right file transform
 
     public HandController hand;
 
@@ -48,7 +44,7 @@ public class FileUIController : MonoBehaviour
     {
         // Get the detailed file version attached to the thumbnail
         currentFile = r_File.GetComponent<RelateDetailFile>().relateDetailFile;
-        currentThmbn = r_File;
+
     }
 
     public void DisplayReadFIleUI(bool visible)
@@ -80,13 +76,6 @@ public class FileUIController : MonoBehaviour
 
         // destroy the file to exit the reading mode
         ClearChilds(detailFileParent);
-
-        // reset the thumbnail
-        currentThmbn.SetActive(true);
-        if(currentFile.isLeft)
-            currentThmbn.transform.position = filespawnLeft.transform.position;
-        else
-            currentThmbn.transform.position = filespawnRight.transform.position;
     }
     public void ClearChilds(GameObject parent)
     {
