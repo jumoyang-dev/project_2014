@@ -15,8 +15,10 @@ public class Trash : MonoBehaviour
     }
     private void Update()
     {
+        /*
         Vector2 screenPosition = cam.WorldToScreenPoint(transform.position);
         if (screenPosition.x < widthThresold.x || screenPosition.x > widthThresold.y || screenPosition.y < heightThresold.x || screenPosition.y > heightThresold.y)
             Destroy(gameObject);
+        */
     }
 }

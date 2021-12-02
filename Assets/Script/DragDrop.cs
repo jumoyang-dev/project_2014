@@ -39,6 +39,11 @@ public class DragDrop : MonoBehaviour
             }
         }
 
+        if (triggercollider.tag == "blender" && gameObject.tag == "fruit")
+        {
+
+        }
+
         if (triggercollider.tag == "ReadZone")
         {
             Debug.Log("Enter Read Zone");
