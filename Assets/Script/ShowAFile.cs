@@ -9,11 +9,11 @@ public class ShowAFile : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Button button = GetComponent<Button>();
-        button. onClick.AddListener(() => {
-            DetailFileShow detailFileShow = FileUIController.Instance.CreateDetailFileShow();
-            detailFileShow.Init(FileUIController.Instance.MainCanvas, detailFile); 
-        });
+        //Button button = GetComponent<Button>();
+        //button. onClick.AddListener(() => {
+        //    DetailFileShow detailFileShow = FileUIController.Instance.CreateDetailFileShow();
+        //    detailFileShow.Init(FileUIController.Instance.MainCanvas, detailFile); 
+        //});
     }
 
 }
