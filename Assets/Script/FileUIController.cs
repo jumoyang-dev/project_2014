@@ -27,13 +27,19 @@ public class FileUIController : MonoBehaviour
     public HandController hand;
 
     // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
-        if (Instance != null) {
+        if (Instance != null)
+        {
             GameObject.Destroy(this.gameObject);
             return;
         }
         Instance = this;
+    }
+
+    void Start()
+    {
+
 
         isReading = false;
         currentFile = null;
