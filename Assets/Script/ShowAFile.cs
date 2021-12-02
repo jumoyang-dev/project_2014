@@ -12,7 +12,6 @@ public class ShowAFile : MonoBehaviour
         Button button = GetComponent<Button>();
         button. onClick.AddListener(() => {
             DetailFileShow detailFileShow = FileUIController.Instance.CreateDetailFileShow();
-            Debug.Log("here?");
             detailFileShow.Init(FileUIController.Instance.MainCanvas, detailFile); 
         });
     }

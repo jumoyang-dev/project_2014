@@ -10,6 +10,8 @@ public class DetailFileShow : MonoBehaviour
     public Text titleText; 
     public Text descriptionText;
     public Image artwrokImage;
+
+    public Button quitButton;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,5 +27,10 @@ public class DetailFileShow : MonoBehaviour
         transform.localScale = Vector3.one;
         GetComponent<RectTransform>().offsetMin = Vector2.zero; 
         GetComponent<RectTransform>().offsetMax = Vector2.zero; 
+
+        quitButton.onClick.AddListener(() => {
+            GameObject.Destroy(this.gameObject);
+
+        });
     }
 }
