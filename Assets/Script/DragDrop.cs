@@ -41,10 +41,14 @@ public class DragDrop : MonoBehaviour
 
         if (triggercollider.tag == "blender" && gameObject.tag == "fruit")
         {
-
+            if (!isDragging)
+            {
+                gameObject.SetActive(false);
+                blenderAnimator.SetTrigger("blend");
+            }
         }
 
-        if (triggercollider.tag == "ReadZone")
+        if (triggercollider.tag == "ReadZone" && gameObject.tag == "paper")
         {
             Debug.Log("Enter Read Zone");
             FileUIController.Instance.DisplayReadFIleUI(true);
@@ -73,7 +77,10 @@ public class DragDrop : MonoBehaviour
         isDragging = true;
 
         // set current chosen file
-        FileUIController.Instance.SetCurrentFile(gameObject);
+        if (gameObject.tag == "paper")
+        {
+            FileUIController.Instance.SetCurrentFile(gameObject);
+        }
     }
     private void OnMouseUp()
     {
