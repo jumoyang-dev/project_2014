@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   title: 
   description: "In Assistance to Your Glory\u2019s Decision: \nTo ensure stabilized
-    control in the recently acquired Station Sixteen, it is believed that more resources,
-    both manpower and firepower, are essential to assist the local jurisdiction in
-    commencing the necessary pressure and enforcement onto the local populace. A
-    5% increase in food allocation is believed to be sufficient to also enhance the
-    performance of the local office.\n\n\n"
+    control in the recently acquired Station Sixteen, it is believed that <color=red>more
+    resources, both manpower and firepower</color>, are essential to assist the local
+    jurisdiction in commencing the necessary pressure and enforcement onto the local
+    populace. A 5% increase in food allocation is believed to be sufficient to also
+    enhance the performance of the local office.\n\n\n"
   artwork: {fileID: 0}
   isLeft: 0
   fileType: 2
