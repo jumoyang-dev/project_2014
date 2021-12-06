@@ -20,7 +20,7 @@ MonoBehaviour:
     whether the group has possible affiliation with the New Brotherhood.\r\n"
   artwork: {fileID: 0}
   isLeft: 1
-  fileType: 2
+  fileType: 1
   sign: 'Alpha Strategy Team No.2
 
     On behalf of Ministry of Love'

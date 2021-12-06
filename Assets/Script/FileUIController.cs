@@ -21,12 +21,10 @@ public class FileUIController : MonoBehaviour
     public GameObject readUI;
     public GameObject readZone;
 
-    public GameObject filespawnLeft;    // reset the left file transform
-    public GameObject filespawnRight;   // reset the right file transform
 
     public HandController hand;
 
-    // Start is called before the first frame update
+
     private void Awake()
     {
         if (Instance != null)
@@ -45,9 +43,10 @@ public class FileUIController : MonoBehaviour
         currentFile = null;
     }
 
-    public DetailFileShow CreateDetailFileShow() {
-        GameObject DetailFileShow = Instantiate(currentFile.usePrefab as GameObject, readSpawnPoint);
-       // DetailFileShow.transform.SetParent(MainCanvas);
+    public DetailFileShow CreateDetailFileShow(FileType type) {
+        GameObject filePrefab = FileController.Instance.FileStencilMap[(int)type].stencil;
+        GameObject DetailFileShow = Instantiate(filePrefab, readSpawnPoint);
+
         return DetailFileShow.GetComponent<DetailFileShow>();
     }
 
@@ -74,7 +73,9 @@ public class FileUIController : MonoBehaviour
             // hide the hand
             hand.hand_col.SetActive(false);
 
-            detailFileShow = FileUIController.Instance.CreateDetailFileShow();
+            // Instantiate "DetailFileShow" on Canvas
+            FileType type = currentFile.fileType;
+            detailFileShow = FileUIController.Instance.CreateDetailFileShow(type);
             detailFileShow.Init(FileUIController.Instance.MainCanvas, currentFile);
             detailFileShow.transform.parent = detailFileParent.transform;
         }
@@ -92,9 +93,9 @@ public class FileUIController : MonoBehaviour
         // reset the thumbnail
         currentThmbn.SetActive(true);
         if(currentFile.isLeft)
-            currentThmbn.transform.position = filespawnLeft.transform.position;
+            currentThmbn.transform.position = FileController.Instance.filespawnLeft.transform.position;
         else
-            currentThmbn.transform.position = filespawnRight.transform.position;
+            currentThmbn.transform.position = FileController.Instance.filespawnRight.transform.position;
     }
     public void ClearChilds(GameObject parent)
     {

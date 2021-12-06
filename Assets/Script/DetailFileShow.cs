@@ -22,32 +22,30 @@ public class DetailFileShow : MonoBehaviour
     }
 
     public void Init(Transform canvas, DetailFile detailFile) {
+
         switch (detailFile.fileType){
-            case 0:
+            case FileType.News: 
                 titleText.text = detailFile.title;
                 descriptionText.text = detailFile.description;
                 artwrokImage.sprite = detailFile.artwork;
                 break;
-            case 1:
+
+            case FileType.Alpha: 
+            case FileType.Omega:
                 titleText.text = detailFile.title;
                 descriptionText.text = detailFile.description;
-                //artwrokImage.sprite = detailFile.artwork;
                 signText1.text = detailFile.sign; 
                 break;
-            case 2:
-                //titleText.text = detailFile.title;
+
+            case FileType.PureText:
                 descriptionText.text = detailFile.description;
-                //artwrokImage.sprite = detailFile.artwork;
                 signText1.text = detailFile.sign;
                 break;
-            case 3:
+            //case 3:
                 break;
             default:
                 break;
         }
-
-
-
 
 
         transform.SetParent(canvas);

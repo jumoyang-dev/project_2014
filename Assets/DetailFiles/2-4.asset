@@ -27,7 +27,7 @@ MonoBehaviour:
     UPON REVIEWING]\r\n"
   artwork: {fileID: -8484534023370706993, guid: 86ad744bd60dc4249bc61b0927ded3e9, type: 3}
   isLeft: 0
-  fileType: 1
+  fileType: 3
   sign: 'On Behalf of Ministry of Peace
 
     On Behalf of Ministry of Truth
@@ -36,4 +36,3 @@ MonoBehaviour:
     Behalf of Ministry of Love
 
 '
-  usePrefab: {fileID: 4948536922307147234, guid: 91d6974b343a80a4fa1ce89edb60e36b, type: 3}
