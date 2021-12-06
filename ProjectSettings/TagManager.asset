@@ -9,6 +9,8 @@ TagManager:
   - blender
   - fruit
   - ReadZone
+  - fishfood
+  - fishtank
   layers:
   - Default
   - TransparentFX

@@ -11,6 +11,7 @@ public class DragDrop : MonoBehaviour
 
     public Animator shredAnimator;
     public Animator blenderAnimator;
+    public Animator fishTankAnimator;
 
     private void Awake()
     {
@@ -20,6 +21,7 @@ public class DragDrop : MonoBehaviour
     {
         shredAnimator = shredAnimator.GetComponent<Animator>();
         blenderAnimator = blenderAnimator.GetComponent<Animator>();
+        fishTankAnimator = fishTankAnimator.GetComponent<Animator>();
         isDragging = false;
         FileUIController.Instance.DisplayReadFIleUI(false);
     }
@@ -29,6 +31,7 @@ public class DragDrop : MonoBehaviour
     }
     private void OnTriggerStay2D(Collider2D triggercollider)
     {
+        //shedder
         if (triggercollider.tag == "shred" && gameObject.tag == "paper")
         {
             Debug.Log("shredder detected");
@@ -38,13 +41,22 @@ public class DragDrop : MonoBehaviour
                 shredAnimator.SetTrigger("destory");
             }
         }
-
+        //blender
         if (triggercollider.tag == "blender" && gameObject.tag == "fruit")
         {
             if (!isDragging)
             {
                 gameObject.SetActive(false);
                 blenderAnimator.SetTrigger("blend");
+            }
+        }
+        //fish tank
+        if (triggercollider.tag == "fishtank" && gameObject.tag == "fishfood")
+        {
+            if (!isDragging)
+            {
+                gameObject.SetActive(false);
+                fishTankAnimator.SetTrigger("feed");
             }
         }
 
