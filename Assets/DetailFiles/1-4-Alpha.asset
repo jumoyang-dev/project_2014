@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 660021cdf5ae695429fbcd4e3e8a0fd8, type: 3}
+  m_Name: 1-4-Alpha
+  m_EditorClassIdentifier: 
+  title: Moon Report
+  description: "As we have witnessed, the life of Eurasian people on the Moon could
+    not be better described as simply miserable. Among the roughly 73,500 defeated
+    Eurasians, approximately 20,000 have died of starvation whereas life here in
+    Oceania, no one has to ever worry about not having enough food\u2026"
+  artwork: {fileID: -8484534023370706993, guid: 86ad744bd60dc4249bc61b0927ded3e9, type: 3}
+  isLeft: 1
+  fileType: 1
+  sign: "O\u2019Connor\r\nOn Behalf of Ministry of Love\r\n"
+  usePrefab: {fileID: 4948536922307147234, guid: 91d6974b343a80a4fa1ce89edb60e36b, type: 3}

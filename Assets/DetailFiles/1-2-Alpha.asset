@@ -20,7 +20,7 @@ MonoBehaviour:
     populace. A 5% increase in food allocation is believed to be sufficient to also
     enhance the performance of the local office.\n\n\n"
   artwork: {fileID: 0}
-  isLeft: 0
+  isLeft: 1
   fileType: 2
   sign: 'Alpha Strategy Team No.12
 
