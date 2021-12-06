@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 660021cdf5ae695429fbcd4e3e8a0fd8, type: 3}
-  m_Name: 1-1
+  m_Name: 1-2
   m_EditorClassIdentifier: 
   title: 'Station Sixteen '
   description: "<color=#ff0000ff>Telegram 306.17.1:\r</color>\n\r\nTo Your Glory:\r\nThe
@@ -21,7 +21,7 @@ MonoBehaviour:
     the riot.\r\n\nThis issue requires your glory\u2019s insight, please review and
     advise.\n"
   artwork: {fileID: -8484534023370706993, guid: 86ad744bd60dc4249bc61b0927ded3e9, type: 3}
-  isLeft: 1
+  isLeft: 0
   fileType: 1
   sign: "Ryan Arnold\r\nStation Sixteen Administrator\r\nOn behalf of Ministry of
     Peace\r"
