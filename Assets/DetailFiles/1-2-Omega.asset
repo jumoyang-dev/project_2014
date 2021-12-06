@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 660021cdf5ae695429fbcd4e3e8a0fd8, type: 3}
+  m_Name: 1-2-Omega
+  m_EditorClassIdentifier: 
+  title: "In Assistance to Your Glory\u2019s Decision:"
+  description: As the local office has failed to exert control over the proles populace,
+    on top of the proles essential unnecessity to benefitting the overall social
+    construct, it is deemed feasible to permanently terminate the turmoil caused
+    within Station Sixteen through the measure of massive releasing. Station Sixteen
+    onward could be decreased in priority to focus on other stations. The jurisdiction
+    and its administrator, Ryan Arnold, should be released along with the Proles
+    for their incapability to exert control over the region.
+  artwork: {fileID: 0}
+  isLeft: 0
+  fileType: 2
+  sign: 'Omega Strategy Team No.4
+
+    On behalf of Ministry of Peace'
+  usePrefab: {fileID: 4948536922307147234, guid: 58188dbbc339dbe4889cea1ee71990a1, type: 3}

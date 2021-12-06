@@ -46,7 +46,7 @@ public class FileUIController : MonoBehaviour
     }
 
     public DetailFileShow CreateDetailFileShow() {
-        GameObject DetailFileShow = Instantiate(TestObject as GameObject, readSpawnPoint);
+        GameObject DetailFileShow = Instantiate(currentFile.usePrefab as GameObject, readSpawnPoint);
        // DetailFileShow.transform.SetParent(MainCanvas);
         return DetailFileShow.GetComponent<DetailFileShow>();
     }

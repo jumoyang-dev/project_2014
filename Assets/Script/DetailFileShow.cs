@@ -11,6 +11,9 @@ public class DetailFileShow : MonoBehaviour
     public Text descriptionText;
     public Image artwrokImage;
 
+    public Text signText1;
+    public Text descriptionText2;
+
     public Button quitButton;
     // Start is called before the first frame update
     void Start()
@@ -19,9 +22,33 @@ public class DetailFileShow : MonoBehaviour
     }
 
     public void Init(Transform canvas, DetailFile detailFile) {
-        titleText.text = detailFile.title;
-        descriptionText.text = detailFile.description;
-        artwrokImage.sprite = detailFile.artwork;
+        switch (detailFile.fileType){
+            case 0:
+                titleText.text = detailFile.title;
+                descriptionText.text = detailFile.description;
+                artwrokImage.sprite = detailFile.artwork;
+                break;
+            case 1:
+                titleText.text = detailFile.title;
+                descriptionText.text = detailFile.description;
+                //artwrokImage.sprite = detailFile.artwork;
+                signText1.text = detailFile.sign; 
+                break;
+            case 2:
+                //titleText.text = detailFile.title;
+                descriptionText.text = detailFile.description;
+                //artwrokImage.sprite = detailFile.artwork;
+                signText1.text = detailFile.sign;
+                break;
+            case 3:
+                break;
+            default:
+                break;
+        }
+
+
+
+
 
         transform.SetParent(canvas);
         transform.localScale = Vector3.one;

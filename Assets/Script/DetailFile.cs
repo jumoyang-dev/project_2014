@@ -6,8 +6,13 @@ using UnityEngine;
 public class DetailFile : ScriptableObject
 {
     public string title; 
+    [TextArea(10,100)]
     public string description; 
     public Sprite artwork;
     public bool isLeft;
+    public int fileType;
+    [TextArea(10, 100)]
+    public string sign;
+    public GameObject usePrefab; 
 }
 
