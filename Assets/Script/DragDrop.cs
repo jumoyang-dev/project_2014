@@ -9,9 +9,11 @@ public class DragDrop : MonoBehaviour
     private Vector3 dragOffset;
     private Camera cam;
 
-    public Animator shredAnimator;
-    public Animator blenderAnimator;
-    public Animator fishTankAnimator;
+    private GameObject shredder, blender, fishTank;
+
+    private Animator shredAnimator;
+    private Animator blenderAnimator;
+    private Animator fishTankAnimator;
 
     private void Awake()
     {
@@ -19,9 +21,16 @@ public class DragDrop : MonoBehaviour
     }
     private void Start()
     {
-        shredAnimator = shredAnimator.GetComponent<Animator>();
-        blenderAnimator = blenderAnimator.GetComponent<Animator>();
-        fishTankAnimator = fishTankAnimator.GetComponent<Animator>();
+
+        shredder = GameObject.FindGameObjectWithTag("shred");
+        shredAnimator = shredder.GetComponent<Animator>();
+
+        blender = GameObject.FindGameObjectWithTag("blender");
+        blenderAnimator = blender.GetComponent<Animator>();
+
+        fishTank = GameObject.FindGameObjectWithTag("fishtank");
+        fishTankAnimator = fishTank.GetComponent<Animator>();
+
         isDragging = false;
         FileUIController.Instance.DisplayReadFIleUI(false);
     }
