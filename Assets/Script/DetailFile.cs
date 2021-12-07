@@ -9,5 +9,7 @@ public class DetailFile : ScriptableObject
     public string description; 
     public Sprite artwork;
     public bool isLeft;
+    public string sign;
+    public FileType fileType;
 }
 

@@ -8,6 +8,7 @@ public class DetailFileShow : MonoBehaviour
     //public DetailFile detailFile;
 
     public Text titleText; 
+    public Text signText; 
     public Text descriptionText;
     public Image artwrokImage;
 
@@ -19,12 +20,6 @@ public class DetailFileShow : MonoBehaviour
     }
 
     public void Init(Transform canvas, DetailFile detailFile) {
-<<<<<<< Updated upstream
-        titleText.text = detailFile.title;
-        descriptionText.text = detailFile.description;
-        artwrokImage.sprite = detailFile.artwork;
-=======
-
         switch (detailFile.fileType){
             case FileType.News: 
                 titleText.text = detailFile.title;
@@ -36,12 +31,12 @@ public class DetailFileShow : MonoBehaviour
             case FileType.Omega:
                 //titleText.text = detailFile.title;
                 descriptionText.text = detailFile.description;
-                signText1.text = detailFile.sign; 
+                signText.text = detailFile.sign; 
                 break;
 
             case FileType.PureText:
                 descriptionText.text = detailFile.description;
-                signText1.text = detailFile.sign;
+                signText.text = detailFile.sign;
                 break;
             //case 3:
                 break;
@@ -49,7 +44,7 @@ public class DetailFileShow : MonoBehaviour
                 break;
         }
 
->>>>>>> Stashed changes
+//>>>>>>> Stashed changes
 
         transform.SetParent(canvas);
         transform.localScale = Vector3.one;

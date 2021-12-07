@@ -79,16 +79,16 @@ public class FileUIController : MonoBehaviour
             Debug.Log("lock hand");
             hand.hand_col.SetActive(false);
 
-<<<<<<< Updated upstream
+//<<<<<<< Updated upstream
             detailFileShow = FileUIController.Instance.CreateDetailFileShow();
-=======
+//=======
             // Instantiate "DetailFileShow" on Canvas
             Debug.Log("get file");
             FileType type = currentFile.fileType;
             Debug.Log("create dfs");
             detailFileShow = FileUIController.Instance.CreateDetailFileShow(type);
             Debug.Log("init dfs");
->>>>>>> Stashed changes
+//>>>>>>> Stashed changes
             detailFileShow.Init(FileUIController.Instance.MainCanvas, currentFile);
             detailFileShow.transform.parent = detailFileParent.transform;
         }
