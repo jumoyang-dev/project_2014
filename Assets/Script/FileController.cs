@@ -33,8 +33,31 @@ public class FileController : MonoBehaviour
         isPending = false;
     }
 
-    private void OnMouseDown()
+    public void CheckFilePending()
     {
+        int leftNum = filespawnLeft.GetComponentsInChildren<RelateDetailFile>().GetLength(0);
+        int MidNum = filespawnMid.GetComponentsInChildren<RelateDetailFile>().GetLength(0);
+
+        if (leftNum == 0 && MidNum == 0)
+        {
+            isPending = false;
+        }
+        else
+        {
+            isPending = true;
+        }
+    }
+
+    private int GetFileNum(GameObject parent)
+    {
+        int num = parent.transform.childCount;
+        return num;
+    }
+
+    private void OnMouseUp()
+    {
+        // check the desk
+        CheckFilePending();
         // if there is no file on the desk waiting to read
         if (isPending == false)
         {
@@ -43,7 +66,8 @@ public class FileController : MonoBehaviour
         else
         {
             //Debug.Log("File already taken.");
-            GrabFile();
+            FileUIController.Instance.DisplayFIlePendingUI(true);
+            //GrabFile();
         }
 
     }

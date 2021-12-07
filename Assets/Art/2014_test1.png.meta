@@ -41,6 +41,9 @@ TextureImporter:
   - first:
       213: 3109658022560581406
     second: readzone
+  - first:
+      213: 4027163708478103097
+    second: FilePendingBG
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -398,6 +401,27 @@ TextureImporter:
       bones: []
       spriteID: e17caafee79b72b20800000000000000
       internalID: 3109658022560581406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FilePendingBG
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 101
+        width: 286
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e9e285e0c53e730800000000000000
+      internalID: 4027163708478103097
       vertices: []
       indices: 
       edges: []

@@ -21,6 +21,8 @@ public class FileUIController : MonoBehaviour
     public GameObject readUI;
     public GameObject readZone;
 
+    public GameObject filePendingUI;
+    public Animator filePendingAnimator;
 
     public HandController hand;
 
@@ -35,7 +37,6 @@ public class FileUIController : MonoBehaviour
     }
     void Start()
     {
-        
 
         isReading = false;
         currentFile = null;
@@ -130,6 +131,14 @@ public class FileUIController : MonoBehaviour
             Destroy(childList[i]);
         }
     }
+
+    public void DisplayFIlePendingUI(bool visible)
+    {
+        filePendingUI.SetActive(visible);
+        filePendingAnimator.SetTrigger("show");
+        // Add animation here...
+    }
+
     private void Update()
     {
         if (isReading)
