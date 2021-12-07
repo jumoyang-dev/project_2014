@@ -297,7 +297,7 @@ MonoBehaviour:
   titleText: {fileID: 4948536922632075385}
   descriptionText: {fileID: 4948536922829813015}
   artwrokImage: {fileID: 0}
-  signText1: {fileID: 2722451246086171718}
+  signText: {fileID: 2722451246086171718}
   descriptionText2: {fileID: 0}
   quitButton: {fileID: 5838260275273802010}
 --- !u!1 &4948536922551694838
@@ -408,9 +408,9 @@ RectTransform:
   m_Father: {fileID: 2786177607612597215}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 313.425, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 313.425, y: -62.5}
   m_SizeDelta: {x: 626.85, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4948536922632075384
@@ -504,9 +504,9 @@ RectTransform:
   m_Father: {fileID: 2786177607612597215}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 313.427, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 313.427, y: -239}
   m_SizeDelta: {x: 626.854, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4948536922829813014

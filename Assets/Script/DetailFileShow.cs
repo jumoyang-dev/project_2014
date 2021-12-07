@@ -11,7 +11,7 @@ public class DetailFileShow : MonoBehaviour
     public Text descriptionText;
     public Image artwrokImage;
 
-    public Text signText1;
+    public Text signText;
     public Text descriptionText2;
 
     public Button quitButton;
@@ -32,17 +32,16 @@ public class DetailFileShow : MonoBehaviour
 
             case FileType.Alpha: 
             case FileType.Omega:
-                titleText.text = detailFile.title;
+                //titleText.text = detailFile.title;
                 descriptionText.text = detailFile.description;
-                signText1.text = detailFile.sign; 
+                signText.text = detailFile.sign; 
                 break;
 
             case FileType.PureText:
                 descriptionText.text = detailFile.description;
-                signText1.text = detailFile.sign;
+                signText.text = detailFile.sign;
                 break;
-            //case 3:
-                break;
+
             default:
                 break;
         }

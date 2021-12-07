@@ -7,9 +7,9 @@ public class FileUIController : MonoBehaviour
 {
     public static FileUIController Instance;
 
-    public Transform MainCanvas; 
+    public Transform MainCanvas;
 
-    public GameObject TestObject;   // The detailed file stencil that will be displayed
+    public GameObject fileStencil;   // The detailed file stencil that will be displayed
 
     public bool isReading = false;
     public DetailFile currentFile;  // The file to read
@@ -24,7 +24,6 @@ public class FileUIController : MonoBehaviour
 
     public HandController hand;
 
-
     private void Awake()
     {
         if (Instance != null)
@@ -34,19 +33,19 @@ public class FileUIController : MonoBehaviour
         }
         Instance = this;
     }
-
     void Start()
     {
-
+        
 
         isReading = false;
         currentFile = null;
     }
 
-    public DetailFileShow CreateDetailFileShow(FileType type) {
-        GameObject filePrefab = FileController.Instance.FileStencilMap[(int)type].stencil;
-        GameObject DetailFileShow = Instantiate(filePrefab, readSpawnPoint);
-
+    public DetailFileShow CreateDetailFileShow(FileType type)
+    {
+        fileStencil = FileController.Instance.FileStencilMap[(int)type].stencil;
+        GameObject DetailFileShow = Instantiate(fileStencil as GameObject, readSpawnPoint);
+        // DetailFileShow.transform.SetParent(MainCanvas);
         return DetailFileShow.GetComponent<DetailFileShow>();
     }
 
@@ -66,16 +65,33 @@ public class FileUIController : MonoBehaviour
 
     public void ShowDetailFile()
     {
+        Debug.Log("start reading");
+
         if (!isReading)
         {
-            Debug.Log("Show detail file: " + currentFile.title);
+            if (!currentFile)
+            {
+                Debug.Log("no file");
+            }
+            if (currentFile.title == "")
+            {
+                Debug.Log("reset title");
+                currentFile.title = "NaN";
+            }
+
+            //Debug.Log("Show detail file: " + currentFile.title);
             isReading = true;
             // hide the hand
+            Debug.Log("lock hand");
             hand.hand_col.SetActive(false);
 
             // Instantiate "DetailFileShow" on Canvas
+            Debug.Log("get file");
             FileType type = currentFile.fileType;
+            Debug.Log("create dfs");
             detailFileShow = FileUIController.Instance.CreateDetailFileShow(type);
+            Debug.Log("init dfs");
+            //>>>>>>> Stashed changes
             detailFileShow.Init(FileUIController.Instance.MainCanvas, currentFile);
             detailFileShow.transform.parent = detailFileParent.transform;
         }
@@ -91,11 +107,14 @@ public class FileUIController : MonoBehaviour
         ClearChilds(detailFileParent);
 
         // reset the thumbnail
+        // todo
         currentThmbn.SetActive(true);
-        if(currentFile.isLeft)
+        if (currentFile.fileType==FileType.Alpha)
             currentThmbn.transform.position = FileController.Instance.filespawnLeft.transform.position;
-        else
+        else if (currentFile.fileType == FileType.Omega)
             currentThmbn.transform.position = FileController.Instance.filespawnRight.transform.position;
+        else
+            currentThmbn.transform.position = FileController.Instance.filespawnMid.transform.position;
     }
     public void ClearChilds(GameObject parent)
     {
