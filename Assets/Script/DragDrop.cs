@@ -39,7 +39,7 @@ public class DragDrop : MonoBehaviour
 
         if (triggercollider.tag == "ReadZone")
         {
-            Debug.Log("Enter Read Zone");
+            //Debug.Log("Enter Read Zone");
             FileUIController.Instance.DisplayReadFIleUI(true);
             if (!isDragging)
             {

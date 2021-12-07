@@ -59,14 +59,36 @@ public class FileUIController : MonoBehaviour
 
     public void ShowDetailFile()
     {
+        Debug.Log("start reading");
+
         if (!isReading)
         {
-            Debug.Log("Show detail file: " + currentFile.title);
+            if (!currentFile)
+            {
+                Debug.Log("no file");
+            }
+            if (currentFile.title == "")
+            {
+                Debug.Log("reset title");
+                currentFile.title = "NaN";
+            }
+
+            //Debug.Log("Show detail file: " + currentFile.title);
             isReading = true;
             // hide the hand
+            Debug.Log("lock hand");
             hand.hand_col.SetActive(false);
 
+<<<<<<< Updated upstream
             detailFileShow = FileUIController.Instance.CreateDetailFileShow();
+=======
+            // Instantiate "DetailFileShow" on Canvas
+            Debug.Log("get file");
+            FileType type = currentFile.fileType;
+            Debug.Log("create dfs");
+            detailFileShow = FileUIController.Instance.CreateDetailFileShow(type);
+            Debug.Log("init dfs");
+>>>>>>> Stashed changes
             detailFileShow.Init(FileUIController.Instance.MainCanvas, currentFile);
             detailFileShow.transform.parent = detailFileParent.transform;
         }
