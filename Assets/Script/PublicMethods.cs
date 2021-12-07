@@ -14,17 +14,15 @@ public enum FileType
     PureText,
 }
 
+[Serializable]
+public class FileStencil
+{
+    public DetailFile file;
+    public GameObject stencil;
+    public GameObject thumbnail;
+}
+
 public class PublicMethods : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 }

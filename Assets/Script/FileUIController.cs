@@ -9,7 +9,7 @@ public class FileUIController : MonoBehaviour
 
     public Transform MainCanvas; 
 
-    public GameObject TestObject;   // The detailed file stencil that will be displayed
+    public GameObject fileStencil;   // The detailed file stencil that will be displayed
 
     public bool isReading = false;
     public DetailFile currentFile;  // The file to read
@@ -38,8 +38,9 @@ public class FileUIController : MonoBehaviour
         currentFile = null;
     }
 
-    public DetailFileShow CreateDetailFileShow() {
-        GameObject DetailFileShow = Instantiate(TestObject as GameObject, readSpawnPoint);
+    public DetailFileShow CreateDetailFileShow(FileType type) {
+        fileStencil = FileController.Instance.FileStencilMap[(int)type].stencil;
+        GameObject DetailFileShow = Instantiate(fileStencil as GameObject, readSpawnPoint);
        // DetailFileShow.transform.SetParent(MainCanvas);
         return DetailFileShow.GetComponent<DetailFileShow>();
     }
@@ -79,9 +80,6 @@ public class FileUIController : MonoBehaviour
             Debug.Log("lock hand");
             hand.hand_col.SetActive(false);
 
-//<<<<<<< Updated upstream
-            detailFileShow = FileUIController.Instance.CreateDetailFileShow();
-//=======
             // Instantiate "DetailFileShow" on Canvas
             Debug.Log("get file");
             FileType type = currentFile.fileType;
