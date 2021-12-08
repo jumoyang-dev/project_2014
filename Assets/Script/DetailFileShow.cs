@@ -14,7 +14,8 @@ public class DetailFileShow : MonoBehaviour
     public Text signText;
     public Text descriptionText2;
 
-    public Button quitButton;
+    public Button signButton;
+    public DetailFile df; 
     // Start is called before the first frame update
     void Start()
     {
@@ -22,7 +23,7 @@ public class DetailFileShow : MonoBehaviour
     }
 
     public void Init(Transform canvas, DetailFile detailFile) {
-
+        df = detailFile; 
         switch (detailFile.fileType){
             case FileType.News: 
                 titleText.text = detailFile.title;
@@ -38,6 +39,7 @@ public class DetailFileShow : MonoBehaviour
                 break;
 
             case FileType.PureText:
+                titleText.text = detailFile.title;
                 descriptionText.text = detailFile.description;
                 signText.text = detailFile.sign;
                 break;
@@ -50,11 +52,19 @@ public class DetailFileShow : MonoBehaviour
         transform.SetParent(canvas);
         transform.localScale = Vector3.one;
         GetComponent<RectTransform>().offsetMin = Vector2.zero; 
-        GetComponent<RectTransform>().offsetMax = Vector2.zero; 
+        GetComponent<RectTransform>().offsetMax = Vector2.zero;
 
-        quitButton.onClick.AddListener(() => {
-            GameObject.Destroy(this.gameObject);
+        if (signButton != null)
+        {
+            signButton.onClick.AddListener(() =>
+            {
+               
+                GameObject currentThumbnail = this.gameObject.transform.parent.parent.Find("File UI Controller").GetComponent<FileUIController>().currentThmbn;
+                
+                GameObject.Destroy(currentThumbnail); 
+                GameObject.Destroy(this.gameObject);
 
-        });
+            });
+        }
     }
 }

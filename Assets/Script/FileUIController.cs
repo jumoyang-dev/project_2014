@@ -144,7 +144,7 @@ public class FileUIController : MonoBehaviour
         if (isReading)
         {
             // left button click to close the reading view
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButtonDown(1))
             {
                 HideDetailFile();
             }
