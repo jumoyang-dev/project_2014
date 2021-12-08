@@ -41,6 +41,33 @@ TextureImporter:
   - first:
       213: -3088905037384748681
     second: fish_on
+  - first:
+      213: -904297546654189822
+    second: pill
+  - first:
+      213: 7387788613167272876
+    second: photo
+  - first:
+      213: 6634178386209006475
+    second: TV
+  - first:
+      213: -849283021521062524
+    second: TV_tube1
+  - first:
+      213: 923955615176966694
+    second: TV_tube2
+  - first:
+      213: 4497523512787346350
+    second: TV_tube3
+  - first:
+      213: -2869203311305889734
+    second: TV_screen
+  - first:
+      213: 8549119006648055689
+    second: TV_face1
+  - first:
+      213: 7718814750273402638
+    second: TV_face2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -369,7 +396,7 @@ TextureImporter:
         width: 19
         height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -390,7 +417,7 @@ TextureImporter:
         width: 19
         height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -398,6 +425,195 @@ TextureImporter:
       bones: []
       spriteID: 77174c5fb310225d0800000000000000
       internalID: -3088905037384748681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pill
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 108
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2077b682c2a4373f0800000000000000
+      internalID: -904297546654189822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: photo
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 93
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3d28bf992b68660800000000000000
+      internalID: 7387788613167272876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TV
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 27
+        width: 168
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83ef86c716511c50800000000000000
+      internalID: 6634178386209006475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TV_tube1
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 185
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4857774779db634f0800000000000000
+      internalID: -849283021521062524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TV_tube2
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 186
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 622c9d69cbc82dc00800000000000000
+      internalID: 923955615176966694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TV_tube3
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 186
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea328a45ec96a6e30800000000000000
+      internalID: 4497523512787346350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TV_screen
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 143
+        width: 91
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38ec314aca8e28d0800000000000000
+      internalID: -2869203311305889734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TV_face1
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 136
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9873ccdf07294a670800000000000000
+      internalID: 8549119006648055689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TV_face2
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 47
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e07771d8e1dbe1b60800000000000000
+      internalID: 7718814750273402638
       vertices: []
       indices: 
       edges: []

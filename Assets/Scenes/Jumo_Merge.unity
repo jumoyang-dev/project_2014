@@ -409,9 +409,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 799756d77cabdc542adaa142cbb699fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shredAnimator: {fileID: 440964902}
-  blenderAnimator: {fileID: 1912674932}
-  fishTankAnimator: {fileID: 235932115}
 --- !u!60 &218609460
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1523,9 +1520,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 799756d77cabdc542adaa142cbb699fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shredAnimator: {fileID: 440964902}
-  blenderAnimator: {fileID: 1912674932}
-  fishTankAnimator: {fileID: 235932115}
 --- !u!61 &608828966
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2128,9 +2122,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 799756d77cabdc542adaa142cbb699fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shredAnimator: {fileID: 440964902}
-  blenderAnimator: {fileID: 1912674932}
-  fishTankAnimator: {fileID: 235932115}
 --- !u!60 &769221362
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -2476,9 +2467,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 799756d77cabdc542adaa142cbb699fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shredAnimator: {fileID: 440964902}
-  blenderAnimator: {fileID: 1912674932}
-  fishTankAnimator: {fileID: 235932115}
 --- !u!61 &927216418
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2906,9 +2894,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 799756d77cabdc542adaa142cbb699fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shredAnimator: {fileID: 440964902}
-  blenderAnimator: {fileID: 1912674932}
-  fishTankAnimator: {fileID: 235932115}
 --- !u!212 &1149675279
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3005,9 +2990,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 799756d77cabdc542adaa142cbb699fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shredAnimator: {fileID: 440964902}
-  blenderAnimator: {fileID: 1912674932}
-  fishTankAnimator: {fileID: 235932115}
 --- !u!61 &1176547969
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3278,9 +3260,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 799756d77cabdc542adaa142cbb699fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shredAnimator: {fileID: 440964902}
-  blenderAnimator: {fileID: 1912674932}
-  fishTankAnimator: {fileID: 235932115}
 --- !u!212 &1195998279
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3664,9 +3643,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 799756d77cabdc542adaa142cbb699fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shredAnimator: {fileID: 440964902}
-  blenderAnimator: {fileID: 1912674932}
-  fishTankAnimator: {fileID: 235932115}
 --- !u!60 &1310563418
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -3857,9 +3833,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 799756d77cabdc542adaa142cbb699fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shredAnimator: {fileID: 440964902}
-  blenderAnimator: {fileID: 1912674932}
-  fishTankAnimator: {fileID: 235932115}
 --- !u!61 &1326045812
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4367,9 +4340,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 799756d77cabdc542adaa142cbb699fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shredAnimator: {fileID: 440964902}
-  blenderAnimator: {fileID: 1912674932}
-  fishTankAnimator: {fileID: 0}
 --- !u!61 &1400790229
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4736,9 +4706,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 799756d77cabdc542adaa142cbb699fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shredAnimator: {fileID: 440964902}
-  blenderAnimator: {fileID: 1912674932}
-  fishTankAnimator: {fileID: 235932115}
 --- !u!61 &1537341456
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5240,9 +5207,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 799756d77cabdc542adaa142cbb699fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shredAnimator: {fileID: 440964902}
-  blenderAnimator: {fileID: 1912674932}
-  fishTankAnimator: {fileID: 235932115}
 --- !u!61 &1726966248
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5342,7 +5306,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MainCanvas: {fileID: 1129957342}
-  TestObject: {fileID: 4948536922307147234, guid: 91d6974b343a80a4fa1ce89edb60e36b, type: 3}
+  fileStencil: {fileID: 0}
   isReading: 0
   currentFile: {fileID: 0}
   currentThmbn: {fileID: 0}
@@ -5351,8 +5315,8 @@ MonoBehaviour:
   detailFileShow: {fileID: 0}
   readUI: {fileID: 1304380762}
   readZone: {fileID: 1401712122}
-  filespawnLeft: {fileID: 617148468}
-  filespawnRight: {fileID: 1719240880}
+  filePendingUI: {fileID: 0}
+  filePendingAnimator: {fileID: 0}
   hand: {fileID: 812121127}
 --- !u!4 &1772910575
 Transform:
@@ -5747,9 +5711,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 799756d77cabdc542adaa142cbb699fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shredAnimator: {fileID: 440964902}
-  blenderAnimator: {fileID: 1912674932}
-  fishTankAnimator: {fileID: 0}
 --- !u!61 &1873784382
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6193,9 +6154,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 799756d77cabdc542adaa142cbb699fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shredAnimator: {fileID: 440964902}
-  blenderAnimator: {fileID: 1912674932}
-  fishTankAnimator: {fileID: 235932115}
 --- !u!61 &2027141481
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6494,6 +6452,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e9e33401ba26ee4f80864f3d09d9686, type: 3}
+--- !u!1001 &4556464030727677737
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4556464032445500772, guid: 6e41beb2a69271347b002a0a074e91e9, type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4556464032445500772, guid: 6e41beb2a69271347b002a0a074e91e9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4556464032445500772, guid: 6e41beb2a69271347b002a0a074e91e9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.813
+      objectReference: {fileID: 0}
+    - target: {fileID: 4556464032445500772, guid: 6e41beb2a69271347b002a0a074e91e9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4556464032445500772, guid: 6e41beb2a69271347b002a0a074e91e9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4556464032445500772, guid: 6e41beb2a69271347b002a0a074e91e9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4556464032445500772, guid: 6e41beb2a69271347b002a0a074e91e9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4556464032445500772, guid: 6e41beb2a69271347b002a0a074e91e9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4556464032445500772, guid: 6e41beb2a69271347b002a0a074e91e9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4556464032445500772, guid: 6e41beb2a69271347b002a0a074e91e9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4556464032445500772, guid: 6e41beb2a69271347b002a0a074e91e9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4556464032445500773, guid: 6e41beb2a69271347b002a0a074e91e9, type: 3}
+      propertyPath: m_Name
+      value: TV
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6e41beb2a69271347b002a0a074e91e9, type: 3}
 --- !u!1001 &5536050405624426041
 PrefabInstance:
   m_ObjectHideFlags: 0
