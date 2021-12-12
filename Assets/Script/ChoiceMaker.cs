@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DoubleVersion : DetailFile
+public class ChoiceMaker : DetailFile
 {
 
 
@@ -13,7 +13,7 @@ public class DoubleVersion : DetailFile
         // Get current detail file node
         // Change current node branch option
         FileUIController.Instance.DisplayFIleSignedUI(true);
-        FileController.Instance.ChangeBranch(branch);
+        FileController.Instance.ChangeBranch();
 
         // quit and destroy file thumnail
         if(type == FileType.Alpha)

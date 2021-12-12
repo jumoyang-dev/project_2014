@@ -247,12 +247,12 @@ public class FileController : MonoBehaviour
         
     }
 
-    public void ChangeBranch(BranchOption branch)
+    public void ChangeBranch()
     {
         // 替换受影响天的受影响文件
         DayFileNode node = GetCurrentNode();
 
-
+        
 
     }
 
