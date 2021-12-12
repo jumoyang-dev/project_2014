@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32e9f2a791318df479480d6647425a1e, type: 3}
+  m_Name: Manifest
+  m_EditorClassIdentifier: 
+  FileStencilMap:
+  - type: 0
+    stencil: {fileID: 4948536922307147234, guid: 91d6974b343a80a4fa1ce89edb60e36b, type: 3}
+    thumbnail: {fileID: 7495985790041904123, guid: a2ccb255cb813a84cac84a7e68a57f09, type: 3}
+    stample: {fileID: -9133387236597887206, guid: 2b8d8d360b3bf1f4db8aad5490b7b551, type: 3}
+  - type: 1
+    stencil: {fileID: 4948536922307147234, guid: 3ef45c573f01a164da2cd5dc1e13cc26, type: 3}
+    thumbnail: {fileID: 7495985790041904123, guid: 9b11b6c3789eb3c4a9af9f913cd4bd99, type: 3}
+    stample: {fileID: -4762462884839650408, guid: 2b8d8d360b3bf1f4db8aad5490b7b551, type: 3}
+  - type: 2
+    stencil: {fileID: 4948536922307147234, guid: f79382e0622a6c34989fd8dcde42bbdf, type: 3}
+    thumbnail: {fileID: 7495985790041904123, guid: 72a6abbbe98238e468811397f169cf4d, type: 3}
+    stample: {fileID: -7612170394506519981, guid: 2b8d8d360b3bf1f4db8aad5490b7b551, type: 3}
+  - type: 3
+    stencil: {fileID: 4948536922307147234, guid: 91d6974b343a80a4fa1ce89edb60e36b, type: 3}
+    thumbnail: {fileID: 7495985790041904123, guid: 5ad39d6d6e215dc4c82f7327b2a0c5cc, type: 3}
+    stample: {fileID: -904297546654189822, guid: d50f6669fe44a9a46baf68c99247fcfb, type: 3}

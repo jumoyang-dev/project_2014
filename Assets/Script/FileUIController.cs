@@ -22,6 +22,7 @@ public class FileUIController : MonoBehaviour
     public GameObject readZone;
 
     public GameObject filePendingUI;
+    public GameObject fileSignedUI;
     public Animator filePendingAnimator;
 
     public HandController hand;
@@ -42,20 +43,18 @@ public class FileUIController : MonoBehaviour
         currentFile = null;
     }
 
-    public DetailFileShow CreateDetailFileShow(FileType type)
+    public DetailFileShow CreateDetailFileShow(DetailFile file)
     {
-        fileStencil = FileController.Instance.FileStencilMap[(int)type].stencil;
+        FileType type = file.type;
+        fileStencil = App.Instance.m_Manifest.FileStencilMap[(int)type].stencil;
         GameObject DetailFileShow = Instantiate(fileStencil as GameObject, readSpawnPoint);
-        // DetailFileShow.transform.SetParent(MainCanvas);
+        //DetailFileShow.gameObject.AddComponent<RelateDetailFile>();
+        FileController.Instance.PassDetailFile(DetailFileShow.gameObject, file);
+
         return DetailFileShow.GetComponent<DetailFileShow>();
     }
 
-    public void SetCurrentFile(GameObject r_File)
-    {
-        // Get the detailed file version attached to the thumbnail
-        currentFile = r_File.GetComponent<RelateDetailFile>().relateDetailFile;
-        currentThmbn = r_File;
-    }
+
 
     public void DisplayReadFIleUI(bool visible)
     {
@@ -88,9 +87,9 @@ public class FileUIController : MonoBehaviour
 
             // Instantiate "DetailFileShow" on Canvas
             Debug.Log("get file");
-            FileType type = currentFile.fileType;
+            FileType type = currentFile.type;
             Debug.Log("create dfs");
-            detailFileShow = FileUIController.Instance.CreateDetailFileShow(type);
+            detailFileShow = FileUIController.Instance.CreateDetailFileShow(currentFile);
             Debug.Log("init dfs");
             //>>>>>>> Stashed changes
             detailFileShow.Init(FileUIController.Instance.MainCanvas, currentFile);
@@ -110,9 +109,9 @@ public class FileUIController : MonoBehaviour
         // reset the thumbnail
         // todo
         currentThmbn.SetActive(true);
-        if (currentFile.fileType==FileType.Alpha)
+        if (currentFile.type==FileType.Alpha)
             currentThmbn.transform.position = FileController.Instance.filespawnLeft.transform.position;
-        else if (currentFile.fileType == FileType.Omega)
+        else if (currentFile.type == FileType.Omega)
             currentThmbn.transform.position = FileController.Instance.filespawnRight.transform.position;
         else
             currentThmbn.transform.position = FileController.Instance.filespawnMid.transform.position;
@@ -138,6 +137,22 @@ public class FileUIController : MonoBehaviour
         filePendingAnimator.SetTrigger("show");
         // Add animation here...
     }
+
+    public void DisplayFIleSignedUI(bool visible)
+    {
+        filePendingUI.SetActive(visible);
+        filePendingAnimator.SetTrigger("show");
+        // Add animation here...
+    }
+
+
+    // Get the detailed file version attached to the thumbnail and assign value
+    public void SetCurrentFile(GameObject r_File)
+    {
+        currentFile = r_File.GetComponent<RelateDetailFile>().relateDetailFile;
+        currentThmbn = r_File;
+    }
+
 
     private void Update()
     {

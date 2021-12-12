@@ -48,6 +48,7 @@ public class DragDrop : MonoBehaviour
             {
                 gameObject.SetActive(false);
                 shredAnimator.SetTrigger("destory");
+                FileController.Instance.CheckToday();
             }
         }
         //blender

@@ -12,12 +12,34 @@ public enum FileType
 
 }
 
+public enum BranchOption
+{
+    Main=0,
+    Side,
+}
+
 [Serializable]
 public class FileStencil
 {
     public FileType type;
     public GameObject stencil;  //DFS
     public GameObject thumbnail;    //DFT
+    public Sprite stample;    // stample
+}
+
+[Serializable]
+public class Agent
+{
+    public int day;
+    public bool isReplaced;
+    public DetailFile replacingFile;
+}
+
+public enum BranchTrigger
+{
+    Assisted=0,
+    Bombed,
+    Michael,
 }
 
 public class PublicMethods : MonoBehaviour

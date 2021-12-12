@@ -27,4 +27,4 @@ MonoBehaviour:
   sign: 'Omega Strategy Team No.4
 
     On behalf of Ministry of Peace'
-  usePrefab: {fileID: 4948536922307147234, guid: f79382e0622a6c34989fd8dcde42bbdf, type: 3}
+  branch: 1
