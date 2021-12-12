@@ -20,8 +20,9 @@ MonoBehaviour:
     resources that are valuable to the rest of Inner Party members.\r\n"
   artwork: {fileID: 0}
   isLeft: 1
-  fileType: 2
+  type: 2
   sign: 'Omega Strategy Team No.2
 
     On behalf of Love'
-  usePrefab: {fileID: 4948536922307147234, guid: 3ef45c573f01a164da2cd5dc1e13cc26, type: 3}
+  branch: 0
+  trigger: 0

@@ -28,7 +28,7 @@ public class FileStencil
 }
 
 [Serializable]
-public class Agent
+public class ReplaceResult
 {
     public int day;
     public bool isReplaced;

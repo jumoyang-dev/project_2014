@@ -16,7 +16,7 @@ public class FileController : MonoBehaviour
         public int next;    //下一天的指针(主线)
         public int next_branch;    //下一天的指针(分支) // replaced
         public BranchOption branch;
-        public Agent[] factors;  // 影响当天的所有因素
+        public ReplaceResult[] factorsMap;  // 影响当天的所有因素
 
     }
     public List<DayFileNode> DayFileList = new List<DayFileNode>(); // Note that length!= Num of days
@@ -29,7 +29,6 @@ public class FileController : MonoBehaviour
 
     public bool isPending;
 
-    public List<FileStencil> FileStencilMap;
     public List<DetailFile> DetailFileList; // 所有的剧情(文件)按触发顺序线性放置，无支线
     public int curIndex = 0;
 
@@ -55,6 +54,7 @@ public class FileController : MonoBehaviour
     {
         curIndex = 0;
         isPending = false;
+        Debug.Log("It is the " + curDay + " Day");
     }
 
     // Check if there are some files on desk already 
@@ -185,14 +185,15 @@ public class FileController : MonoBehaviour
             curType = curFile.type;
             if (curType == FileType.Alpha)
             {
-                GenerateFileThumbnail(curDayFileIndex++, filespawnLeft.transform, FileType.Alpha);
-
-                curFile = DetailFileList[curDayFileIndex];
-                GenerateFileThumbnail(curDayFileIndex++, filespawnRight.transform, FileType.Omega);   // ！如果在alpha文件下一个没有准备omega版本会导致溢出
+                GenerateFileThumbnail(curDayFileIndex, filespawnLeft.transform, FileType.Alpha);
+                curDayFileIndex++;
+                GenerateFileThumbnail(curDayFileIndex, filespawnRight.transform, FileType.Omega);   // ！如果在alpha文件下一个没有准备omega版本会导致溢出
+                curDayFileIndex++;
             }
             else
             {
-                GenerateFileThumbnail(curDayFileIndex++, filespawnMid.transform);
+                GenerateFileThumbnail(curDayFileIndex, filespawnMid.transform);
+                curDayFileIndex++;
             }
 
         }
@@ -226,7 +227,7 @@ public class FileController : MonoBehaviour
 
         // reset
         curDayFileIndex = 0;
-
+        curFile = DayFileList[curDay].filesList[curDayFileIndex];
         // todo
         // UI changes
         Debug.Log("It is the " + curDay+ " Day");
@@ -239,6 +240,7 @@ public class FileController : MonoBehaviour
     {
 
         // 获取缩略图模板并实例化
+        curFile = DayFileList[curDay].filesList[index];
         Debug.Log("Generate No. " + index + "file of " + type);
         GameObject thumbnailPrefab = App.Instance.m_Manifest.FileStencilMap[(int)type].thumbnail;
         GameObject detailFileThumbnail = Instantiate(thumbnailPrefab, pos);
@@ -253,7 +255,7 @@ public class FileController : MonoBehaviour
         //DayFileNode node = GetCurrentNode();
 
         // 检查trigger
-        //if(trigger)
+        //if(factorsMap[((int)trigger)].)
 
         // 替换file
 
