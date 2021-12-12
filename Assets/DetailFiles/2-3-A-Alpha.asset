@@ -22,9 +22,10 @@ MonoBehaviour:
     to observe the behavior of the people at Station Sixteen.\r\n"
   artwork: {fileID: 0}
   isLeft: 1
-  fileType: 1
+  type: 1
   sign: 'Alpha Strategy Team No.2
 
     On behalf of Ministry of Love & Ministry of
     Peace'
-  usePrefab: {fileID: 4948536922307147234, guid: 3ef45c573f01a164da2cd5dc1e13cc26, type: 3}
+  branch: 0
+  trigger: 0
