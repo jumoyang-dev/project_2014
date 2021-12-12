@@ -2772,18 +2772,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DayFileList:
-  - day: 1
+  - day: 0
     filesList:
     - {fileID: 11400000, guid: 2498ba4a8ec998d43b04eb16a4080192, type: 2}
     next: 1
     next_branch: 2
     branch: 0
-  - day: 2
+    factors: []
+  - day: 1
     filesList:
+    - {fileID: 11400000, guid: dd8b02e2a82f9794687b93127e0ae515, type: 2}
+    - {fileID: 11400000, guid: c35040cda0a4de746874f91d00f07809, type: 2}
     - {fileID: 11400000, guid: 455f2c3ffc4a4da498dc8bea19b79ba2, type: 2}
-    next: 3
+    next: 2
     next_branch: 0
     branch: 0
+    factors: []
   - day: 2
     filesList:
     - {fileID: 11400000, guid: 1483d086ea0487f48ae905c897c3b81d, type: 2}
@@ -2791,6 +2795,7 @@ MonoBehaviour:
     next: 3
     next_branch: 0
     branch: 0
+    factors: []
   - day: 3
     filesList:
     - {fileID: 11400000, guid: 3a9e393b1cddd8b4a8bb51ec0b9bc3d8, type: 2}
@@ -2798,6 +2803,7 @@ MonoBehaviour:
     next: 0
     next_branch: 0
     branch: 0
+    factors: []
   filespawnLeft: {fileID: 617148468}
   filespawnMid: {fileID: 1697454445}
   filespawnRight: {fileID: 1719240880}
@@ -2806,19 +2812,19 @@ MonoBehaviour:
   - type: 0
     stencil: {fileID: 4948536922307147234, guid: 606f0cd801352ca439d6a6518b4d87a4, type: 3}
     thumbnail: {fileID: 7495985790041904123, guid: a2ccb255cb813a84cac84a7e68a57f09, type: 3}
-    stample: {fileID: 0}
+    stample: {fileID: -9133387236597887206, guid: 2b8d8d360b3bf1f4db8aad5490b7b551, type: 3}
   - type: 1
     stencil: {fileID: 4948536922307147234, guid: 3ef45c573f01a164da2cd5dc1e13cc26, type: 3}
     thumbnail: {fileID: 7495985790041904123, guid: 9b11b6c3789eb3c4a9af9f913cd4bd99, type: 3}
-    stample: {fileID: 0}
+    stample: {fileID: -4762462884839650408, guid: 2b8d8d360b3bf1f4db8aad5490b7b551, type: 3}
   - type: 2
     stencil: {fileID: 4948536922307147234, guid: f79382e0622a6c34989fd8dcde42bbdf, type: 3}
     thumbnail: {fileID: 7495985790041904123, guid: 72a6abbbe98238e468811397f169cf4d, type: 3}
-    stample: {fileID: 0}
+    stample: {fileID: -7612170394506519981, guid: 2b8d8d360b3bf1f4db8aad5490b7b551, type: 3}
   - type: 3
     stencil: {fileID: 4948536922307147234, guid: 91d6974b343a80a4fa1ce89edb60e36b, type: 3}
     thumbnail: {fileID: 7495985790041904123, guid: 5ad39d6d6e215dc4c82f7327b2a0c5cc, type: 3}
-    stample: {fileID: 0}
+    stample: {fileID: 6755479339188157415, guid: d50f6669fe44a9a46baf68c99247fcfb, type: 3}
   DetailFileList:
   - {fileID: 11400000, guid: 2498ba4a8ec998d43b04eb16a4080192, type: 2}
   - {fileID: 11400000, guid: dd8b02e2a82f9794687b93127e0ae515, type: 2}

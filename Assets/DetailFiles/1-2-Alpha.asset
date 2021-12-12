@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 660021cdf5ae695429fbcd4e3e8a0fd8, type: 3}
   m_Name: 1-2-Alpha
   m_EditorClassIdentifier: 
-  title: 
+  title: NaN
   description: "In Assistance to Your Glory\u2019s Decision: \nTo ensure stabilized
     control in the recently acquired Station Sixteen, it is believed that <color=red>more
     resources, both manpower and firepower</color>, are essential to assist the local
@@ -21,10 +21,11 @@ MonoBehaviour:
     enhance the performance of the local office.\n\n\n"
   artwork: {fileID: 0}
   isLeft: 1
-  fileType: 1
+  type: 1
   sign: 'Alpha Strategy Team No.12
 
     On behalf of Ministry of Peace
 
 '
-  usePrefab: {fileID: 4948536922307147234, guid: 3ef45c573f01a164da2cd5dc1e13cc26, type: 3}
+  branch: 0
+  trigger: 0

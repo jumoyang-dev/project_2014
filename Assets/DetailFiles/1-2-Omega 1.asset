@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 660021cdf5ae695429fbcd4e3e8a0fd8, type: 3}
   m_Name: 1-2-Omega 1
   m_EditorClassIdentifier: 
-  title: 
+  title: NaN
   description: "In Assistance to Your Glory\u2019s Decision:\nAs the local office
     has failed to exert control over the proles populace, on top of the proles essential
     unnecessity to benefitting the overall social construct, it is deemed feasible
@@ -23,8 +23,9 @@ MonoBehaviour:
     incapability to exert control over the region."
   artwork: {fileID: 0}
   isLeft: 0
-  fileType: 2
+  type: 2
   sign: 'Omega Strategy Team No.4
 
     On behalf of Ministry of Peace'
   branch: 1
+  trigger: 0

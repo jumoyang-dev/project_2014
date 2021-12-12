@@ -34,7 +34,7 @@ public class FileController : MonoBehaviour
     public int curIndex = 0;
 
     public int curNodeIndex = 0;
-    public int curDay = 1;  // 天数
+    public int curDay = 0;  // 天数
     public int curDayFileIndex = 0;    // 当天的第x个文件
     DetailFile curFile;
     FileType curType;
@@ -162,14 +162,14 @@ public class FileController : MonoBehaviour
         Debug.Log("zzzzzz--- New File.");
 
 
-        if (curNodeIndex >= DayFileList.Count)
+        if (curDay >= DayFileList.Count)
         {
             return;
         }
         else
         { 
             isPending = true;
-            DayFileNode node = DayFileList[curNodeIndex];
+            DayFileNode node = DayFileList[curDay];
 
             if (curDayFileIndex < node.filesList.Length)
             {
@@ -215,14 +215,14 @@ public class FileController : MonoBehaviour
         {
             Debug.Log("--------------Game end--------------");
         }
-        if (nextNode.day == 0)
-        {
-            curDay++;
-        }
-        else
-        {
-            curDay = nextNode.day;
-        }
+        //if (nextNode.day == 0)
+        //{
+        //    curDay++;
+        //}
+        //else
+        //{
+        //    curDay = nextNode.day;
+        //}
 
         // reset
         curDayFileIndex = 0;
@@ -247,12 +247,17 @@ public class FileController : MonoBehaviour
         
     }
 
-    public void ChangeBranch()
+    public void ChangeBranch(BranchTrigger trigger)
     {
         // 替换受影响天的受影响文件
-        DayFileNode node = GetCurrentNode();
+        //DayFileNode node = GetCurrentNode();
 
-        
+        // 检查trigger
+        //if(trigger)
+
+        // 替换file
+
+
 
     }
 

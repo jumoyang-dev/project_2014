@@ -13,7 +13,7 @@ public class ChoiceMaker : DetailFile
         // Get current detail file node
         // Change current node branch option
         FileUIController.Instance.DisplayFIleSignedUI(true);
-        FileController.Instance.ChangeBranch();
+        FileController.Instance.ChangeBranch(this.trigger);
 
         // quit and destroy file thumnail
         if(type == FileType.Alpha)
