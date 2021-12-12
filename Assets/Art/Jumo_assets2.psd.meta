@@ -74,6 +74,9 @@ TextureImporter:
   - first:
       213: -9209865038220916866
     second: sticking out files
+  - first:
+      213: -4993052354828184553
+    second: bottle
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -633,7 +636,7 @@ TextureImporter:
         width: 122
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -654,7 +657,7 @@ TextureImporter:
         width: 64
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -662,6 +665,27 @@ TextureImporter:
       bones: []
       spriteID: e778d8f2b8cff2080800000000000000
       internalID: -9209865038220916866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bottle
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 286
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 714d98d665d15bab0800000000000000
+      internalID: -4993052354828184553
       vertices: []
       indices: 
       edges: []
