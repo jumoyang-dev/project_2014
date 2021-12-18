@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Main Camera Blends
   m_EditorClassIdentifier: 
   m_CustomBlends:
-  - m_From: CM vcam1
+  - m_From: CM camMain
     m_To: CM camRight
     m_Blend:
       m_Style: 2
@@ -25,10 +25,10 @@ MonoBehaviour:
         m_PostInfinity: 0
         m_RotationOrder: 0
   - m_From: CM camRight
-    m_To: CM vcam1
+    m_To: CM camMain
     m_Blend:
-      m_Style: 5
-      m_Time: 1
+      m_Style: 3
+      m_Time: 1.5
       m_CustomCurve:
         serializedVersion: 2
         m_Curve: []
