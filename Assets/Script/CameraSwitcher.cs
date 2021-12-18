@@ -25,10 +25,6 @@ public class CameraSwitcher : MonoBehaviour
     private void Update()
     {
         
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            SwitchPriorityPlant();
-        }
         
     }
     public void SwitchBackMain()
