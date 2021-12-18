@@ -26,10 +26,11 @@ MonoBehaviour:
     of the proposed action.\r\n\r\n"
   artwork: {fileID: 0}
   type: 2
-  sign: 
+  author: "ess the riot.\r\ness the riot.\ress the riot.\r"
   signable: 1
   signed: 0
   fbType: 2
+  NeedSignature: 1
   triggerName: 1
   refTriggerName: 0
   replacedFile: {fileID: 0}

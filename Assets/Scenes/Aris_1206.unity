@@ -2039,7 +2039,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   camMain: {fileID: 765207760}
   camRight: {fileID: 1813298643}
+  camRight2: {fileID: 0}
   camLeft: {fileID: 1336951220}
+  isSwitching: 0
 --- !u!4 &610154491
 Transform:
   m_ObjectHideFlags: 0

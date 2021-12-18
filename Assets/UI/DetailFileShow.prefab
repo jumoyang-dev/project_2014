@@ -435,7 +435,7 @@ RectTransform:
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 626.854, y: 0}
-  m_Pivot: {x: 1, y: 0.5}
+  m_Pivot: {x: 1, y: 1}
 --- !u!222 &6108952454806774887
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -647,6 +647,7 @@ MonoBehaviour:
   artwrokImage: {fileID: 8406102405278410010}
   stampImage: {fileID: 266595041072752550}
   extraInformation: {fileID: 7835956376837296175}
+  authorText: {fileID: 5533493251612432022}
   signButton: {fileID: 5838260275273802010}
   df: {fileID: 0}
 --- !u!114 &2790015213225580160

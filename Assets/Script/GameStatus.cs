@@ -73,6 +73,7 @@ public class GameStatus : MonoBehaviour
                     Debug.Log(assetPath);
                     targetComponent.signable = true;
                     targetComponent.signed = false;
+                    //targetComponent.NeedSignature = true;
                 }
 
                 EditorUtility.DisplayProgressBar("½ø¶È", assetPath, 1f * count / detailFiles.Length);

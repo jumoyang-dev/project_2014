@@ -14,6 +14,7 @@ public class DetailFileShow : MonoBehaviour
     public Image artwrokImage;
     public Image stampImage;
     public TMP_Text extraInformation;
+    public TMP_Text authorText;
 
     public Button signButton;
     public DetailFile df; 
@@ -40,20 +41,25 @@ public class DetailFileShow : MonoBehaviour
         stampImage.sprite = App.Instance.m_Manifest.FileStencilMap[(int)detailFile.type].stample;
         stampImage.gameObject.SetActive(false);
 
+        if (!detailFile.NeedSignature)
+        {
+            signButton.gameObject.SetActive(false);
 
+        }
 
         switch (detailFile.type){
             case FileType.News: 
                 titleText.text = detailFile.title;
                 descriptionText.text = detailFile.description;
                 artwrokImage.sprite = detailFile.artwork;
+                authorText.text = "\n\n"+ detailFile.author;
                 break;
 
             case FileType.Alpha: 
             case FileType.Omega:
                 //titleText.text = detailFile.title;
                 descriptionText.text = detailFile.description;
-                signText.text = detailFile.sign; 
+                authorText.text = "\n\n" + detailFile.author;
                 break;
 
             case FileType.PureText:
@@ -61,8 +67,7 @@ public class DetailFileShow : MonoBehaviour
             case FileType.Zeta:
                 titleText.text = detailFile.title;
                 descriptionText.text = detailFile.description;
-                signText.text = detailFile.sign;
-                //signText.text = detailFile.sign;
+                authorText.text = "\n\n" + detailFile.author;
                 break;
 
             default:

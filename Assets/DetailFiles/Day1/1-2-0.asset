@@ -23,15 +23,11 @@ MonoBehaviour:
     please review and advise.\r\n"
   artwork: {fileID: -8484534023370706993, guid: 86ad744bd60dc4249bc61b0927ded3e9, type: 3}
   type: 3
-  sign: 'Ryan Arnold
-
-    Station Sixteen Administrator
-
-    On behalf of <link="id_06"><color=#a52a2aff><u>Ministry
-    of Peace</link></color></u>'
-  signable: 1
-  signed: 0
+  author: "ess the riot.\r\ness the riot.\r"
+  signable: 0
+  signed: 1
   fbType: 0
+  NeedSignature: 1
   triggerName: 0
   refTriggerName: 0
   replacedFile: {fileID: 0}
