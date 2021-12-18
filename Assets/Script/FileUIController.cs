@@ -102,6 +102,11 @@ public class FileUIController : MonoBehaviour
         }
     }
 
+    public void LockHand(bool isActive)
+    {
+        hand.gameObject.SetActive(isActive);
+    }
+
     public void HideDetailFile()
     {
         isReading = false;
