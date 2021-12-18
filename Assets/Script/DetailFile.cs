@@ -15,6 +15,8 @@ public class DetailFile : ScriptableObject
     [TextArea(10, 100)]
     public string sign;
     public bool signable = true;
+    public bool signed = false;
+    public FeedbackType fbType;
 
     [Header("Replace future file settings")]
     [Tooltip("该选择造成的改变")]
@@ -26,6 +28,7 @@ public class DetailFile : ScriptableObject
     // exp. 2-1-A 的替换 是 2-1-B
     public DetailFile replacedFile;
 
+    
 
 
     public virtual void Sign()
@@ -37,10 +40,35 @@ public class DetailFile : ScriptableObject
         }
 
         signable = false;
+        signed = true;
         Debug.Log("Sign the File: " + title);
         FileUIController.Instance.DelayedSignPopup();
-        FileUIController.Instance.HideDetailFile();
-        
+
+        SetFeedbackByType(fbType);
     }
+
+    public void SetFeedbackByType(FeedbackType r_fbType)
+    {
+        switch (r_fbType)
+        {
+            case FeedbackType.None:
+                break;
+            case FeedbackType.Fish:
+                Debug.Log("Big brother would like to feed the fish.");
+                break;
+            case FeedbackType.Fruite:
+                Debug.Log("Big brother would like have some juice.");
+                break;
+            case FeedbackType.Plant:
+                Debug.Log("Big brother would like to water the plants.");
+                break;
+            case FeedbackType.Photo:
+                Debug.Log("Big brother misses his son.");
+                break;
+        }
+            
+
+    }
+
 }
 

@@ -32,6 +32,7 @@ public class GameStatus : MonoBehaviour
             for(int j=0;j< App.Instance.m_Manifest.DayFileNodeList[i].filesList.Length; j++)
             {
                 App.Instance.m_Manifest.DayFileNodeList[i].filesList[j].signable = true;
+                App.Instance.m_Manifest.DayFileNodeList[i].filesList[j].signed = false;
             }
         }
 
@@ -57,6 +58,7 @@ public class GameStatus : MonoBehaviour
             {
                 Debug.Log(assetPath);
                 targetComponent.signable = true;
+                targetComponent.signed = false;
             }
                 
             EditorUtility.DisplayProgressBar("½ø¶È", assetPath, 1f * count / detailFiles.Length);
