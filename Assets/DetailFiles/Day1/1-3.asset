@@ -26,10 +26,11 @@ MonoBehaviour:
     tracking down this individual and possible connections.\r\n"
   artwork: {fileID: 0}
   type: 3
-  sign: 
+  author: 
   signable: 1
   signed: 0
   fbType: 4
+  NeedSignature: 1
   triggerName: 0
   refTriggerName: 0
   replacedFile: {fileID: 0}

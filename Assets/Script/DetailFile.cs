@@ -17,6 +17,7 @@ public class DetailFile : ScriptableObject
     public bool signable = true;
     public bool signed = false;
     public FeedbackType fbType;
+    public bool NeedSignature = true;
 
     [Header("Replace future file settings")]
     [Tooltip("该选择造成的改变")]

@@ -40,7 +40,11 @@ public class DetailFileShow : MonoBehaviour
         stampImage.sprite = App.Instance.m_Manifest.FileStencilMap[(int)detailFile.type].stample;
         stampImage.gameObject.SetActive(false);
 
+        if (!detailFile.NeedSignature)
+        {
+            signButton.gameObject.SetActive(false);
 
+        }
 
         switch (detailFile.type){
             case FileType.News: 
