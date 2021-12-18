@@ -18,6 +18,10 @@ MonoBehaviour:
   type: 1
   sign: 2-3-A-Alpha
   signable: 1
-  triggerName: 2
+  signed: 0
+  fbType: 0
+  triggerName: 1
+  refTriggerName: 0
   replacedFile: {fileID: 11400000, guid: 9489266153add0d4f90edd4df18a5e53, type: 2}
+  ifSkip2: 0
   sibling: {fileID: 11400000, guid: dc3cdf4399040284bbb8e1944dc277a9, type: 2}

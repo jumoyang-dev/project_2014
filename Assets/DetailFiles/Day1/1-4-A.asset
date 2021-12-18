@@ -13,13 +13,18 @@ MonoBehaviour:
   m_Name: 1-4-A
   m_EditorClassIdentifier: 
   title: 1-4-A
-  description: 1-4-A 1-4-A 1-4-A, 1-4-A1-4-A1-4-A
+  description: "As we have witnessed, the life of Eurasian people on the Moon could
+    not be better described as simply miserable. Among the roughly 73,500 defeated
+    Eurasians, approximately 20,000 have died of starvation whereas life here in
+    Oceania, no one has to ever worry about not having enough food\u2026\r\n"
   artwork: {fileID: 0}
   type: 4
   sign: B. B
   signable: 1
   signed: 0
-  fbType: 1
+  fbType: 3
   triggerName: 0
   refTriggerName: 0
   replacedFile: {fileID: 0}
+  sibling: {fileID: 11400000, guid: b8a06e063712c544b8df31fffe3527d5, type: 2}
+  ifSkip2: 0

@@ -48,11 +48,17 @@ public class BranchTrigger
 public enum BranchTriggerName
 {
     None = 0,
-    Assisted,
+    // day 1
     Bombed,
+    // day 2
     RA,
-    MF,
-    Michael,
+    // day 3
+    VRHome,
+    // day 4
+    Investigation,
+    // day 6
+    killedO,
+
 }
 // 每天指向下一天，包含支线
 // 每天的文件

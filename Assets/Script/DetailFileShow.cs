@@ -39,6 +39,8 @@ public class DetailFileShow : MonoBehaviour
         stampImage.sprite = App.Instance.m_Manifest.FileStencilMap[(int)detailFile.type].stample;
         stampImage.gameObject.SetActive(false);
 
+
+
         switch (detailFile.type){
             case FileType.News: 
                 titleText.text = detailFile.title;
@@ -54,6 +56,8 @@ public class DetailFileShow : MonoBehaviour
                 break;
 
             case FileType.PureText:
+            case FileType.Delta:
+            case FileType.Zeta:
                 titleText.text = detailFile.title;
                 descriptionText.text = detailFile.description;
                 //signText.text = detailFile.sign;

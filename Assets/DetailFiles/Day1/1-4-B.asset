@@ -13,14 +13,18 @@ MonoBehaviour:
   m_Name: 1-4-B
   m_EditorClassIdentifier: 
   title: 1-4-B
-  description: '1-4-B 1-4-B 1-4-B 1-4-B 1-4-B 1-4-B, 1-4-B 1-4-B 1-4-B 1-4-B 1-4-B
-    1-4-B 1-4-B 1-4-B '
+  description: "As we have witnessed, the life of Eurasian people on the Moon could
+    not be better described as simply miserable. The triumph over the Eurasians puts
+    the former Eurasian leader, Michael Freeman, in a devastating mental state, in
+    which the tyrant is found unable to lead what remains as the rest of Eurasia\u2026"
   artwork: {fileID: 0}
   type: 5
   sign: B. B
   signable: 1
   signed: 0
-  fbType: 2
+  fbType: 3
   triggerName: 0
   refTriggerName: 0
   replacedFile: {fileID: 0}
+  sibling: {fileID: 11400000, guid: 7be33536a93228846b17b89423c93491, type: 2}
+  ifSkip2: 0
