@@ -1,7 +1,76 @@
 fileFormatVersion: 2
 guid: 0f1a3afe38aaf5d41ac1c9f79d7078a0
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -3156789514561091207
+    second: plant
+  - first:
+      213: -7444763455204659453
+    second: plant_button
+  - first:
+      213: -4117897895461515692
+    second: plant_water1
+  - first:
+      213: -5813103266407744988
+    second: plant_water2
+  - first:
+      213: -4023817815559701167
+    second: plant_water3
+  - first:
+      213: -4756927194745155698
+    second: plant_water4
+  - first:
+      213: 5762851306011964379
+    second: plant_water5
+  - first:
+      213: -3901099369719134959
+    second: leaf1
+  - first:
+      213: -6922909749661463706
+    second: leaf2
+  - first:
+      213: -6242239960095426266
+    second: leaf3
+  - first:
+      213: -5589843595072288697
+    second: Jumo_assets4_10
+  - first:
+      213: 7749719223617469245
+    second: Jumo_assets4_11
+  - first:
+      213: 6360715240581427741
+    second: button_fish
+  - first:
+      213: 2310937607996470556
+    second: button_fish_lit
+  - first:
+      213: -1390753715373359649
+    second: trash_1
+  - first:
+      213: 6266085966800267143
+    second: trash_2
+  - first:
+      213: -7374463897449056993
+    second: trash_3
+  - first:
+      213: 4439629004760946589
+    second: button_juice
+  - first:
+      213: 1253105828708992806
+    second: button_juice_lit
+  - first:
+      213: -2909447345219541295
+    second: button_plant
+  - first:
+      213: -4952019132249578818
+    second: button_plant_lit
+  - first:
+      213: 1818925362068432409
+    second: button_trash
+  - first:
+      213: -8325766357012730432
+    second: button_trash_lit
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -89,7 +158,490 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: plant
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 196
+        width: 164
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97988e179a4d034d0800000000000000
+      internalID: -3156789514561091207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_button
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 264
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f67bfd413eea890800000000000000
+      internalID: -7444763455204659453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_water1
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 252
+        width: 15
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e00bf7ea94ad6c0800000000000000
+      internalID: -4117897895461515692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_water2
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 252
+        width: 15
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a7a1bd065b35fa0800000000000000
+      internalID: -5813103266407744988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_water3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 252
+        width: 15
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15dfcae04078828c0800000000000000
+      internalID: -4023817815559701167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_water4
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 252
+        width: 15
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8fc1de6beffbfdb0800000000000000
+      internalID: -4756927194745155698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_water5
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 252
+        width: 15
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd33d3cdab2c9ff40800000000000000
+      internalID: 5762851306011964379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaf1
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 236
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 115046acac28cd9c0800000000000000
+      internalID: -3901099369719134959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaf2
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 206
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b07570342ecef90800000000000000
+      internalID: -6922909749661463706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaf3
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 198
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62973cf34db1f59a0800000000000000
+      internalID: -6242239960095426266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jumo_assets4_10
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 172
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74849b5ddd2ec62b0800000000000000
+      internalID: -5589843595072288697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jumo_assets4_11
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 172
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b3cb8f2988c8b60800000000000000
+      internalID: 7749719223617469245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_fish
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 160
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d12f4409fccc54850800000000000000
+      internalID: 6360715240581427741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_fish_lit
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 160
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1578b6b289121020800000000000000
+      internalID: 2310937607996470556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trash_1
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 38
+        width: 19
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fddbd194ddc03bce0800000000000000
+      internalID: -1390753715373359649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trash_2
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 38
+        width: 19
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 787a037dcfb95f650800000000000000
+      internalID: 6266085966800267143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trash_3
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 38
+        width: 19
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f153b972824a8a990800000000000000
+      internalID: -7374463897449056993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_juice
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 128
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d971c43ce0bbc9d30800000000000000
+      internalID: 4439629004760946589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_juice_lit
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 128
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 627cb2aac1de36110800000000000000
+      internalID: 1253105828708992806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_plant
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 97
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d66c7fed019f97d0800000000000000
+      internalID: -2909447345219541295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_plant_lit
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 97
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb2635d06d4e64bb0800000000000000
+      internalID: -4952019132249578818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_trash
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 67
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 916a90fcafe1e3910800000000000000
+      internalID: 1818925362068432409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_trash_lit
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 67
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cdab5f2c9fe47c80800000000000000
+      internalID: -8325766357012730432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
