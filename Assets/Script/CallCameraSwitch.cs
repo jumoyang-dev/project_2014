@@ -13,7 +13,7 @@ public class CallCameraSwitch : MonoBehaviour
     public void Switch()
     {
         //FindObjectOfType<CameraSwitcher>().SwitchPriority();
-        switchcamera.SwitchPriority();
+        switchcamera.SwitchBackMain();
        
     }
 }
