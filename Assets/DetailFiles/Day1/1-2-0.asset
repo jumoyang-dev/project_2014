@@ -30,3 +30,5 @@ MonoBehaviour:
   triggerName: 0
   refTriggerName: 0
   replacedFile: {fileID: 0}
+  sibling: {fileID: 0}
+  ifSkip2: 0

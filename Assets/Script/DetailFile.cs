@@ -6,12 +6,12 @@ using UnityEngine;
 
 public class DetailFile : ScriptableObject
 {
-    public string title; 
-    [TextArea(10,100)]
-    public string description; 
+    public string title;
+    [TextArea(10, 100)]
+    public string description;
     public Sprite artwork;
-   // public bool isLeft;
-    public FileType type;
+    // public bool isLeft;
+    public FileType type = FileType.PureText;
     [TextArea(10, 100)]
     public string sign;
     public bool signable = true;
@@ -28,8 +28,14 @@ public class DetailFile : ScriptableObject
     // exp. 2-1-A 的替换 是 2-1-B
     public DetailFile replacedFile;
 
-    
+    [Header("Oppesite option")]
+    [Tooltip("构成二选一的关系")]
+    public DetailFile sibling;
 
+
+    [Header("Skip")]
+    [Tooltip("跳过接下来的两个文件，仅在5-4-B使用一次")]
+    public bool ifSkip2;
 
     public virtual void Sign()
     {
@@ -41,10 +47,15 @@ public class DetailFile : ScriptableObject
 
         signable = false;
         signed = true;
+        if (sibling)
+        {
+            sibling.signable = false;
+        }
         Debug.Log("Sign the File: " + title);
         FileUIController.Instance.DelayedSignPopup();
 
         SetFeedbackByType(fbType);
+        FileController.Instance.CheckToday();
     }
 
     public void SetFeedbackByType(FeedbackType r_fbType)

@@ -61,10 +61,65 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 40836030d9caa2940bf1bbcfcfb6f41f, type: 2}
     - {fileID: 11400000, guid: 713bf8489b4633843894f9e615f01772, type: 2}
   - day: 2
-    filesList: []
+    filesList:
+    - {fileID: 11400000, guid: ddacaee86da890f429122e6a9113f747, type: 2}
+    - {fileID: 11400000, guid: 7b08f1c7d67c7704283dc3dd148f71d4, type: 2}
+    - {fileID: 11400000, guid: 141f737058bf9d64698ecdf43fff4b81, type: 2}
+    - {fileID: 11400000, guid: fbee635b2ebad5c46b48031da75fb0be, type: 2}
+    - {fileID: 11400000, guid: b33ac697938f2bd409aad7c39732cd97, type: 2}
+    - {fileID: 11400000, guid: 2d027d46535de6b4aaeb48ada8f41b1c, type: 2}
+    - {fileID: 11400000, guid: 27ecee0813933c7439592342dac35337, type: 2}
+    - {fileID: 11400000, guid: 2a7d15813b1d2a1428e0d9749ae95faf, type: 2}
+    - {fileID: 11400000, guid: fec3e26ed7dca844ea49cd993f7af164, type: 2}
+  - day: 3
+    filesList:
+    - {fileID: 11400000, guid: b4e68567bcd6139488ccd89fda0ff31b, type: 2}
+    - {fileID: 11400000, guid: 6fc03015a679c8f429467e8cca412694, type: 2}
+    - {fileID: 11400000, guid: 98a3f75a097edb5468094bab677e4339, type: 2}
+    - {fileID: 11400000, guid: 6ac8750147aaf0a46a5c366c762c3b8a, type: 2}
+    - {fileID: 11400000, guid: 3f050088ae07ed449a5f26209d760e25, type: 2}
+    - {fileID: 11400000, guid: c62cfda083960764ebe22ff87469b3e9, type: 2}
+    - {fileID: 11400000, guid: 57a4abc71c3df91438252eb348bfb93b, type: 2}
+    - {fileID: 11400000, guid: 99640f9b9f8e81041b2ecee4b9493851, type: 2}
+    - {fileID: 11400000, guid: f0927faac8291624b8928d36474cd509, type: 2}
+    - {fileID: 11400000, guid: d91459b6494b18247bfd16c825590e5b, type: 2}
+  - day: 4
+    filesList:
+    - {fileID: 11400000, guid: eac86b2b25f89d14fbfa96dd6005fbda, type: 2}
+    - {fileID: 11400000, guid: 62cc466edd1c2e84b9520d2ea0d7d574, type: 2}
+    - {fileID: 11400000, guid: 7963739f0bf34a24fb41cb54a646d775, type: 2}
+    - {fileID: 11400000, guid: 7b5295b4c1214c94eb865a4ec0b3211b, type: 2}
+    - {fileID: 11400000, guid: e3f312a618d11a048ac813b292f6e689, type: 2}
+    - {fileID: 11400000, guid: 2567ebbd58b0b084889e515cbafbd88e, type: 2}
+    - {fileID: 11400000, guid: c4c7942530228174aa1a30b17c244aec, type: 2}
+    - {fileID: 11400000, guid: f7f70ae1f35963a4db7ff4a4076f9a56, type: 2}
+    - {fileID: 11400000, guid: ce53e1e818aceab4886fbc2cb7bd5e32, type: 2}
+    - {fileID: 11400000, guid: e449171fe90bac2429640d72b4b7a22b, type: 2}
+    - {fileID: 11400000, guid: 69cce2e4cf192be48ba1be6c9a4c3e90, type: 2}
+    - {fileID: 11400000, guid: f01394d71ca13304facc44c0eef18c5d, type: 2}
+    - {fileID: 11400000, guid: 063550f440c76934396f5616444c8e34, type: 2}
+    - {fileID: 11400000, guid: f9571b0da1fc1904083ef800f1c45570, type: 2}
+  - day: 5
+    filesList:
+    - {fileID: 11400000, guid: 65267b31ba8302b4e975e442d9d95415, type: 2}
+    - {fileID: 11400000, guid: 6d6cc1e100f172e4386d3f176c356223, type: 2}
+    - {fileID: 11400000, guid: d850cca7b20c23f4fba6d031986b6a03, type: 2}
+    - {fileID: 11400000, guid: 3e3ab3528f78afb4b9fe09cd491cc7ec, type: 2}
+    - {fileID: 11400000, guid: 0b8770c3b0a4c2345af2380f80bc74fb, type: 2}
+    - {fileID: 11400000, guid: 1727c6a39f6aade46b090ce591c64cce, type: 2}
+    - {fileID: 11400000, guid: fe9641dadea44b943a8cb6fb30e2d2eb, type: 2}
+    - {fileID: 11400000, guid: e9680dee9bb6f914f832b227c30c9820, type: 2}
+    - {fileID: 11400000, guid: a9d61615f3930e64ca09d9d0c6d25cff, type: 2}
+    - {fileID: 11400000, guid: 5037f7dfc8b4f09479d604d4e76419aa, type: 2}
+  - day: 6
+    filesList:
+    - {fileID: 11400000, guid: c0b8c011bea6f564aac14d74e23c2312, type: 2}
+    - {fileID: 11400000, guid: 0b7e9b8e1113b5b4291d11fef4951500, type: 2}
+    - {fileID: 11400000, guid: fcf89950c4b0ee84a9f9d776ae32aca3, type: 2}
+    - {fileID: 11400000, guid: 8152ab44a31943949a0a4a5724e15486, type: 2}
   AffectedDayStatus:
   - trigger: 0
-    isTriggered: 0
+    isTriggered: 1
   - trigger: 1
     isTriggered: 0
   - trigger: 2
@@ -72,4 +127,6 @@ MonoBehaviour:
   - trigger: 3
     isTriggered: 0
   - trigger: 4
+    isTriggered: 0
+  - trigger: 5
     isTriggered: 0

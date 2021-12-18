@@ -20,6 +20,10 @@ MonoBehaviour:
   type: 1
   sign: 2-5-B-Alpha
   signable: 1
-  triggerName: 0
+  signed: 0
+  fbType: 0
+  triggerName: 2
+  refTriggerName: 0
   replacedFile: {fileID: 0}
   sibling: {fileID: 11400000, guid: 713bf8489b4633843894f9e615f01772, type: 2}
+  ifSkip2: 0

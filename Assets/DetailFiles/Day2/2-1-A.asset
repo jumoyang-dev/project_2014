@@ -18,6 +18,9 @@ MonoBehaviour:
   type: 3
   sign: 2-1-A
   signable: 1
+  signed: 0
+  fbType: 0
   triggerName: 0
-  refTriggerName: 2
-  replacedFile: {fileID: 0}
+  refTriggerName: 1
+  replacedFile: {fileID: 11400000, guid: 0051f8547213c1741878f87644160d29, type: 2}
+  ifSkip2: 0

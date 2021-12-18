@@ -9,6 +9,7 @@ public class GameStatus : MonoBehaviour
     public static GameStatus Instance;
 
     const string TEST_FOLDER = "Assets/DetailFiles";
+
     private void Awake()
     {
         if (Instance != null)
@@ -33,6 +34,16 @@ public class GameStatus : MonoBehaviour
             {
                 App.Instance.m_Manifest.DayFileNodeList[i].filesList[j].signable = true;
                 App.Instance.m_Manifest.DayFileNodeList[i].filesList[j].signed = false;
+                // for debug 
+                DetailFile file = App.Instance.m_Manifest.DayFileNodeList[i].filesList[j];
+                if (file.title == "")
+                {
+                    file.title = file.name;
+                }
+                if (file.description == "")
+                {
+                    file.description = file.name;
+                }
             }
         }
 
@@ -41,28 +52,36 @@ public class GameStatus : MonoBehaviour
     [MenuItem("2014/未签署所有DetailFile")]
     public static void SearchTargetPrefab()
     {
-        var assetRootPath = Application.dataPath;
-        //Debug.log(assetRootPath);
-        var dirPath = string.Format("{0}{1}", assetRootPath.Replace("Assets", ""), TEST_FOLDER);
-        //Debug.log(dirPath);
-        var detailFiles = Directory.GetFiles(dirPath, "*.asset");
-        int count = 0;
-
-        foreach (var detailfilePath in detailFiles)
+        for(int i = 1; i <= 7; i++)
         {
-            count++;
-            var assetPath = detailfilePath.Substring(detailfilePath.IndexOf("Assets/DetailFile"));
 
-            var targetComponent = AssetDatabase.LoadAssetAtPath<DetailFile>(assetPath);
-            if (targetComponent != null && !targetComponent.signable)
+            var assetRootPath = Application.dataPath;
+            //Debug.log(assetRootPath);
+            var dirPath = string.Format("{0}{1}", assetRootPath.Replace("Assets", ""), "Assets/DetailFiles/Day"+i.ToString());
+            //Debug.log(dirPath);
+            var detailFiles = Directory.GetFiles(dirPath, "*.asset");
+            int count = 0;
+
+            foreach (var detailfilePath in detailFiles)
             {
-                Debug.Log(assetPath);
-                targetComponent.signable = true;
-                targetComponent.signed = false;
+                count++;
+                var assetPath = detailfilePath.Substring(detailfilePath.IndexOf("Assets/DetailFile"));
+
+                var targetComponent = AssetDatabase.LoadAssetAtPath<DetailFile>(assetPath);
+                if (targetComponent != null && !targetComponent.signable)
+                {
+                    Debug.Log(assetPath);
+                    targetComponent.signable = true;
+                    targetComponent.signed = false;
+                }
+
+                EditorUtility.DisplayProgressBar("进度", assetPath, 1f * count / detailFiles.Length);
             }
-                
-            EditorUtility.DisplayProgressBar("进度", assetPath, 1f * count / detailFiles.Length);
+            EditorUtility.ClearProgressBar();
+
+
         }
-        EditorUtility.ClearProgressBar();
     }
+
+
 }

@@ -23,7 +23,7 @@ public class FileController : MonoBehaviour
     DetailFile curFile;
     FileType curType;
 
-    public int maxDay = 10;
+    public int maxDay = 7;
     public List<DayFileNode> dayFileList; // Note that length!= Num of days
     private void Awake()
     {
@@ -130,6 +130,7 @@ public class FileController : MonoBehaviour
         }
         else
         {
+            Debug.Log("not yet"+ curDayFileIndex+" of "+ today.filesList.Length);
             return;
         }
     }
@@ -185,7 +186,12 @@ public class FileController : MonoBehaviour
                 GenerateFileThumbnail(curDayFileIndex, filespawnMid.transform);
                 curDayFileIndex++;
             }
-
+            
+            if (curFile.ifSkip2)
+            {
+                // 5-4-B 特殊情况
+                curDayFileIndex+=2;
+            }
         }
 
     }
@@ -201,10 +207,15 @@ public class FileController : MonoBehaviour
     {
         // 切换到当前node指向的下一个node
         int nextIndex = curDay++;
+        if (curDay >= maxDay)
+        {
+            Debug.Log("--------------Game end--------------");
+            return;
+        }
         DayFileNode nextNode = GetNodeByIndex(nextIndex);
         if (nextNode == null)
         {
-            Debug.Log("--------------Game end--------------");
+            return;
         }    
 
         // reset
@@ -224,9 +235,9 @@ public class FileController : MonoBehaviour
         {
             DetailFile file = dayFileList[curDay].filesList[i];
 
+            // check if changing branch needed
             if (file.refTriggerName != BranchTriggerName.None && App.Instance.m_Manifest.AffectedDayStatus[(int)file.refTriggerName].isTriggered == true)
             {
-                // need changing branch
                 Debug.Log("change branch with bool name: " + file.refTriggerName.ToString());
                 dayFileList[curDay].filesList[i] = file.replacedFile;
             }

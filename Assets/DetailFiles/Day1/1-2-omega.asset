@@ -13,14 +13,25 @@ MonoBehaviour:
   m_Name: 1-2-omega
   m_EditorClassIdentifier: 
   title: NaN
-  description: 1-2 Omega
+  description: "[Deploy a bomb on Station Sixteen to eliminate majority of the proles]\r\n\r\nIn
+    Assistance to Your Glory\u2019s Decision:\r\n\r\nAs the local office has failed
+    to exert control over the proles populace, on top of the proles essential unnecessity
+    to benefitting the overall social construct, it is deemed feasible to permanently
+    terminate the turmoil caused within Station Sixteen through the measure of massive
+    releasing. Station Sixteen onward could be decreased in priority to focus on
+    other stations. The jurisdiction and its administrator, Ryan Arnold, should be
+    released along with the Proles for their incapability to exert control over the
+    region.\r\nStation Sixteen will be removed from the World Map and any form of
+    documentation recording its existence will also be destroyed upon the commencement
+    of the proposed action.\r\n\r\n"
   artwork: {fileID: 0}
   type: 2
   sign: 
-  signable: 0
+  signable: 1
   signed: 0
   fbType: 2
-  triggerName: 2
+  triggerName: 1
   refTriggerName: 0
   replacedFile: {fileID: 0}
   sibling: {fileID: 11400000, guid: 7214d59f89fda0e4dac6a3c100e4862c, type: 2}
+  ifSkip2: 0

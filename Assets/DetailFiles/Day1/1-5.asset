@@ -13,11 +13,21 @@ MonoBehaviour:
   m_Name: 1-5
   m_EditorClassIdentifier: 
   title: 1-5
-  description: 1-51-51-51-51-5
+  description: "To Your Glory:\r\n\r\nThis is Stewart writing a personal message
+    to you on behalf of the Ministry of Peace. The Device has achieved the effect
+    of acting as a new measure in all social aspects for the Party members with the
+    system to measure each individual\u2019s loyalty to Your Glory.\r\n\r\nThe Speta
+    Machine, designed to provide full immersion in a digital world that simulates
+    all sensations, including pain, is ready for testing within the next week.\r\n\r\nI
+    shall update Your Glory on the process once testing could commence. \r\n"
   artwork: {fileID: 0}
   type: 0
   sign: 1-5
   signable: 1
+  signed: 0
+  fbType: 4
   triggerName: 0
   refTriggerName: 0
   replacedFile: {fileID: 0}
+  sibling: {fileID: 0}
+  ifSkip2: 0

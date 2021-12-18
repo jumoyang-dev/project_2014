@@ -12,12 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 660021cdf5ae695429fbcd4e3e8a0fd8, type: 3}
   m_Name: 2-3-A-0
   m_EditorClassIdentifier: 
-  title: 
-  description: 
+  title: 2-3-A-0
+  description: 2-3-A-0
   artwork: {fileID: 0}
   type: 3
   sign: 
   signable: 1
+  signed: 0
+  fbType: 0
   triggerName: 0
-  refTriggerName: 2
+  refTriggerName: 1
   replacedFile: {fileID: 11400000, guid: dc1c64363abd485418c5bc76b1a47230, type: 2}
+  ifSkip2: 0

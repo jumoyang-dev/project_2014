@@ -12,12 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 560541c61703950408d84c871e5130a0, type: 3}
   m_Name: 2-2-Omega
   m_EditorClassIdentifier: 
-  title: 
-  description: 
+  title: 2-2-Omega
+  description: 2-2-Omega
   artwork: {fileID: 0}
   type: 2
   sign: 
   signable: 1
-  triggerName: 0
+  signed: 0
+  fbType: 0
+  triggerName: 3
+  refTriggerName: 0
   replacedFile: {fileID: 0}
+  ifSkip2: 0
   sibling: {fileID: 11400000, guid: 66a7743dfd50fa846a2db499b280b583, type: 2}

@@ -12,12 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 660021cdf5ae695429fbcd4e3e8a0fd8, type: 3}
   m_Name: 1-3
   m_EditorClassIdentifier: 
-  title: 
-  description: 
+  title: 1-3
+  description: "CLASSIFIED:\r\nPriority: TOP\r\nCONFIDENTIAL CODE: 11100\r\n\r\nTo
+    Your Glory:\r\n\r\nAs Your Glory have been informed before, the Brotherhood,
+    originally a false construct designed to capture potential thought criminals
+    in the name of revolution, has become an actualized threat in the past three
+    years, transforming into a potential rebellious collective, aiming to cause irreversible
+    damage to the achievement of IngSoc and Your Glory. \r\n\r\n\tUpon discovering
+    the New Brotherhood\u2019s possible incorporation of the Proles populace, we
+    have successfully gathered information that the defection of the New Brotherhood
+    is closely connected to an individual with a code name adopted by the collective:
+    \r\n\r\nThe Iron Fist.\r\n\r\n\tOperation Iron Fist has been established to begin
+    tracking down this individual and possible connections.\r\n"
   artwork: {fileID: 0}
-  type: 0
+  type: 3
   sign: 
   signable: 1
+  signed: 0
+  fbType: 4
   triggerName: 0
   refTriggerName: 0
   replacedFile: {fileID: 0}
+  sibling: {fileID: 0}
+  ifSkip2: 0
