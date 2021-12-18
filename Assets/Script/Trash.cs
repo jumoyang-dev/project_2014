@@ -21,4 +21,12 @@ public class Trash : MonoBehaviour
             Destroy(gameObject);
         */
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        //push into trashcan
+        if (collision.tag == "trashCan")
+        {
+            Destroy(gameObject);
+        }
+    }
 }
