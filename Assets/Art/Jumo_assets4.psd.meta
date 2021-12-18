@@ -71,6 +71,15 @@ TextureImporter:
   - first:
       213: -8325766357012730432
     second: button_trash_lit
+  - first:
+      213: -9054034655008896302
+    second: news_moon
+  - first:
+      213: 2229944406848958665
+    second: news_station20
+  - first:
+      213: -1579705600723000446
+    second: news_brotherhood
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -638,6 +647,69 @@ TextureImporter:
       bones: []
       spriteID: 0cdab5f2c9fe47c80800000000000000
       internalID: -8325766357012730432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: news_moon
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 108
+        width: 47
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da4e1c937b995280800000000000000
+      internalID: -9054034655008896302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: news_station20
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 61
+        width: 47
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0f91f8f9a52fe10800000000000000
+      internalID: 2229944406848958665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: news_brotherhood
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 14
+        width: 47
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283e5333022c31ae0800000000000000
+      internalID: -1579705600723000446
       vertices: []
       indices: 
       edges: []
