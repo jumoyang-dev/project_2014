@@ -5,21 +5,6 @@ using UnityEngine;
 
 public class FileController : MonoBehaviour
 {
-    // 每天指向下一天，包含支线
-    // 每天的文件
-    [Serializable]
-    public class DayFileNode
-    {
-        // Node
-        public int day;    //天数 // 等同于index
-        public DetailFile[] filesList;  //当天的文件
-        public int next;    //下一天的指针(主线)
-        public int next_branch;    //下一天的指针(分支) // replaced
-        public BranchOption branch;
-        public ReplaceResult[] factorsMap;  // 影响当天的所有因素
-
-    }
-    public List<DayFileNode> DayFileList = new List<DayFileNode>(); // Note that length!= Num of days
 
     public static FileController Instance;
 
@@ -29,7 +14,7 @@ public class FileController : MonoBehaviour
 
     public bool isPending;
 
-    public List<DetailFile> DetailFileList; // 所有的剧情(文件)按触发顺序线性放置，无支线
+    //public List<DetailFile> DetailFileList; // 所有的剧情(文件)按触发顺序线性放置，无支线
     public int curIndex = 0;
 
     public int curNodeIndex = 0;
@@ -39,7 +24,7 @@ public class FileController : MonoBehaviour
     FileType curType;
 
     public int maxDay = 10;
-
+    public List<DayFileNode> dayFileList; // Note that length!= Num of days
     private void Awake()
     {
         if (Instance != null)
@@ -52,6 +37,8 @@ public class FileController : MonoBehaviour
 
     private void Start()
     {
+        GameStatus.Instance.InitGameStatus();
+        dayFileList = App.Instance.m_Manifest.DayFileNodeList;
         curIndex = 0;
         isPending = false;
         Debug.Log("It is the " + curDay + " Day");
@@ -88,53 +75,53 @@ public class FileController : MonoBehaviour
         {
             //Debug.Log("File already taken.");
             FileUIController.Instance.DisplayFIlePendingUI(true);
-            //GrabFile();   // for debugging
+            GrabFileByNode();   // for debugging
         }
 
     }
 
     public void GetCurrentFile(int index)
     {
-        DayFileNode node = DayFileList[index];
+        DayFileNode node = dayFileList[index];
 
     }
 
     public void GrabFile()
     {
-        // Thumbnails show up on the table
-        Debug.Log("zzzzzz--- New File.");
+        //// Thumbnails show up on the table
+        //Debug.Log("zzzzzz--- New File.");
 
 
-        if (curIndex >= DetailFileList.Count)
-        {
-            return;
-        }
-        else
-        {
-            isPending = true;
+        //if (curIndex >= DetailFileList.Count)
+        //{
+        //    return;
+        //}
+        //else
+        //{
+        //    isPending = true;
 
-            curFile = DetailFileList[curIndex];
+        //    curFile = DetailFileList[curIndex];
 
-            // if 下一个文件类型为alpha，则连同再下一个的omega也一起生成
-            curType = curFile.type;
-            if (curType == FileType.Alpha)
-            {
-                GenerateFileThumbnail(curIndex++, filespawnLeft.transform, FileType.Alpha);
+        //    // if 下一个文件类型为alpha，则连同再下一个的omega也一起生成
+        //    curType = curFile.type;
+        //    if (curType == FileType.Alpha)
+        //    {
+        //        GenerateFileThumbnail(curIndex++, filespawnLeft.transform, FileType.Alpha);
 
-                curFile = DetailFileList[curIndex];
-                GenerateFileThumbnail(curIndex++, filespawnRight.transform, FileType.Omega);   // ！如果在alpha文件下一个没有准备omega版本会导致溢出
-            }
-            else
-            {
-                GenerateFileThumbnail(curIndex++, filespawnMid.transform);
-            }
+        //        curFile = DetailFileList[curIndex];
+        //        GenerateFileThumbnail(curIndex++, filespawnRight.transform, FileType.Omega);   // ！如果在alpha文件下一个没有准备omega版本会导致溢出
+        //    }
+        //    else
+        //    {
+        //        GenerateFileThumbnail(curIndex++, filespawnMid.transform);
+        //    }
 
-        }
+        //}
     }
 
     public void CheckToday()
     {
-        DayFileNode today = DayFileList[curDay];
+        DayFileNode today = dayFileList[curDay];
             
         if (curDayFileIndex >= today.filesList.Length)
         {
@@ -149,11 +136,7 @@ public class FileController : MonoBehaviour
 
     public DayFileNode GetCurrentNode()
     {
-        if (DayFileList[curNodeIndex].next == 0)
-        {
-            DayFileList[curNodeIndex].next = curNodeIndex + 1;
-        }
-        return DayFileList[curNodeIndex];
+        return dayFileList[curNodeIndex];
     }
 
     public void GrabFileByNode()
@@ -162,14 +145,14 @@ public class FileController : MonoBehaviour
         Debug.Log("zzzzzz--- New File.");
 
 
-        if (curDay >= DayFileList.Count)
+        if (curDay >= dayFileList.Count)
         {
             return;
         }
         else
         { 
             isPending = true;
-            DayFileNode node = DayFileList[curDay];
+            DayFileNode node = dayFileList[curDay];
 
             if (curDayFileIndex < node.filesList.Length)
             {
@@ -182,12 +165,19 @@ public class FileController : MonoBehaviour
             }
 
             // if 下一个文件类型为alpha，则连同再下一个的omega也一起生成
+            // 同理 delta zeta
             curType = curFile.type;
             if (curType == FileType.Alpha)
             {
                 GenerateFileThumbnail(curDayFileIndex, filespawnLeft.transform, FileType.Alpha);
                 curDayFileIndex++;
                 GenerateFileThumbnail(curDayFileIndex, filespawnRight.transform, FileType.Omega);   // ！如果在alpha文件下一个没有准备omega版本会导致溢出
+                curDayFileIndex++;
+            }else if (curType == FileType.Delta)
+            {
+                GenerateFileThumbnail(curDayFileIndex, filespawnLeft.transform, FileType.Delta);
+                curDayFileIndex++;
+                GenerateFileThumbnail(curDayFileIndex, filespawnRight.transform, FileType.Zeta);   // ！如果在delta文件下一个没有准备zeta版本会导致溢出
                 curDayFileIndex++;
             }
             else
@@ -201,9 +191,9 @@ public class FileController : MonoBehaviour
     }
     private DayFileNode GetNodeByIndex(int index)
     {
-        if (index < DayFileList.Count)
+        if (index < dayFileList.Count)
         {
-            return DayFileList[index];
+            return dayFileList[index];
         }
         return null;
     }
@@ -215,22 +205,32 @@ public class FileController : MonoBehaviour
         if (nextNode == null)
         {
             Debug.Log("--------------Game end--------------");
-        }
-        //if (nextNode.day == 0)
-        //{
-        //    curDay++;
-        //}
-        //else
-        //{
-        //    curDay = nextNode.day;
-        //}
+        }    
 
         // reset
         curDayFileIndex = 0;
-        curFile = DayFileList[curDay].filesList[curDayFileIndex];
+        curFile = dayFileList[curDay].filesList[curDayFileIndex];
         // todo
         // UI changes
         Debug.Log("It is the " + curDay+ " Day");
+
+        // prepration work
+        PrepareFileByTrigger();
+    }
+
+    public void PrepareFileByTrigger()
+    {
+        for (int i = 0; i < dayFileList[curDay].filesList.Length; i++)
+        {
+            DetailFile file = dayFileList[curDay].filesList[i];
+
+            if (file.refTriggerName != BranchTriggerName.None && App.Instance.m_Manifest.AffectedDayStatus[(int)file.refTriggerName].isTriggered == true)
+            {
+                // need changing branch
+                Debug.Log("change branch with bool name: " + file.refTriggerName.ToString());
+                dayFileList[curDay].filesList[i] = file.replacedFile;
+            }
+        }
     }
 
     // input:
@@ -240,7 +240,7 @@ public class FileController : MonoBehaviour
     {
 
         // 获取缩略图模板并实例化
-        curFile = DayFileList[curDay].filesList[index];
+        curFile = dayFileList[curDay].filesList[index];
         Debug.Log("Generate No. " + index + "file of " + type);
         GameObject thumbnailPrefab = App.Instance.m_Manifest.FileStencilMap[(int)type].thumbnail;
         GameObject detailFileThumbnail = Instantiate(thumbnailPrefab, pos);
@@ -249,22 +249,11 @@ public class FileController : MonoBehaviour
         
     }
 
-    public void ChangeBranch(BranchTrigger trigger)
+    // 功能：修改 global 的 bool
+    public void ChangeBranch(BranchTriggerName triggerName, bool state = true)
     {
-        // 替换受影响天的受影响文件
-        //DayFileNode node = GetCurrentNode();
-
-        // 检查trigger
-        //if(factorsMap[((int)trigger)].)
-
-        // 替换file
-
-
-
+        App.Instance.m_Manifest.AffectedDayStatus[(int)triggerName].isTriggered = state;
     }
-
-
-
 
     public void PassDetailFile(GameObject thumbnail, DetailFile file)
     {

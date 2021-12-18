@@ -22,17 +22,28 @@ public class DetailFileShow : MonoBehaviour
 
     }
 
+    public void DisplaySigniture()
+    {
+        stampImage.gameObject.SetActive(true);
+    }
+
+    public IEnumerator DestroySignedItem(GameObject item)
+    {
+        Debug.Log("destroy thumb");
+        yield return new WaitForSeconds(0.2f);
+        GameObject.Destroy(item);
+    }
+
     public void Init(Transform canvas, DetailFile detailFile) {
         df = detailFile;
         stampImage.sprite = App.Instance.m_Manifest.FileStencilMap[(int)detailFile.type].stample;
-        stampImage.enabled = false;
+        stampImage.gameObject.SetActive(false);
 
         switch (detailFile.type){
             case FileType.News: 
                 titleText.text = detailFile.title;
                 descriptionText.text = detailFile.description;
                 artwrokImage.sprite = detailFile.artwork;
-                
                 break;
 
             case FileType.Alpha: 
@@ -58,20 +69,19 @@ public class DetailFileShow : MonoBehaviour
         GetComponent<RectTransform>().offsetMin = Vector2.zero; 
         GetComponent<RectTransform>().offsetMax = Vector2.zero;
 
-        if (signButton != null)
+        if (signButton != null && detailFile.signable)
         {
             signButton.onClick.AddListener(() =>
             {
-
-                //GameObject currentThumbnail = this.gameObject.transform.parent.parent.Find("File UI Controller").GetComponent<FileUIController>().currentThmbn;
-
-                //GameObject.Destroy(currentThumbnail);
-                //GameObject.Destroy(this.gameObject);
-
-                // --- sign write here
                 // 调用当前按钮所在的detail file show 的detail file的sign()
                 DetailFile currentFile = FileUIController.Instance.currentFile;
                 currentFile.Sign();
+                DisplaySigniture();
+
+                // destroy file
+                GameObject.Destroy(FileUIController.Instance.currentThmbn);
+                IEnumerator destroy = DestroySignedItem(this.gameObject);
+                StartCoroutine(destroy);
 
             });
         }

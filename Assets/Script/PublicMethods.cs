@@ -10,6 +10,9 @@ public enum FileType
     Omega,  // no image, small
     PureText,   // no image, big
 
+    Delta,  // news type 1
+    Zeta,   // news type 2
+
 }
 
 public enum BranchOption
@@ -35,13 +38,36 @@ public class ReplaceResult
     public DetailFile replacingFile;
 }
 
-public enum BranchTrigger
+[Serializable]
+public class BranchTrigger
 {
-    Assisted=0,
+    public BranchTriggerName trigger;   // 作用是保持顺序一致
+    public bool isTriggered;
+
+}
+public enum BranchTriggerName
+{
+    None = 0,
+    Assisted,
     Bombed,
+    RA,
+    MF,
     Michael,
 }
+// 每天指向下一天，包含支线
+// 每天的文件
+[Serializable]
+public class DayFileNode
+{
+    // Node
+    public int day;    //天数 // 等同于index
+    public DetailFile[] filesList;  //当天的文件
+    //public int next;    //下一天的指针(主线)
+    //public int next_branch;    //下一天的指针(分支) // replaced
+    //public BranchOption branch;
+    //public ReplaceResult[] factorsMap;  // 影响当天的所有因素
 
+}
 public class PublicMethods : MonoBehaviour
 {
 

@@ -23,9 +23,14 @@ public class FileUIController : MonoBehaviour
 
     public GameObject filePendingUI;
     public GameObject fileSignedUI;
+    public GameObject popupUI;
     public Animator filePendingAnimator;
+    public Animator fileSignedAnimator;
+    public Animator popupAnimator;
 
     public HandController hand;
+
+    private IEnumerator coroutineUI;
 
     private void Awake()
     {
@@ -109,9 +114,9 @@ public class FileUIController : MonoBehaviour
         // reset the thumbnail
         // todo
         currentThmbn.SetActive(true);
-        if (currentFile.type==FileType.Alpha)
+        if (currentFile.type==FileType.Alpha || currentFile.type == FileType.Delta)
             currentThmbn.transform.position = FileController.Instance.filespawnLeft.transform.position;
-        else if (currentFile.type == FileType.Omega)
+        else if (currentFile.type == FileType.Omega || currentFile.type == FileType.Zeta)
             currentThmbn.transform.position = FileController.Instance.filespawnRight.transform.position;
         else
             currentThmbn.transform.position = FileController.Instance.filespawnMid.transform.position;
@@ -140,11 +145,17 @@ public class FileUIController : MonoBehaviour
 
     public void DisplayFIleSignedUI(bool visible)
     {
-        filePendingUI.SetActive(visible);
-        filePendingAnimator.SetTrigger("show");
+        fileSignedUI.SetActive(visible);
+        fileSignedAnimator.SetTrigger("show");
         // Add animation here...
     }
 
+    public void DisplayerPopupUI(bool visible)
+    {
+        //popupUI.SetActive(visible);
+        //popupAnimator.SetTrigger("show");
+        // Add animation here...
+    }
 
     // Get the detailed file version attached to the thumbnail and assign value
     public void SetCurrentFile(GameObject r_File)
@@ -153,6 +164,19 @@ public class FileUIController : MonoBehaviour
         currentThmbn = r_File;
     }
 
+    public void DelayedSignPopup()
+    {
+        coroutineUI = FileUIController.Instance.ShowFinishSignPopup(1.0f);
+        StartCoroutine(coroutineUI);
+    }
+
+
+    public IEnumerator ShowFinishSignPopup(float time)
+    {
+        Debug.Log("popup");
+        yield return new WaitForSeconds(time);
+        DisplayFIleSignedUI(true);
+    }
 
     private void Update()
     {

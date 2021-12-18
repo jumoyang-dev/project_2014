@@ -29,3 +29,47 @@ MonoBehaviour:
     stencil: {fileID: 4948536922307147234, guid: 91d6974b343a80a4fa1ce89edb60e36b, type: 3}
     thumbnail: {fileID: 7495985790041904123, guid: 5ad39d6d6e215dc4c82f7327b2a0c5cc, type: 3}
     stample: {fileID: -904297546654189822, guid: d50f6669fe44a9a46baf68c99247fcfb, type: 3}
+  - type: 4
+    stencil: {fileID: 4948536922307147234, guid: 91d6974b343a80a4fa1ce89edb60e36b, type: 3}
+    thumbnail: {fileID: 7495985790041904123, guid: d94819abfe860da4391d8844deafcf30, type: 3}
+    stample: {fileID: -904297546654189822, guid: d50f6669fe44a9a46baf68c99247fcfb, type: 3}
+  - type: 5
+    stencil: {fileID: 4948536922307147234, guid: 91d6974b343a80a4fa1ce89edb60e36b, type: 3}
+    thumbnail: {fileID: 7495985790041904123, guid: ccf9ba18dbda8bc409e9ec393fa0856b, type: 3}
+    stample: {fileID: -904297546654189822, guid: d50f6669fe44a9a46baf68c99247fcfb, type: 3}
+  DayFileNodeList:
+  - day: 0
+    filesList:
+    - {fileID: 11400000, guid: 2498ba4a8ec998d43b04eb16a4080192, type: 2}
+    - {fileID: 11400000, guid: 7214d59f89fda0e4dac6a3c100e4862c, type: 2}
+    - {fileID: 11400000, guid: cad5253a187e1d44faf6bd9d6173363a, type: 2}
+    - {fileID: 11400000, guid: e697566d86b8bd54a8150a799d62070b, type: 2}
+    - {fileID: 11400000, guid: 7be33536a93228846b17b89423c93491, type: 2}
+    - {fileID: 11400000, guid: b8a06e063712c544b8df31fffe3527d5, type: 2}
+    - {fileID: 11400000, guid: 2ecc31d6d45f4a042a191343fe583b82, type: 2}
+  - day: 1
+    filesList:
+    - {fileID: 11400000, guid: 8ccea3141acc41b448efdc1daaaf34f3, type: 2}
+    - {fileID: 11400000, guid: de865cf0398a2214e85373037f363ea7, type: 2}
+    - {fileID: 11400000, guid: 66a7743dfd50fa846a2db499b280b583, type: 2}
+    - {fileID: 11400000, guid: a2d14ad8bb7cf0b48be4677a3948d78c, type: 2}
+    - {fileID: 11400000, guid: c566bde89ed12924ea204704e33e1b4f, type: 2}
+    - {fileID: 11400000, guid: 29e6616b9ad62f948be8e7c9735cf8b4, type: 2}
+    - {fileID: 11400000, guid: dc3cdf4399040284bbb8e1944dc277a9, type: 2}
+    - {fileID: 11400000, guid: 8dfb7f79b89900044b3a69199593c879, type: 2}
+    - {fileID: 11400000, guid: 53d5d145dedad29458de43219cd3a8a3, type: 2}
+    - {fileID: 11400000, guid: 40836030d9caa2940bf1bbcfcfb6f41f, type: 2}
+    - {fileID: 11400000, guid: 713bf8489b4633843894f9e615f01772, type: 2}
+  - day: 2
+    filesList: []
+  AffectedDayStatus:
+  - trigger: 0
+    isTriggered: 0
+  - trigger: 1
+    isTriggered: 0
+  - trigger: 2
+    isTriggered: 0
+  - trigger: 3
+    isTriggered: 0
+  - trigger: 4
+    isTriggered: 0

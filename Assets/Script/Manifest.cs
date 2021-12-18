@@ -7,8 +7,10 @@ public class Manifest : ScriptableObject
 {
 
     public List<FileStencil> FileStencilMap;
+    public List<DayFileNode> DayFileNodeList = new List<DayFileNode>(); // Note that length!= Num of days
 
+    // Assisted, Bombed, Michael,
+    //public bool[] BranchTrigger;
+    public BranchTrigger[] AffectedDayStatus;
 
-
-    
 }

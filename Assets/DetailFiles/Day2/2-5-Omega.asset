@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 560541c61703950408d84c871e5130a0, type: 3}
+  m_Name: 2-5-Omega
+  m_EditorClassIdentifier: 
+  title: 2-5-B-Omega
+  description: 2-5-B-Omega
+  artwork: {fileID: 0}
+  type: 2
+  sign: 2-5-B-Alpha
+  signable: 1
+  triggerName: 0
+  replacedFile: {fileID: 0}
+  sibling: {fileID: 11400000, guid: 40836030d9caa2940bf1bbcfcfb6f41f, type: 2}

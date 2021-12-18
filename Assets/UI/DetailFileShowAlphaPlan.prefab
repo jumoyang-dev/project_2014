@@ -304,11 +304,11 @@ RectTransform:
   m_Father: {fileID: 4948536922920277722}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 248, y: -332.3556}
-  m_SizeDelta: {x: 415.8661, y: 69.3842}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -71.29791, y: -72.83475}
+  m_SizeDelta: {x: 415.8661, y: 69.38422}
+  m_Pivot: {x: 1, y: 0}
 --- !u!222 &8662306126640777296
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -699,7 +699,7 @@ MonoBehaviour:
   titleText: {fileID: 8852449317209857516}
   descriptionText: {fileID: 4426362315036455248}
   artwrokImage: {fileID: 1267500929334355678}
-  stampImage: {fileID: 0}
+  stampImage: {fileID: 9181238842865757952}
   extraInformation: {fileID: 8457457410846572633}
   signButton: {fileID: 3021426583755264413}
   df: {fileID: 0}
