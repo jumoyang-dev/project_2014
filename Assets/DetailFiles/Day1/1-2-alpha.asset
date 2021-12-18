@@ -22,6 +22,8 @@ MonoBehaviour:
 
 '
   signable: 0
+  signed: 1
+  fbType: 1
   triggerName: 1
   refTriggerName: 0
   replacedFile: {fileID: 0}

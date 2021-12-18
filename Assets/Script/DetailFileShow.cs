@@ -30,7 +30,7 @@ public class DetailFileShow : MonoBehaviour
     public IEnumerator DestroySignedItem(GameObject item)
     {
         Debug.Log("destroy thumb");
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(2.2f);
         GameObject.Destroy(item);
     }
 
@@ -78,14 +78,22 @@ public class DetailFileShow : MonoBehaviour
                 currentFile.Sign();
                 DisplaySigniture();
 
-                // destroy file
-                GameObject.Destroy(FileUIController.Instance.currentThmbn);
-                IEnumerator destroy = DestroySignedItem(this.gameObject);
-                StartCoroutine(destroy);
 
             });
         }
     }
 
+    public void ExitFile()
+    {
+        FileUIController.Instance.HideDetailFile();
+        if (FileUIController.Instance.currentFile.signed)
+        {
+            // destroy file if signed
+            GameObject.Destroy(FileUIController.Instance.currentThmbn);
+            IEnumerator destroy = this.DestroySignedItem(this.gameObject);
+            StartCoroutine(destroy);
+        }
+
+    }
 
 }

@@ -18,6 +18,8 @@ MonoBehaviour:
   type: 2
   sign: 
   signable: 0
+  signed: 0
+  fbType: 2
   triggerName: 2
   refTriggerName: 0
   replacedFile: {fileID: 0}

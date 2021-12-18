@@ -62,12 +62,18 @@ public class DayFileNode
     // Node
     public int day;    //天数 // 等同于index
     public DetailFile[] filesList;  //当天的文件
-    //public int next;    //下一天的指针(主线)
-    //public int next_branch;    //下一天的指针(分支) // replaced
-    //public BranchOption branch;
-    //public ReplaceResult[] factorsMap;  // 影响当天的所有因素
-
 }
+
+public enum FeedbackType
+{
+    None=0,
+    Fish,
+    Fruite,
+    Plant,
+    Clean,
+    Photo,
+}
+
 public class PublicMethods : MonoBehaviour
 {
 
