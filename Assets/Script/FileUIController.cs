@@ -86,6 +86,7 @@ public class FileUIController : MonoBehaviour
 
             //Debug.Log("Show detail file: " + currentFile.title);
             isReading = true;
+            
             // hide the hand
             Debug.Log("lock hand");
             hand.hand_col.SetActive(false);
@@ -112,7 +113,7 @@ public class FileUIController : MonoBehaviour
         isReading = false;
         // show the hand
         hand.hand_col.SetActive(true);
-
+        LockHand(true);
         // destroy the file to exit the reading mode
         ClearChilds(detailFileParent);
 
@@ -192,6 +193,7 @@ public class FileUIController : MonoBehaviour
             {
                 //HideDetailFile();
             }
+            LockHand(false);
         }
     }
 }
