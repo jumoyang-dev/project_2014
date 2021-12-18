@@ -10,6 +10,7 @@ public class DetailFileShow : MonoBehaviour
 
     public TMP_Text titleText; 
     public TMP_Text descriptionText;
+    public TMP_Text signText;
     public Image artwrokImage;
     public Image stampImage;
     public TMP_Text extraInformation;
@@ -52,7 +53,7 @@ public class DetailFileShow : MonoBehaviour
             case FileType.Omega:
                 //titleText.text = detailFile.title;
                 descriptionText.text = detailFile.description;
-                //signText.text = detailFile.sign; 
+                signText.text = detailFile.sign; 
                 break;
 
             case FileType.PureText:
@@ -60,6 +61,7 @@ public class DetailFileShow : MonoBehaviour
             case FileType.Zeta:
                 titleText.text = detailFile.title;
                 descriptionText.text = detailFile.description;
+                signText.text = detailFile.sign;
                 //signText.text = detailFile.sign;
                 break;
 
@@ -77,7 +79,7 @@ public class DetailFileShow : MonoBehaviour
         {
             signButton.onClick.AddListener(() =>
             {
-                // µ÷ÓÃµ±Ç°°´Å¥ËùÔÚµÄdetail file show µÄdetail fileµÄsign()
+                // ï¿½ï¿½ï¿½Ãµï¿½Ç°ï¿½ï¿½Å¥ï¿½ï¿½ï¿½Úµï¿½detail file show ï¿½ï¿½detail fileï¿½ï¿½sign()
                 DetailFile currentFile = FileUIController.Instance.currentFile;
                 currentFile.Sign();
                 DisplaySigniture();

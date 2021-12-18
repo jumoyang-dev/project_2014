@@ -769,6 +769,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   titleText: {fileID: 655848587234734887}
   descriptionText: {fileID: 3648578614460676194}
+  signText: {fileID: 4541920811217607782}
   artwrokImage: {fileID: 2911994526678005206}
   stampImage: {fileID: 9072025507637475534}
   extraInformation: {fileID: 6055137089432884562}

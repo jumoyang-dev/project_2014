@@ -13,17 +13,12 @@ MonoBehaviour:
   m_Name: 1-2-alpha
   m_EditorClassIdentifier: 
   title: NaN
-  description: "[Deploy more manpower and firepower to ensure control]\r\n\r\nIn
-    Assistance to Your Glory\u2019s Decision:\r\n\r\nTo ensure stabilized control
-    in the recently acquired Station Sixteen, it is believed that more resources,
+  description: "In Assistance to Your Glory\u2019s Decision:\r\n\r\nTo ensure stabilized
+    control in the recently acquired Station Sixteen, it is believed that more resources,
     both manpower and firepower, are essential to assist the local jurisdiction in
     commencing the necessary pressure and enforcement onto the local populace. A
     5% increase in food allocation is believed to be sufficient to also enhance the
-    performance of the local office.\r\n\r\nTo ensure stabilized control in the recently
-    acquired Station Sixteen, it is believed that more resources, both manpower and
-    firepower, are essential to assist the local jurisdiction in commencing the necessary
-    pressure and enforcement onto the local populace. A 5% increase in food allocation
-    is believed to be sufficient to also enhance the performance of the local office.\r"
+    performance of the local office.\r\n\r"
   artwork: {fileID: 0}
   type: 1
   sign: 'Alpha Strategy Team No.12
@@ -32,7 +27,7 @@ MonoBehaviour:
 
 '
   signable: 0
-  signed: 0
+  signed: 1
   fbType: 1
   triggerName: 0
   refTriggerName: 0

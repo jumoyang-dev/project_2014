@@ -698,6 +698,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   titleText: {fileID: 8852449317209857516}
   descriptionText: {fileID: 4426362315036455248}
+  signText: {fileID: 561129947050005472}
   artwrokImage: {fileID: 1267500929334355678}
   stampImage: {fileID: 9181238842865757952}
   extraInformation: {fileID: 8457457410846572633}
@@ -858,7 +859,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 585.01, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &6918969289804982774
 CanvasRenderer:

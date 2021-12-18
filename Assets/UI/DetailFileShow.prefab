@@ -295,7 +295,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2154846165229435906
 RectTransform:
   m_ObjectHideFlags: 0
@@ -409,8 +409,9 @@ GameObject:
   - component: {fileID: 5747485580857571179}
   - component: {fileID: 6108952454806774887}
   - component: {fileID: 5533493251612432022}
+  - component: {fileID: 7903371381505329113}
   m_Layer: 0
-  m_Name: Minister
+  m_Name: sign
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -534,6 +535,19 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &7903371381505329113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4947139852806932213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0febb68f85e006740a66b66d87058903, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextPopup_Prefab_01: {fileID: 22450954, guid: bac8344d8b1ebd44a937a228be47de4c, type: 3}
 --- !u!1 &4948536922307147234
 GameObject:
   m_ObjectHideFlags: 0
@@ -629,6 +643,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   titleText: {fileID: 9120412888167270162}
   descriptionText: {fileID: 755826531764274794}
+  signText: {fileID: 5533493251612432022}
   artwrokImage: {fileID: 8406102405278410010}
   stampImage: {fileID: 266595041072752550}
   extraInformation: {fileID: 7835956376837296175}
