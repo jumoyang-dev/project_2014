@@ -117,7 +117,13 @@ public class FileUIController : MonoBehaviour
         Cursor.visible = false;
         // destroy the file to exit the reading mode
         ClearChilds(detailFileParent);
-
+        GameObject[] popList = GameObject.FindGameObjectsWithTag("popUp");
+        Debug.Log("Length is" + popList.Length);
+        for (int i = 0; i < popList.Length; i++)
+        {
+            Debug.Log("Now Destroy"+i);
+            Destroy(popList[i]);
+        }
         // reset the thumbnail
         // todo
         currentThmbn.SetActive(true);
@@ -130,6 +136,7 @@ public class FileUIController : MonoBehaviour
     }
     public void ClearChilds(GameObject parent)
     {
+        
         int fileCount = parent.transform.childCount;
         List<GameObject> childList = new List<GameObject>();
         for (int i = 0; i < fileCount; i++)
@@ -141,6 +148,7 @@ public class FileUIController : MonoBehaviour
         {
             Destroy(childList[i]);
         }
+
     }
 
     public void DisplayFIlePendingUI(bool visible)
