@@ -11,6 +11,7 @@ TagManager:
   - ReadZone
   - fishfood
   - fishtank
+  - MainCanvas
   layers:
   - Default
   - TransparentFX
