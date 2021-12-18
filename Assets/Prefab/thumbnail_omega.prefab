@@ -135,4 +135,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf3abd12a5a5cf2448835dd0de05326f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  relateDetailFile: {fileID: 11400000, guid: 2498ba4a8ec998d43b04eb16a4080192, type: 2}
+  relateDetailFile: {fileID: 0}
