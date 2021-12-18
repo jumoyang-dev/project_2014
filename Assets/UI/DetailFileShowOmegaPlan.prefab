@@ -772,6 +772,7 @@ MonoBehaviour:
   artwrokImage: {fileID: 2911994526678005206}
   stampImage: {fileID: 9072025507637475534}
   extraInformation: {fileID: 6055137089432884562}
+  authorText: {fileID: 4541920811217607782}
   signButton: {fileID: 338353995852656695}
   df: {fileID: 0}
 --- !u!114 &-2542049613871429292

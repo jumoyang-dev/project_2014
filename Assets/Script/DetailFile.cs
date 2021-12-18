@@ -13,7 +13,7 @@ public class DetailFile : ScriptableObject
     // public bool isLeft;
     public FileType type = FileType.PureText;
     [TextArea(10, 100)]
-    public string sign;
+    public string author;
     public bool signable = true;
     public bool signed = false;
     public FeedbackType fbType;

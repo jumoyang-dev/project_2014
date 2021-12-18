@@ -13,6 +13,7 @@ public class DetailFileShow : MonoBehaviour
     public Image artwrokImage;
     public Image stampImage;
     public TMP_Text extraInformation;
+    public TMP_Text authorText;
 
     public Button signButton;
     public DetailFile df; 
@@ -46,13 +47,14 @@ public class DetailFileShow : MonoBehaviour
                 titleText.text = detailFile.title;
                 descriptionText.text = detailFile.description;
                 artwrokImage.sprite = detailFile.artwork;
+                authorText.text = "\n\n"+ detailFile.author;
                 break;
 
             case FileType.Alpha: 
             case FileType.Omega:
                 //titleText.text = detailFile.title;
                 descriptionText.text = detailFile.description;
-                //signText.text = detailFile.sign; 
+                authorText.text = "\n\n" + detailFile.author;
                 break;
 
             case FileType.PureText:
@@ -60,7 +62,7 @@ public class DetailFileShow : MonoBehaviour
             case FileType.Zeta:
                 titleText.text = detailFile.title;
                 descriptionText.text = detailFile.description;
-                //signText.text = detailFile.sign;
+                authorText.text = "\n\n" + detailFile.author;
                 break;
 
             default:
