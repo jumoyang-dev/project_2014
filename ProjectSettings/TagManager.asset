@@ -12,6 +12,11 @@ TagManager:
   - fishfood
   - fishtank
   - MainCanvas
+  - fishButton
+  - juiceButton
+  - plantButton
+  - trashButton
+  - plantwater
   layers:
   - Default
   - TransparentFX

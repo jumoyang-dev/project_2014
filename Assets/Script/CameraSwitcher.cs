@@ -10,9 +10,13 @@ public class CameraSwitcher : MonoBehaviour
     [SerializeField]
     private CinemachineVirtualCamera camRight;
     [SerializeField]
+    private CinemachineVirtualCamera camRight2;
+    [SerializeField]
     private CinemachineVirtualCamera camLeft;
 
     private bool mainCam = true;
+
+    public bool isSwitching = false;
 
     void Start()
     {
@@ -23,9 +27,20 @@ public class CameraSwitcher : MonoBehaviour
         
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            SwitchPriorityLeft();
+            SwitchPriorityPlant();
         }
         
+    }
+    public void SwitchBackMain()
+    {
+        if (!mainCam)
+        {
+            camMain.Priority = 1;
+            camRight.Priority = 0;
+            camLeft.Priority = 0;
+            camRight2.Priority = 0;
+        }
+        mainCam = !mainCam;
     }
     public void SwitchPriority()
     {
@@ -52,6 +67,21 @@ public class CameraSwitcher : MonoBehaviour
         {
             camMain.Priority = 1;
             camLeft.Priority = 0;
+        }
+
+        mainCam = !mainCam;
+    }
+    public void SwitchPriorityPlant()
+    {
+        if (mainCam)
+        {
+            camMain.Priority = 0;
+            camRight2.Priority = 1;
+        }
+        else
+        {
+            camMain.Priority = 1;
+            camRight2.Priority = 0;
         }
 
         mainCam = !mainCam;

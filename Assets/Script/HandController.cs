@@ -6,14 +6,18 @@ public class HandController : MonoBehaviour
 {
     public Animator handAnimator;
     public GameObject hand_col;
+    CameraSwitcher switchcamera;
     void Start()
     {
+        switchcamera = FindObjectOfType<CameraSwitcher>();
         handAnimator = handAnimator.GetComponent<Animator>();
         hand_col.SetActive(false);
     }
 
     void Update()
     {
+        if (switchcamera.isSwitching)
+            return;
         //grab
         if (!Input.GetMouseButton(0))
         {
