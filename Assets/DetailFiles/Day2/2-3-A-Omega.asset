@@ -16,7 +16,7 @@ MonoBehaviour:
   description: "In Assistance to Your Glory\u2019s Decision:\r\n\r\nBased on the
     current situation, we suggest that <link=\"id_10\"><color=#a52a2aff><u>Station</link></color></u>
     Sixteen be eliminated immediately with the deployment of a nuclear bomb to achieve
-    mass releasing of the local <link=\"id_11\"><color=#a52a2aff><u>Proles</link></color></u>
+    mass xecution of the local <link=\"id_11\"><color=#a52a2aff><u>Proles</link></color></u>
     populace, including the jurisdiction office, which has potentially been infiltrated
     by and involved with the New Brotherhood. \r\nRyan Arnold, who has returned to
     <link=\"id_09\"><color=#a52a2aff><u>Airstrip</link></color></u> One without prior
@@ -32,6 +32,7 @@ MonoBehaviour:
   signed: 0
   fbType: 0
   NeedSignature: 1
+  isAutoGen: 0
   triggerName: 1
   refTriggerName: 0
   replacedFile: {fileID: 11400000, guid: 026605e74a6a04041a8ee90bfe4a5574, type: 2}

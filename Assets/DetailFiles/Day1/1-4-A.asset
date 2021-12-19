@@ -12,19 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 660021cdf5ae695429fbcd4e3e8a0fd8, type: 3}
   m_Name: 1-4-A
   m_EditorClassIdentifier: 
-  title: 1-4-A
+  title: '   '
   description: "As we have witnessed, the life of <link=\"id_02\"><color=#a52a2aff><u>Eurasian</link></color></u>
     people on the Moon could not be better described as simply miserable. Among the
     roughly 73,500 defeated Eurasians, approximately 20,000 have died of starvation
     whereas life here in <link=\"id_01\"><color=#a52a2aff><u>Oceania</link></color></u>,
     no one has to ever worry about not having enough food\u2026"
-  artwork: {fileID: 0}
+  artwork: {fileID: -9054034655008896302, guid: 0f1a3afe38aaf5d41ac1c9f79d7078a0, type: 3}
   type: 4
   author: 
   signable: 1
   signed: 0
   fbType: 3
   NeedSignature: 1
+  isAutoGen: 0
   triggerName: 0
   refTriggerName: 0
   replacedFile: {fileID: 0}

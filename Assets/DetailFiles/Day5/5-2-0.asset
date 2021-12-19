@@ -13,13 +13,12 @@ MonoBehaviour:
   m_Name: 5-2-0
   m_EditorClassIdentifier: 
   title: <color=#ff0000ff>CLASSIFIED</color>
-  description: "Priority: HIGH\r\nCONFIDENTIAL CODE: 11101\r\n\r\nTo Your Glory:\r\n\r\nAs
-    much as we wish to continue our investigation regarding The Hind, the person
-    behind the scene that is in charge of The Hind, presumably The Iron Fist, has
-    forbidden any communication and access to it. However, prior to being restricted
-    from establishing connections, we were able to see what appears to be the most
-    recent announcement from The Iron Fist with the following headline:\r\n\r\nDESTRUCTION
-    IS CONSTRUCTION.\r\n\r\n\u2014Next one is <link=\"id_09\"><color=#a52a2aff><u>Airstrip</link></color></u>
+  description: "\n\r\nTo Your Glory:\r\n\r\nAs much as we wish to continue our investigation
+    regarding The Hind, the person behind the scene that is in charge of The Hind,
+    presumably The Iron Fist, has forbidden any communication and access to it. However,
+    prior to being restricted from establishing connections, we were able to see
+    what appears to be the most recent announcement from The Iron Fist with the following
+    headline:\r\n\r\nDESTRUCTION IS CONSTRUCTION.\r\n\r\n\u2014Next one is <link=\"id_09\"><color=#a52a2aff><u>Airstrip</link></color></u>
     Ten.\r\n\r\nConsidering the grave nature of this issue, we have proposed two
     options to handle The Hind immediately. \r\n\r\nPlease review and advise.\r\n"
   artwork: {fileID: 0}
@@ -31,6 +30,7 @@ MonoBehaviour:
   signed: 0
   fbType: 0
   NeedSignature: 0
+  isAutoGen: 0
   triggerName: 0
   refTriggerName: 0
   replacedFile: {fileID: 0}

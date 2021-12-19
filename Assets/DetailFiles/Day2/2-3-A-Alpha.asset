@@ -26,12 +26,13 @@ MonoBehaviour:
   type: 1
   author: 'Alpha Strategy Team No.2
 
-    On behalf of Ministry of Love & <link="id_06"><color=#a52a2aff><u>Ministry
+    Ministry of Love & <link="id_06"><color=#a52a2aff><u>Ministry
     of Peace</link></color></u>'
   signable: 1
   signed: 0
   fbType: 0
   NeedSignature: 1
+  isAutoGen: 0
   triggerName: 1
   refTriggerName: 0
   replacedFile: {fileID: 11400000, guid: 9489266153add0d4f90edd4df18a5e53, type: 2}

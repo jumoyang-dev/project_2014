@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: 4-4
   m_EditorClassIdentifier: 
   title: '<color=#ff0000ff>PERSONAL Secret Channel: Code - MPDS</color>'
-  description: "Father,\r\n\r\nI have not contacted you for a while like this. Doctor
-    Thompson has informed me regarding your condition. Even with the increased dose,
-    based on your last check-in, I do see that your condition is still worsening.
+  description: "\n\nFather,\r\n\r\nI have not contacted you for a while like this.
+    Doctor Thompson has informed me regarding your condition. Even with the increased
+    dose, based on your last check-in, I do see that your condition is still worsening.
     Communicating with you not as The General of <link=\"id_06\"><color=#a52a2aff><u>Ministry
     of Peace</link></color></u>, but as your son Darwin, I am deeply concerned that
     continuing to work will further damage your health. If you wish to have some
@@ -32,6 +32,7 @@ MonoBehaviour:
   signed: 0
   fbType: 0
   NeedSignature: 0
+  isAutoGen: 0
   triggerName: 0
   refTriggerName: 0
   replacedFile: {fileID: 0}

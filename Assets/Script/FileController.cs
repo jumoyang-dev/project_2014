@@ -47,6 +47,8 @@ public class FileController : MonoBehaviour
         isPending = false;
         Debug.Log("It is the " + curDay + " Day");
         fileAudioSource = gameObject.GetComponent<AudioSource>();
+
+        m_Flowchart.ExecuteBlock("Day1");
     }
 
     // Check if there are some files on desk already 
@@ -132,8 +134,10 @@ public class FileController : MonoBehaviour
         if (curDayFileIndex >= today.filesList.Length)
         {
             Debug.Log("finish today");
-            string blockName = App.Instance.m_Manifest.BlockList[curDay];
-            m_Flowchart.ExecuteBlock(blockName);
+            string blockName = App.Instance.m_Manifest.BlockList[curDay+1];
+            Debug.Log("block name = " + blockName);
+            StartCoroutine(dayTransition(blockName));
+            
 
             GoNextDay();
         }
@@ -142,6 +146,12 @@ public class FileController : MonoBehaviour
             Debug.Log("not yet"+ curDayFileIndex+" of "+ today.filesList.Length);
             return;
         }
+    }
+
+    public IEnumerator dayTransition(string name){
+        
+        yield return new WaitForSeconds(1.0f);
+        m_Flowchart.ExecuteBlock(name);
     }
 
     public DayFileNode GetCurrentNode()

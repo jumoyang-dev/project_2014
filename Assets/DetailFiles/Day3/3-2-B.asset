@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 560541c61703950408d84c871e5130a0, type: 3}
   m_Name: 3-2-B
   m_EditorClassIdentifier: 
-  title: 
+  title: '   '
   description: The <link="id_13"><color=#a52a2aff><u>Septa</link></color></u> Machine,
     a brand new technology designed with the purpose to provide immersive environments
     for its users, grants Party members with opportunities to see our beloved <link="id_04"><color=#a52a2aff><u>Big
@@ -30,6 +30,7 @@ MonoBehaviour:
   signed: 0
   fbType: 3
   NeedSignature: 1
+  isAutoGen: 0
   triggerName: 0
   refTriggerName: 0
   replacedFile: {fileID: 0}

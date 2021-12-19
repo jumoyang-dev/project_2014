@@ -13,19 +13,16 @@ MonoBehaviour:
   m_Name: 4-3-A-0
   m_EditorClassIdentifier: 
   title: '<color=#ff0000ff>PERSONAL: Code - MPDS</color>'
-  description: "To Your Glory:\r\n\r\nThe <link=\"id_13\"><color=#a52a2aff><u>Septa</link></color></u>
+  description: "\nTo Your Glory:\r\n\r\nThe <link=\"id_13\"><color=#a52a2aff><u>Septa</link></color></u>
     test that has been conducted over the last 19 days on subject Michael Freeman
     has provided significant results. \r\nThe subject reached Near Death states 3
     times with an average 1.4% of Mental Stimulation. \r\nThe subject reached Near
     Death states 7 times with an average 0.6% of Physical Stimulation.\r\nThe adjustment
     of the threshold has been performed by the <link=\"id_13\"><color=#a52a2aff><u>Septa</link></color></u>
     Machine under the \u201CNo Death\u201D condition, achieving spontaneous results.
-    \r\nThe subject provided more information that was never obtained before with
-    conventional questioning methods.\r\nSuch information is of unimportant value
-    for being largely related to the subject\u2019s personal matters, which is not
-    within our concern. \r\nYour Glory\u2019s consent is required to perform testing
-    on the subject without the \u201CNo Death\u201D condition, as the subject is
-    no longer of any use.\r\nPlease advise.\r\n"
+    \r\nYour Glory\u2019s consent is required to perform testing on the subject without
+    the \u201CNo Death\u201D condition, as the subject is no longer of any use.\r\nPlease
+    advise.\r\n"
   artwork: {fileID: 0}
   type: 3
   author: "D. Stewart\r\nOn behalf of <link=\"id_06\"><color=#a52a2aff><u>Ministry
@@ -34,6 +31,7 @@ MonoBehaviour:
   signed: 0
   fbType: 0
   NeedSignature: 0
+  isAutoGen: 0
   triggerName: 0
   refTriggerName: 2
   replacedFile: {fileID: 11400000, guid: c2f7a39fb5eb9dd45b88b4f930a004b8, type: 2}

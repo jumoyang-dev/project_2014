@@ -13,29 +13,20 @@ MonoBehaviour:
   m_Name: 2-3-A-0
   m_EditorClassIdentifier: 
   title: <color=#ff0000ff>Telegram 306.18.36</color>
-  description: "\nTo Your Glory:\r\n\r\nDespite the fact that <link=\"id_10\"><color=#a52a2aff><u>Station</link></color></u>
-    Sixteen has been allocated 5% more resources, the general <link=\"id_11\"><color=#a52a2aff><u>Proles</link></color></u>
-    populace is still unsatisfied with the amount of food and water they have. Upon
-    learning the fact that <link=\"id_10\"><color=#a52a2aff><u>Station</link></color></u>
-    Sixteen has been given more resources, <link=\"id_10\"><color=#a52a2aff><u>Station</link></color></u>
-    Seventeen is displaying potential tendency toward a possible uprising in the
-    near future for similar distribution of food. \r\n\r\nThis telegram is intended
-    to inform Your Glory of Ryan Arnold, the administrator of <link=\"id_10\"><color=#a52a2aff><u>Station</link></color></u>
+  description: "\nTo Your Glory:\r\n\r\n\tRyan Arnold, the administrator of Station
     Sixteen, who has been recently found returning to <link=\"id_09\"><color=#a52a2aff><u>Airstrip</link></color></u>
     One without any given notice. \r\n\r\nGiven the fact that the unseen uprising
-    occurring at <link=\"id_10\"><color=#a52a2aff><u>Station</link></color></u> Sixteen
-    has never happened in any other <link=\"id_10\"><color=#a52a2aff><u>Station</link></color></u>s
-    nor <link=\"id_09\"><color=#a52a2aff><u>Airstrip</link></color></u>s, we believe
-    in the possibility that the behavior is closely related to the influence of the
-    New Brotherhood. Actions on <link=\"id_10\"><color=#a52a2aff><u>Station</link></color></u>
-    Sixteen and Arnold are recommended below.\r\n"
+    occurring at Station Sixteen has never happened in any other Station nor Airstrips,
+    we believe in the possibility that the behavior is closely related to the influence
+    of the New Brotherhood. Actions on Station Sixteen and Arnold are recommended
+    below.\r\n"
   artwork: {fileID: 0}
   type: 3
   author: Ministry of Love, Headquarters
   signable: 1
   signed: 0
   fbType: 0
-  NeedSignature: 1
+  NeedSignature: 0
   isAutoGen: 1
   triggerName: 0
   refTriggerName: 1

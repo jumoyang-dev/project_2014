@@ -13,18 +13,15 @@ MonoBehaviour:
   m_Name: 1-3
   m_EditorClassIdentifier: 
   title: <color=#ff0000ff>CLASSIFIED</color>
-  description: "Priority: TOP\r\nCONFIDENTIAL CODE: 11100\r\n\r\nTo Your Glory:\r\n\r\nAs
-    Your Glory have been informed before, the Brotherhood, originally a false construct
-    designed to capture potential thought criminals in the name of revolution, has
-    become an actualized threat in the past three years, transforming into a potential
-    rebellious collective, aiming to cause irreversible damage to the achievement
-    of IngSoc Party and Your Glory. \r\n\r\n\tUpon discovering the New Brotherhood\u2019s
-    possible incorporation of the <link=\"id_11\"><color=#a52a2aff><u>Proles</link></color></u>
-    populace, we have successfully gathered information that the defection of the
-    New Brotherhood is closely connected to an individual with a code name adopted
-    by the collective: \r\n\r\nThe Iron Fist.\r\n\r\n\tOperation Iron Fist has been
-    established to begin tracking down this individual and possible connections.\r\n\r\n[PLEASE
-    DESTROY UPON REVIEWING]\r\n"
+  description: "\r\nTo Your Glory:\r\n\r\nAs Your Glory have been informed before,
+    the Brotherhood, originally a false construct designed to capture potential thought
+    criminals in the name of revolution, has become an actualized threat in the past
+    three years, transforming into a potential rebellious collective, aiming to cause
+    irreversible damage to the achievement of IngSoc Party and Your Glory. \r\n\tWe
+    have successfully gathered information that the defection of the New Brotherhood
+    is closely connected to an individual with a code name adopted by the collective:
+    \r\nThe Iron Fist.\r\n\tOperation Iron Fist has been established to begin tracking
+    down this individual and possible connections.\r"
   artwork: {fileID: 0}
   type: 3
   author: "O\u2019Connor\r\nOn Behalf of Ministry of Love"
@@ -32,6 +29,7 @@ MonoBehaviour:
   signed: 0
   fbType: 0
   NeedSignature: 0
+  isAutoGen: 0
   triggerName: 0
   refTriggerName: 0
   replacedFile: {fileID: 0}

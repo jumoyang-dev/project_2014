@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 660021cdf5ae695429fbcd4e3e8a0fd8, type: 3}
   m_Name: 4-5-A
   m_EditorClassIdentifier: 
-  title: 4-5
+  title: ' '
   description: "PREPARE FOR <link=\"id_10\"><color=#a52a2aff><u>Station</link></color></u>
     TWENTY!\r\nAs the journey to claim the Middle Eastern regions to the southwest
     of <link=\"id_10\"><color=#a52a2aff><u>Station</link></color></u> Nineteen is
@@ -26,6 +26,7 @@ MonoBehaviour:
   signed: 0
   fbType: 1
   NeedSignature: 1
+  isAutoGen: 0
   triggerName: 0
   refTriggerName: 0
   replacedFile: {fileID: 0}
