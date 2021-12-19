@@ -7,7 +7,10 @@ TextureImporter:
     second: 2014Title
   - first:
       213: 7337034226323393700
-    second: UI_buttonBox
+    second: UI_buttonStart
+  - first:
+      213: -7096320676834071887
+    second: UI_buttonQuit
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -105,7 +108,7 @@ TextureImporter:
         width: 223
         height: 83
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -118,10 +121,31 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_buttonBox
+      name: UI_buttonStart
       rect:
         serializedVersion: 2
         x: 121
+        y: 32
+        width: 59
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac83ec61c162d560800000000000000
+      internalID: 7337034226323393700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_buttonQuit
+      rect:
+        serializedVersion: 2
+        x: 211
         y: 32
         width: 59
         height: 21
@@ -132,8 +156,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ac83ec61c162d560800000000000000
-      internalID: 7337034226323393700
+      spriteID: 1baab0d31fdc48d90800000000000000
+      internalID: -7096320676834071887
       vertices: []
       indices: 
       edges: []
