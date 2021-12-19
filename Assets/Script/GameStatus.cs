@@ -28,7 +28,7 @@ public class GameStatus : MonoBehaviour
         }
 
         // reset all files -> signable
-        /*
+        
         for (int i = 0; i < App.Instance.m_Manifest.DayFileNodeList.Count; i++)
         {
             for(int j=0;j< App.Instance.m_Manifest.DayFileNodeList[i].filesList.Length; j++)
@@ -37,17 +37,17 @@ public class GameStatus : MonoBehaviour
                 App.Instance.m_Manifest.DayFileNodeList[i].filesList[j].signed = false;
                 // for debug 
                 DetailFile file = App.Instance.m_Manifest.DayFileNodeList[i].filesList[j];
-                if (file.title == "")
-                {
-                    file.title = file.name;
-                }
-                if (file.description == "")
-                {
-                    file.description = file.name;
-                }
+                //if (file.title == "")
+                //{
+                //    file.title = file.name;
+                //}
+                //if (file.description == "")
+                //{
+                //    file.description = file.name;
+                //}
             }
         }
-        */
+        
         
 
     }

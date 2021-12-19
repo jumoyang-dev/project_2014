@@ -66,6 +66,7 @@ public class DetailFile : ScriptableObject
             case FeedbackType.None:
                 break;
             case FeedbackType.Fish:
+                //DesktopButtonGroup.Instance.SetButtonByType(FeedbackType.Fish);
                 Debug.Log("Big brother would like to feed the fish.");
                 break;
             case FeedbackType.Fruite:
