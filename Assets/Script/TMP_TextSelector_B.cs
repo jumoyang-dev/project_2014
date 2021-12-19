@@ -257,11 +257,11 @@ namespace TMPro.Examples
                     TMP_LinkInfo linkInfo = m_TextMeshPro.textInfo.linkInfo[linkIndex];
 
                     // Debug.Log("Link ID: \"" + linkInfo.GetLinkID() + "\"   Link Text: \"" + linkInfo.GetLinkText() + "\""); // Example of how to retrieve the Link ID and Link Text.
-                    Vector3 mouseshift = Input.mousePosition;
-                    mouseshift.x = mouseshift.x + 400;
-                    mouseshift.y = mouseshift.y - 100;
+                    //Vector3 mouseshift = Input.mousePosition;
+                    //mouseshift.x = mouseshift.x + 300;
+                    //mouseshift.y = mouseshift.y;
                     Vector3 worldPointInRectangle;
-                    RectTransformUtility.ScreenPointToWorldPointInRectangle(m_TextMeshPro.rectTransform, mouseshift, m_Camera, out worldPointInRectangle);
+                    RectTransformUtility.ScreenPointToWorldPointInRectangle(m_TextMeshPro.rectTransform, Input.mousePosition, m_Camera, out worldPointInRectangle);
                     m_TextPopup_RectTransform.position = worldPointInRectangle;
                     m_TextPopup_RectTransform.gameObject.SetActive(true);
                     switch (linkInfo.GetLinkID())

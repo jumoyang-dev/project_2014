@@ -12,18 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 560541c61703950408d84c871e5130a0, type: 3}
   m_Name: 3-2-B
   m_EditorClassIdentifier: 
-  title: 3-2-Omega
-  description: "The <link=\"id_13\"><color=#a52a2aff><u>Septa</link></color></u>
-    Machine, a brand new technology designed with the purpose to provide immersive
-    environments for its users, grants Party members with opportunities to see our
-    beloved <link=\"id_04\"><color=#a52a2aff><u>Big Brother</link></color></u> himself
-    in the simulated world, express their personal love and respect to our great
-    leader, and listen to lectures given by His Glory in the most desired environment.
-    The <link=\"id_13\"><color=#a52a2aff><u>Septa</link></color></u> Machine was
-    invented by the genuity of the Big Brother himself over the course of three years.
-    As stated by His Glory himself, the <link=\"id_13\"><color=#a52a2aff><u>Septa</link></color></u>
-    Machine is another milestone on the way of leading <link=\"id_01\"><color=#a52a2aff><u>Oceania</link></color></u>
-    to an ever more glorious era with the assistance of technology. \r\n"
+  title: 
+  description: The <link="id_13"><color=#a52a2aff><u>Septa</link></color></u> Machine,
+    a brand new technology designed with the purpose to provide immersive environments
+    for its users, grants Party members with opportunities to see our beloved <link="id_04"><color=#a52a2aff><u>Big
+    Brother</link></color></u> himself in the simulated world, express their personal
+    love and respect to our great leader, and listen to lectures given by His Glory
+    in the most desired environment. The <link="id_13"><color=#a52a2aff><u>Septa</link></color></u>
+    Machine was invented by the genuity of the Big Brother himself over the course
+    of three years. As stated by His Glory himself, the <link="id_13"><color=#a52a2aff><u>Septa</link></color></u>
+    Machine is another milestone on the way of leading <link="id_01"><color=#a52a2aff><u>Oceania</link></color></u>
+    to an ever more glorious era with the assistance of technology.
   artwork: {fileID: 0}
   type: 5
   author: 
