@@ -14,14 +14,15 @@ public class FileController : MonoBehaviour
 
     public bool isPending;
 
-    //public List<DetailFile> DetailFileList; // ËùÓÐµÄ¾çÇé(ÎÄ¼þ)°´´¥·¢Ë³ÐòÏßÐÔ·ÅÖÃ£¬ÎÞÖ§Ïß
+    //public List<DetailFile> DetailFileList; // ï¿½ï¿½ï¿½ÐµÄ¾ï¿½ï¿½ï¿½(ï¿½Ä¼ï¿½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë³ï¿½ï¿½ï¿½ï¿½ï¿½Ô·ï¿½ï¿½Ã£ï¿½ï¿½ï¿½Ö§ï¿½ï¿½
     public int curIndex = 0;
 
     public int curNodeIndex = 0;
-    public int curDay = 0;  // ÌìÊý
-    public int curDayFileIndex = 0;    // µ±ÌìµÄµÚx¸öÎÄ¼þ
+    public int curDay = 0;  // ï¿½ï¿½ï¿½ï¿½
+    public int curDayFileIndex = 0;    // ï¿½ï¿½ï¿½ï¿½Äµï¿½xï¿½ï¿½ï¿½Ä¼ï¿½
     DetailFile curFile;
     FileType curType;
+    AudioSource fileAudioSource;
 
     public int maxDay = 7;
     public List<DayFileNode> dayFileList; // Note that length!= Num of days
@@ -42,6 +43,7 @@ public class FileController : MonoBehaviour
         curIndex = 0;
         isPending = false;
         Debug.Log("It is the " + curDay + " Day");
+        fileAudioSource = gameObject.GetComponent<AudioSource>();
     }
 
     // Check if there are some files on desk already 
@@ -102,14 +104,14 @@ public class FileController : MonoBehaviour
 
         //    curFile = DetailFileList[curIndex];
 
-        //    // if ÏÂÒ»¸öÎÄ¼þÀàÐÍÎªalpha£¬ÔòÁ¬Í¬ÔÙÏÂÒ»¸öµÄomegaÒ²Ò»ÆðÉú³É
+        //    // if ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½Îªalphaï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¬ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½omegaÒ²Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         //    curType = curFile.type;
         //    if (curType == FileType.Alpha)
         //    {
         //        GenerateFileThumbnail(curIndex++, filespawnLeft.transform, FileType.Alpha);
 
         //        curFile = DetailFileList[curIndex];
-        //        GenerateFileThumbnail(curIndex++, filespawnRight.transform, FileType.Omega);   // £¡Èç¹ûÔÚalphaÎÄ¼þÏÂÒ»¸öÃ»ÓÐ×¼±¸omega°æ±¾»áµ¼ÖÂÒç³ö
+        //        GenerateFileThumbnail(curIndex++, filespawnRight.transform, FileType.Omega);   // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½alphaï¿½Ä¼ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Ã»ï¿½ï¿½×¼ï¿½ï¿½omegaï¿½æ±¾ï¿½áµ¼ï¿½ï¿½ï¿½ï¿½ï¿½
         //    }
         //    else
         //    {
@@ -145,6 +147,7 @@ public class FileController : MonoBehaviour
         // Thumbnails show up on the table
         Debug.Log("zzzzzz--- New File.");
 
+        fileAudioSource.Play(0);
 
         if (curDay >= dayFileList.Count)
         {
@@ -165,20 +168,20 @@ public class FileController : MonoBehaviour
                 return;
             }
 
-            // if ÏÂÒ»¸öÎÄ¼þÀàÐÍÎªalpha£¬ÔòÁ¬Í¬ÔÙÏÂÒ»¸öµÄomegaÒ²Ò»ÆðÉú³É
-            // Í¬Àí delta zeta
+            // if ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½Îªalphaï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¬ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½omegaÒ²Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+            // Í¬ï¿½ï¿½ delta zeta
             curType = curFile.type;
             if (curType == FileType.Alpha)
             {
                 GenerateFileThumbnail(curDayFileIndex, filespawnLeft.transform, FileType.Alpha);
                 curDayFileIndex++;
-                GenerateFileThumbnail(curDayFileIndex, filespawnRight.transform, FileType.Omega);   // £¡Èç¹ûÔÚalphaÎÄ¼þÏÂÒ»¸öÃ»ÓÐ×¼±¸omega°æ±¾»áµ¼ÖÂÒç³ö
+                GenerateFileThumbnail(curDayFileIndex, filespawnRight.transform, FileType.Omega);   // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½alphaï¿½Ä¼ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Ã»ï¿½ï¿½×¼ï¿½ï¿½omegaï¿½æ±¾ï¿½áµ¼ï¿½ï¿½ï¿½ï¿½ï¿½
                 curDayFileIndex++;
             }else if (curType == FileType.Delta)
             {
                 GenerateFileThumbnail(curDayFileIndex, filespawnLeft.transform, FileType.Delta);
                 curDayFileIndex++;
-                GenerateFileThumbnail(curDayFileIndex, filespawnRight.transform, FileType.Zeta);   // £¡Èç¹ûÔÚdeltaÎÄ¼þÏÂÒ»¸öÃ»ÓÐ×¼±¸zeta°æ±¾»áµ¼ÖÂÒç³ö
+                GenerateFileThumbnail(curDayFileIndex, filespawnRight.transform, FileType.Zeta);   // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½deltaï¿½Ä¼ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Ã»ï¿½ï¿½×¼ï¿½ï¿½zetaï¿½æ±¾ï¿½áµ¼ï¿½ï¿½ï¿½ï¿½ï¿½
                 curDayFileIndex++;
             }
             else
@@ -189,7 +192,7 @@ public class FileController : MonoBehaviour
             
             if (curFile.ifSkip2)
             {
-                // 5-4-B ÌØÊâÇé¿ö
+                // 5-4-B ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
                 curDayFileIndex+=2;
             }
         }
@@ -205,7 +208,7 @@ public class FileController : MonoBehaviour
     }
     public void GoNextDay()
     {
-        // ÇÐ»»µ½µ±Ç°nodeÖ¸ÏòµÄÏÂÒ»¸önode
+        // ï¿½Ð»ï¿½ï¿½ï¿½ï¿½ï¿½Ç°nodeÖ¸ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½node
         int nextIndex = curDay++;
         if (curDay >= maxDay)
         {
@@ -250,7 +253,7 @@ public class FileController : MonoBehaviour
     public void GenerateFileThumbnail(int index, Transform pos, FileType type = FileType.PureText)
     {
 
-        // »ñÈ¡ËõÂÔÍ¼Ä£°å²¢ÊµÀý»¯
+        // ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½Í¼Ä£ï¿½å²¢Êµï¿½ï¿½ï¿½ï¿½
         curFile = dayFileList[curDay].filesList[index];
         Debug.Log("Generate No. " + index + "file of " + type);
         GameObject thumbnailPrefab = App.Instance.m_Manifest.FileStencilMap[(int)type].thumbnail;
@@ -260,7 +263,7 @@ public class FileController : MonoBehaviour
         
     }
 
-    // ¹¦ÄÜ£ºÐÞ¸Ä global µÄ bool
+    // ï¿½ï¿½ï¿½Ü£ï¿½ï¿½Þ¸ï¿½ global ï¿½ï¿½ bool
     public void ChangeBranch(BranchTriggerName triggerName, bool state = true)
     {
         App.Instance.m_Manifest.AffectedDayStatus[(int)triggerName].isTriggered = state;

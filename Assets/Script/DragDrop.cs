@@ -15,6 +15,11 @@ public class DragDrop : MonoBehaviour
     private Animator blenderAnimator;
     private Animator fishTankAnimator;
 
+    private AudioSource shredAudio;
+    private AudioSource blenderAudio;
+    private AudioSource fishTankAudio;
+    private AudioSource paperAudio;
+
     private void Awake()
     {
         cam = Camera.main;
@@ -24,12 +29,15 @@ public class DragDrop : MonoBehaviour
 
         shredder = GameObject.FindGameObjectWithTag("shred");
         shredAnimator = shredder.GetComponent<Animator>();
+        shredAudio = shredder.GetComponent<AudioSource>();
 
         blender = GameObject.FindGameObjectWithTag("blender");
         blenderAnimator = blender.GetComponent<Animator>();
+        blenderAudio = blender.GetComponent<AudioSource>();
 
         fishTank = GameObject.FindGameObjectWithTag("fishtank");
         fishTankAnimator = fishTank.GetComponent<Animator>();
+        fishTankAudio = fishTank.GetComponent<AudioSource>();
 
         isDragging = false;
         FileUIController.Instance.DisplayReadFIleUI(false);
@@ -48,6 +56,7 @@ public class DragDrop : MonoBehaviour
             {
                 gameObject.SetActive(false);
                 shredAnimator.SetTrigger("destory");
+                shredAudio.Play(0);
                 FileController.Instance.CheckToday();
             }
         }
@@ -58,6 +67,7 @@ public class DragDrop : MonoBehaviour
             {
                 gameObject.SetActive(false);
                 blenderAnimator.SetTrigger("blend");
+                blenderAudio.Play(0);
             }
         }
         //fish tank
@@ -67,6 +77,7 @@ public class DragDrop : MonoBehaviour
             {
                 gameObject.SetActive(false);
                 fishTankAnimator.SetTrigger("feed");
+                fishTankAudio.Play(0);
             }
         }
 
@@ -80,6 +91,7 @@ public class DragDrop : MonoBehaviour
                 FileUIController.Instance.ShowDetailFile();
                 FileUIController.Instance.DisplayReadFIleUI(false);
             }
+            //gameObject.GetComponent<AudioSource>().Play(0);
         }
     }
     private void OnMouseDown()
