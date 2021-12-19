@@ -19,6 +19,8 @@ public class DetailFile : ScriptableObject
     public FeedbackType fbType;
     public bool NeedSignature = true;
 
+    public bool isAutoGen = false;
+
     [Header("Replace future file settings")]
     [Tooltip("该选择造成的改变")]
     public BranchTriggerName triggerName;   // 第几个bool

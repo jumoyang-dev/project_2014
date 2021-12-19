@@ -97,6 +97,14 @@ public class DetailFileShow : MonoBehaviour
     public void ExitFile()
     {
         FileUIController.Instance.HideDetailFile();
+
+        if (FileUIController.Instance.currentFile.isAutoGen)
+        {
+            FileUIController.Instance.currentFile.Sign();
+
+            FileController.Instance.GrabFileByNode();
+        }
+
         if (FileUIController.Instance.currentFile.signed)
         {
             // destroy file if signed
@@ -104,6 +112,7 @@ public class DetailFileShow : MonoBehaviour
             IEnumerator destroy = this.DestroySignedItem(this.gameObject);
             StartCoroutine(destroy);
         }
+        
 
     }
 
