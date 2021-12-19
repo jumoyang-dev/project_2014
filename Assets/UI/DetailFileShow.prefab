@@ -468,8 +468,8 @@ MonoBehaviour:
 
     Minister of Peace'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7c28993ce0934b34c909abc17052d06d, type: 2}
-  m_sharedMaterial: {fileID: 8455949651183650868, guid: 7c28993ce0934b34c909abc17052d06d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ac3c15d13fdd9b147a88eaad48a6624c, type: 2}
+  m_sharedMaterial: {fileID: -5296358166426141547, guid: ac3c15d13fdd9b147a88eaad48a6624c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -529,7 +529,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -47.25818, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1052,7 +1052,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 626.854, y: 0}
+  m_SizeDelta: {x: 673.17, y: 0}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!222 &1057581245566715153
 CanvasRenderer:
@@ -1346,8 +1346,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Breaking News
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7c28993ce0934b34c909abc17052d06d, type: 2}
-  m_sharedMaterial: {fileID: 8455949651183650868, guid: 7c28993ce0934b34c909abc17052d06d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ac3c15d13fdd9b147a88eaad48a6624c, type: 2}
+  m_sharedMaterial: {fileID: -5296358166426141547, guid: ac3c15d13fdd9b147a88eaad48a6624c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
