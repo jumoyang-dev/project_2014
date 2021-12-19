@@ -23,6 +23,11 @@ public class tableButton : MonoBehaviour
     }
     private void OnMouseDown()
     {
+        if(GetComponent<DesktopButton>().isDisabled)
+        {
+            return;
+        }
+
         if (gameObject.CompareTag("fishButton"))
         {
             switchCamera.SwitchPriorityLeft();

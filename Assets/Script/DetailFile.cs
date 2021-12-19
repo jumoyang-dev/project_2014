@@ -61,25 +61,7 @@ public class DetailFile : ScriptableObject
 
     public void SetFeedbackByType(FeedbackType r_fbType)
     {
-        switch (r_fbType)
-        {
-            case FeedbackType.None:
-                break;
-            case FeedbackType.Fish:
-                //DesktopButtonGroup.Instance.SetButtonByType(FeedbackType.Fish);
-                Debug.Log("Big brother would like to feed the fish.");
-                break;
-            case FeedbackType.Fruite:
-                Debug.Log("Big brother would like have some juice.");
-                break;
-            case FeedbackType.Plant:
-                Debug.Log("Big brother would like to water the plants.");
-                break;
-            case FeedbackType.Photo:
-                Debug.Log("Big brother misses his son.");
-                break;
-        }
-            
+        DesktopBtController.Instance.HighlightButtonByType(r_fbType);
 
     }
 

@@ -49,11 +49,11 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 2ecc31d6d45f4a042a191343fe583b82, type: 2}
   - day: 1
     filesList:
-    - {fileID: 11400000, guid: 8ccea3141acc41b448efdc1daaaf34f3, type: 2}
+    - {fileID: 11400000, guid: 0051f8547213c1741878f87644160d29, type: 2}
     - {fileID: 11400000, guid: de865cf0398a2214e85373037f363ea7, type: 2}
     - {fileID: 11400000, guid: 66a7743dfd50fa846a2db499b280b583, type: 2}
     - {fileID: 11400000, guid: a2d14ad8bb7cf0b48be4677a3948d78c, type: 2}
-    - {fileID: 11400000, guid: c566bde89ed12924ea204704e33e1b4f, type: 2}
+    - {fileID: 11400000, guid: 29e6616b9ad62f948be8e7c9735cf8b4, type: 2}
     - {fileID: 11400000, guid: 29e6616b9ad62f948be8e7c9735cf8b4, type: 2}
     - {fileID: 11400000, guid: dc3cdf4399040284bbb8e1944dc277a9, type: 2}
     - {fileID: 11400000, guid: 8dfb7f79b89900044b3a69199593c879, type: 2}
@@ -63,7 +63,6 @@ MonoBehaviour:
   - day: 2
     filesList:
     - {fileID: 11400000, guid: ddacaee86da890f429122e6a9113f747, type: 2}
-    - {fileID: 11400000, guid: 7b08f1c7d67c7704283dc3dd148f71d4, type: 2}
     - {fileID: 11400000, guid: 141f737058bf9d64698ecdf43fff4b81, type: 2}
     - {fileID: 11400000, guid: fbee635b2ebad5c46b48031da75fb0be, type: 2}
     - {fileID: 11400000, guid: b33ac697938f2bd409aad7c39732cd97, type: 2}
@@ -116,12 +115,11 @@ MonoBehaviour:
     - {fileID: 11400000, guid: c0b8c011bea6f564aac14d74e23c2312, type: 2}
     - {fileID: 11400000, guid: 0b7e9b8e1113b5b4291d11fef4951500, type: 2}
     - {fileID: 11400000, guid: fcf89950c4b0ee84a9f9d776ae32aca3, type: 2}
-    - {fileID: 11400000, guid: 8152ab44a31943949a0a4a5724e15486, type: 2}
   AffectedDayStatus:
   - trigger: 0
     isTriggered: 1
   - trigger: 1
-    isTriggered: 0
+    isTriggered: 1
   - trigger: 2
     isTriggered: 0
   - trigger: 3
