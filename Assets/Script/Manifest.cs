@@ -13,4 +13,7 @@ public class Manifest : ScriptableObject
     //public bool[] BranchTrigger;
     public BranchTrigger[] AffectedDayStatus;
 
+    public string[] BlockList;
+
+
 }

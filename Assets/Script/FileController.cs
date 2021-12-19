@@ -14,6 +14,8 @@ public class FileController : MonoBehaviour
 
     public bool isPending;
 
+    public Fungus.Flowchart m_Flowchart;
+
     //public List<DetailFile> DetailFileList; // ���еľ���(�ļ�)������˳�����Է��ã���֧��
     public int curIndex = 0;
 
@@ -26,6 +28,7 @@ public class FileController : MonoBehaviour
 
     public int maxDay = 7;
     public List<DayFileNode> dayFileList; // Note that length!= Num of days
+
     private void Awake()
     {
         if (Instance != null)
@@ -52,8 +55,9 @@ public class FileController : MonoBehaviour
     {
         int leftNum = filespawnLeft.GetComponentsInChildren<RelateDetailFile>().GetLength(0);
         int MidNum = filespawnMid.GetComponentsInChildren<RelateDetailFile>().GetLength(0);
+        int RightNum = filespawnRight.GetComponentsInChildren<RelateDetailFile>().GetLength(0);
 
-        if (leftNum == 0 && MidNum == 0)
+        if (leftNum == 0 && MidNum == 0 && RightNum==0)
         {
             isPending = false;
         }
@@ -77,7 +81,7 @@ public class FileController : MonoBehaviour
         {
             //Debug.Log("File already taken.");
             FileUIController.Instance.DisplayFIlePendingUI(true);
-            GrabFileByNode();   // for debugging
+            //GrabFileByNode();   // for debugging
         }
 
     }
@@ -128,6 +132,9 @@ public class FileController : MonoBehaviour
         if (curDayFileIndex >= today.filesList.Length)
         {
             Debug.Log("finish today");
+            string blockName = App.Instance.m_Manifest.BlockList[curDay];
+            m_Flowchart.ExecuteBlock(blockName);
+
             GoNextDay();
         }
         else
@@ -208,7 +215,7 @@ public class FileController : MonoBehaviour
     }
     public void GoNextDay()
     {
-        // �л�����ǰnodeָ�����һ��node
+
         int nextIndex = curDay++;
         if (curDay >= maxDay)
         {
