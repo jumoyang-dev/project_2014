@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
-using UnityEditor;
+#if UNITY_EDITOR
+    using UnityEditor;
+#endif
 using UnityEngine;
 
 public class GameStatus : MonoBehaviour
@@ -52,12 +54,11 @@ public class GameStatus : MonoBehaviour
 
     }
 
-    [MenuItem("2014/未签署所有DetailFile")]
     public static void SearchTargetPrefab()
     {
         for(int i = 1; i <= 7; i++)
         {
-
+#if UNITY_EDITOR
             var assetRootPath = Application.dataPath;
             //Debug.log(assetRootPath);
             var dirPath = string.Format("{0}{1}", assetRootPath.Replace("Assets", ""), "Assets/DetailFiles/Day"+i.ToString());
@@ -79,10 +80,10 @@ public class GameStatus : MonoBehaviour
                     //targetComponent.NeedSignature = true;
                 }
 
-                EditorUtility.DisplayProgressBar("进度", assetPath, 1f * count / detailFiles.Length);
+                //EditorUtility.DisplayProgressBar("进度", assetPath, 1f * count / detailFiles.Length);
             }
-            EditorUtility.ClearProgressBar();
-
+            //EditorUtility.ClearProgressBar();
+#endif
 
         }
     }
