@@ -5,8 +5,15 @@ using UnityEngine;
 public class tableButton : MonoBehaviour
 {
     CameraSwitcher switchCamera;
+    private GameObject plant, trashcan;
+    private Animator plantAnimator, trashcanAnimator;
     void Start()
     {
+        plant = GameObject.FindGameObjectWithTag("plant");
+        plantAnimator = plant.GetComponent<Animator>();
+        trashcan = GameObject.FindGameObjectWithTag("trashCan");
+        trashcanAnimator = trashcan.GetComponent<Animator>();
+
         switchCamera = FindObjectOfType<CameraSwitcher>();
     }
 
@@ -27,6 +34,14 @@ public class tableButton : MonoBehaviour
         if (gameObject.CompareTag("plantButton"))
         {
             switchCamera.SwitchPriorityPlant();
+        }
+        if (gameObject.CompareTag("plantwater"))
+        {
+            plantAnimator.SetTrigger("water");
+        }
+        if (gameObject.CompareTag("trashButton"))
+        {
+            trashcanAnimator.SetTrigger("clean");
         }
     }
 }

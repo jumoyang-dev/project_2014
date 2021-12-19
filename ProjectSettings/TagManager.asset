@@ -17,6 +17,9 @@ TagManager:
   - plantButton
   - trashButton
   - plantwater
+  - plant
+  - trashCan
+  - popUp
   layers:
   - Default
   - TransparentFX
