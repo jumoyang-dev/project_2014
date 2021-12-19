@@ -36,6 +36,7 @@ MonoBehaviour:
   signed: 0
   fbType: 0
   NeedSignature: 1
+  isAutoGen: 1
   triggerName: 0
   refTriggerName: 1
   replacedFile: {fileID: 11400000, guid: dc1c64363abd485418c5bc76b1a47230, type: 2}

@@ -29,10 +29,11 @@ MonoBehaviour:
 
     On behalf of <link="id_06"><color=#a52a2aff><u>Ministry
     of Peace</link></color></u>'
-  signable: 1
-  signed: 0
+  signable: 0
+  signed: 1
   fbType: 0
   NeedSignature: 0
+  isAutoGen: 1
   triggerName: 0
   refTriggerName: 0
   replacedFile: {fileID: 0}

@@ -26,10 +26,11 @@ MonoBehaviour:
     <link="id_09"><color=#a52a2aff><u>Airstrip</link></color></u> Nine Division
 
 '
-  signable: 1
-  signed: 0
+  signable: 0
+  signed: 1
   fbType: 0
   NeedSignature: 1
+  isAutoGen: 1
   triggerName: 0
   refTriggerName: 0
   replacedFile: {fileID: 0}
