@@ -12,15 +12,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 660021cdf5ae695429fbcd4e3e8a0fd8, type: 3}
   m_Name: 6-2-0
   m_EditorClassIdentifier: 
-  title: 
-  description: 
+  title: <color=#ff0000ff>Telegram 399.3.72 </color>
+  description: "To Your Glory:\r\n\r\nThis telegram serves to inform Your Glory of
+    the fall of <link=\"id_09\"><color=#a52a2aff><u>Airstrip</link></color></u> Five
+    to the hands of the New Brotherhood. Since the beginning of the <link=\"id_10\"><color=#a52a2aff><u>Station</link></color></u>
+    Seventeen breakout, <link=\"id_09\"><color=#a52a2aff><u>Airstrip</link></color></u>
+    Five has been the 9th territory to be plundered by the terrorist collective.
+    In all of the cases, members of the Party who did not oblige with the governance
+    of the New Brotherhood had all been executed brutally. All security forces have
+    been assigned to ensure maximum security of individual territory\u2019s Houses
+    of the Inner Party. To prevent the possibility that <link=\"id_11\"><color=#a52a2aff><u>proles</link></color></u>
+    of other territories have been assimilated by the New Brotherhood, we hereby
+    request the activation of the SKY protocol in which all Inner Party Houses enter
+    Floating Mode.\r\n\r\nPlease advise.\r\n"
   artwork: {fileID: 0}
   type: 3
-  sign: 
+  author: Department of Peace, Ministry of Love
   signable: 1
   signed: 0
   fbType: 0
+  NeedSignature: 0
   triggerName: 0
   refTriggerName: 0
   replacedFile: {fileID: 0}
+  sibling: {fileID: 0}
   ifSkip2: 0

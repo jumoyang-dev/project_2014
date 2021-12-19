@@ -13,16 +13,18 @@ MonoBehaviour:
   m_Name: 1-4-B
   m_EditorClassIdentifier: 
   title: 1-4-B
-  description: "As we have witnessed, the life of Eurasian people on the Moon could
-    not be better described as simply miserable. The triumph over the Eurasians puts
-    the former Eurasian leader, Michael Freeman, in a devastating mental state, in
-    which the tyrant is found unable to lead what remains as the rest of Eurasia\u2026"
+  description: "As we have witnessed, the life of <link=\"id_02\"><color=#a52a2aff><u>Eurasian</link></color></u>
+    people on the Moon could not be better described as simply miserable. The triumph
+    over the Eurasians puts the former Eurasian leader, Michael Freeman, in a devastating
+    mental state, in which the tyrant is found unable to lead what remains as the
+    rest of Eurasia\u2026"
   artwork: {fileID: 0}
   type: 5
-  sign: B. B
+  author: 
   signable: 1
   signed: 0
   fbType: 3
+  NeedSignature: 1
   triggerName: 0
   refTriggerName: 0
   replacedFile: {fileID: 0}

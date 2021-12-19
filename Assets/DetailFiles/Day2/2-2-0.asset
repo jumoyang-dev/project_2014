@@ -12,12 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 660021cdf5ae695429fbcd4e3e8a0fd8, type: 3}
   m_Name: 2-2-0
   m_EditorClassIdentifier: 
-  title: 2-2
-  description: 2-2-2-2-2-2-2-2-2-2-2-2-2
+  title: <color=#ff0000ff>Construction Blueprint Serial Number A9-4</color>
+  description: "To Your Glory:\r\n\r\nDue to the high efficiency of <link=\"id_14\"><color=#a52a2aff><u>Nuva</link></color></u>
+    Machine-09 in increasing the reproduction rate in <link=\"id_09\"><color=#a52a2aff><u>Airstrip</link></color></u>
+    Nine, an urgent need for more Outer Party\u2019s housing is required for the
+    <link=\"id_05\"><color=#a52a2aff><u>Ministry of Love</link></color></u>\u2019s
+    members. \r\n\r\nUnder are two models that we have chosen among the selected
+    architects tasked with designing new home systems for the Outer Party members.
+    \r\n\r\nPlease review.\r\n"
   artwork: {fileID: 0}
-  isLeft: 0
   type: 3
-  sign: 222222
+  author: '<link="id_07"><color=#a52a2aff><u>Ministry of Plenty</link></color></u>,
+    <link="id_09"><color=#a52a2aff><u>Airstrip</link></color></u> Nine Division
+
+'
   signable: 1
+  signed: 0
+  fbType: 0
+  NeedSignature: 1
   triggerName: 0
+  refTriggerName: 0
   replacedFile: {fileID: 0}
+  sibling: {fileID: 0}
+  ifSkip2: 0

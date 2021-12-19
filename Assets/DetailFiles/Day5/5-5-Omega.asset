@@ -12,16 +12,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 560541c61703950408d84c871e5130a0, type: 3}
   m_Name: 5-5-Omega
   m_EditorClassIdentifier: 
-  title: 
-  description: 
+  title: 5-5-Omega
+  description: "In assistance to Your Glory\u2019s decision:\r\n\r\nAlthough the
+    capturing and questioning of influential leaders among the <link=\"id_11\"><color=#a52a2aff><u>proles</link></color></u>
+    is a feasible option, it is more necessary and also efficient to investigate
+    from our inside by questioning party members within the <link=\"id_06\"><color=#a52a2aff><u>Ministry
+    of Peace</link></color></u> who are involved in the entire task to build <link=\"id_10\"><color=#a52a2aff><u>Station</link></color></u>
+    Twenty. The bombing of <link=\"id_10\"><color=#a52a2aff><u>Station</link></color></u>
+    Seventeen should be commenced immediately as to eliminate further threats from
+    the area. <link=\"id_10\"><color=#a52a2aff><u>Station</link></color></u> Seventeen
+    will be removed from the World Map and any form of documentation recording its
+    existence will also be destroyed upon the commencement of the proposed action.\r\n\r\n\r\nPlease
+    review and sign if Your Glory\u2019s consent is given to proceed.\r\n"
   artwork: {fileID: 0}
   type: 2
-  sign: 
+  author: 'Omega Strategy Team No.1
+
+    On behalf of Ministry of Love
+
+'
   signable: 1
   signed: 0
-  fbType: 0
+  fbType: 2
+  NeedSignature: 1
   triggerName: 0
   refTriggerName: 0
   replacedFile: {fileID: 0}
-  ifSkip2: 0
   sibling: {fileID: 11400000, guid: e449171fe90bac2429640d72b4b7a22b, type: 2}
+  ifSkip2: 0

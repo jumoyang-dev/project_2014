@@ -13,15 +13,27 @@ MonoBehaviour:
   m_Name: 2-3-A-Alpha
   m_EditorClassIdentifier: 
   title: 2-3-A-Alpha
-  description: 2-3-A-Alpha2-3-A-Alpha
+  description: "In Assistance to Your Glory\u2019s Decision:\r\n\r\nAlthough the
+    current situation at <link=\"id_10\"><color=#a52a2aff><u>Station</link></color></u>
+    Sixteen is potentially threatening in terms of sustaining local control, we believe
+    that the urgent matter at hand is to investigate Arnold, who has been reported
+    to be expressing unnecessary hospitality to the local <link=\"id_11\"><color=#a52a2aff><u>Proles</link></color></u>.
+    This behavior is suspicious and needs to be addressed as soon as possible.\r\n\r\nWe
+    suggest that Arnold be sent to the thought police at the Quarters, and we continue
+    to observe the behavior of the people at <link=\"id_10\"><color=#a52a2aff><u>Station</link></color></u>
+    Sixteen.\r\n"
   artwork: {fileID: 0}
   type: 1
-  sign: 2-3-A-Alpha
+  author: 'Alpha Strategy Team No.2
+
+    On behalf of Ministry of Love & <link="id_06"><color=#a52a2aff><u>Ministry
+    of Peace</link></color></u>'
   signable: 1
   signed: 0
   fbType: 0
+  NeedSignature: 1
   triggerName: 1
   refTriggerName: 0
   replacedFile: {fileID: 11400000, guid: 9489266153add0d4f90edd4df18a5e53, type: 2}
-  ifSkip2: 0
   sibling: {fileID: 11400000, guid: dc3cdf4399040284bbb8e1944dc277a9, type: 2}
+  ifSkip2: 0

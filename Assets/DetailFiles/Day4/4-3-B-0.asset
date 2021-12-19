@@ -12,14 +12,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 660021cdf5ae695429fbcd4e3e8a0fd8, type: 3}
   m_Name: 4-3-B-0
   m_EditorClassIdentifier: 
-  title: 4-3-B-0
-  description: 4-3-B-04-3-B-04-3-B-04-3-B-04-3-B-0
+  title: '<color=#ff0000ff>PERSONAL: Code - MPDS</color>'
+  description: "Priority: HIGH\r\nCONFIDENTIAL CODE: 11101\r\n\r\nTo Your Glory:\r\n\r\nAs
+    Your Glory has instructed, questioning of Ryan Arnold has been conducted using
+    the new <link=\"id_13\"><color=#a52a2aff><u>Septa</link></color></u> Machine
+    developed by Doctor Darwin Stewart. The stimulation was adjusted to question
+    Arnold regarding his involvement with the <link=\"id_13\"><color=#a52a2aff><u>Septa</link></color></u>
+    while stimulating both mental and physical sufferings. \r\nBelow is a selected
+    section of Arnold\u2019s recorded reactions during the questioning that we believe
+    is of great value: \r\n\r\n\u201CIdon\u2019tknowIdon\u2019tknowIdon\u2019tknowIdon\u2019tknow\u2014---!!\u201D\r\n\u201CEssss!
+    Esssss! Esssss!!!\u201D\r\n\u201CHe\u2019s gonna kill me He\u2019s gonna kill
+    me He\u2019s gonna KILL ME!!!\u201D\r\n\u201CStewart! Stewart! Stewart!\u201D\r\n\r\nI
+    shall refrain from any personal interpretation of these statements for it might
+    affect Your Glory\u2019s decision regarding the New Brotherhood. \r\n\r\nHowever,
+    I do believe that investigation is necessary on the name mentioned in the recorded
+    reactions.\r\n\r\nPlease advise. \r\n"
   artwork: {fileID: 0}
   type: 3
-  sign: 3-2-0
+  author: 'O''Connor
+
+    On behalf of Ministry of Love'
   signable: 1
   signed: 0
   fbType: 0
+  NeedSignature: 1
   triggerName: 0
   refTriggerName: 0
   replacedFile: {fileID: 0}

@@ -13,13 +13,16 @@ MonoBehaviour:
   m_Name: 6-4-B
   m_EditorClassIdentifier: 
   title: 6-4-B
-  description: 6-4-B
+  description: "As our beloved <link=\"id_04\"><color=#a52a2aff><u>Big Brother initiates
+    the SKY program, residents of Inner Party Houses are now able to  escape from
+    the fear that the Brotherhood has casted upon them\u2026 \n\r\nOR ARE THEY\u2026?\r\n"
   artwork: {fileID: 0}
   type: 5
-  sign: 
+  author: 
   signable: 1
   signed: 0
   fbType: 0
+  NeedSignature: 1
   triggerName: 0
   refTriggerName: 0
   replacedFile: {fileID: 0}

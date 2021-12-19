@@ -13,13 +13,28 @@ MonoBehaviour:
   m_Name: 6-3-Omega
   m_EditorClassIdentifier: 
   title: 6-3-Omega
-  description: 6-3-Omega
+  description: "In assistance to Your Glory\u2019s decision:\r\n\r\nWhile Darwin
+    Stewart\u2019s direct relationship to the former <link=\"id_06\"><color=#a52a2aff><u>Ministry
+    of Peace</link></color></u> and the facts mentioned in General O\u2019Connor\u2019s
+    telegram could be seen as hints through which deductions could be made, we do
+    believe that Stewart\u2019s continuous contribution to the development of <link=\"id_01\"><color=#a52a2aff><u>Oceania</link></color></u>
+    in the past decade is a stronger evidence of the individual\u2019s loyalty to
+    the Party. \r\nOn the other hand, General O\u2019Connor\u2019s continuous suggestion
+    of Stewart\u2019s betrayal to the Party, and the Alpha Team\u2019s proposal to
+    immediately execute Stewart, which is extremely radical compared to their usual
+    proposals, are analyzed as suspicious behaviors. \r\nAs a result, we suggest
+    the removal of O\u2019Connor and Alpha Team No.1 for their questionable suggestions.\r\n"
   artwork: {fileID: 0}
   type: 2
-  sign: 
-  signable: 0
+  author: 'Omega Strategy Team No.1
+
+    On behalf of Ministry of Love
+
+'
+  signable: 1
   signed: 0
-  fbType: 0
+  fbType: 2
+  NeedSignature: 1
   triggerName: 5
   refTriggerName: 0
   replacedFile: {fileID: 0}

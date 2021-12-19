@@ -12,14 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 660021cdf5ae695429fbcd4e3e8a0fd8, type: 3}
   m_Name: 3-4-0
   m_EditorClassIdentifier: 
-  title: 3-4-0
-  description: 3-4-03-4-03-4-03-4-03-4-0
+  title: <color=#ff0000ff>Telegram 307.53.13</color>
+  description: "To Your Glory:\r\n\r\nThe construction of Outer Party homes in <link=\"id_09\"><color=#a52a2aff><u>Airstrip</link></color></u>
+    Nine is currently facing significant delay due to the lack of enough labor in
+    the Division A-9 <link=\"id_07\"><color=#a52a2aff><u>Ministry of Plenty</link></color></u>.
+    This is a direct result of the surplus and focus of reproduction on the <link=\"id_05\"><color=#a52a2aff><u>Ministry
+    of Love</link></color></u> members in the past several years: the ratio of number
+    of Outer Party members in Plenty to that of Love is a drastic 1:32. \r\nThe issue
+    requires Your Glory\u2019s insight and discretion. Please advise.\r\n"
   artwork: {fileID: 0}
   type: 0
-  sign: 3-2-0
+  author: '<link="id_07"><color=#a52a2aff><u>Ministry of Plenty</link></color></u>,
+    <link="id_09"><color=#a52a2aff><u>Airstrip</link></color></u> Nine
+
+'
   signable: 1
   signed: 0
   fbType: 0
+  NeedSignature: 0
   triggerName: 0
   refTriggerName: 0
   replacedFile: {fileID: 0}

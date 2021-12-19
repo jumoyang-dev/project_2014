@@ -13,11 +13,19 @@ MonoBehaviour:
   m_Name: 2-5-Omega
   m_EditorClassIdentifier: 
   title: 2-5-B-Omega
-  description: 2-5-B-Omega
+  description: "Michael Freeman, the former dictator of <link=\"id_02\"><color=#a52a2aff><u>Eurasia</link></color></u>,
+    who has been under our captivity since the defeat of Eurasia, is a valuable subject
+    to be testing the limit of <link=\"id_13\"><color=#a52a2aff><u>Septa</link></color></u>\u2019s
+    pain simulation. "
   artwork: {fileID: 0}
   type: 2
-  sign: 2-5-B-Alpha
+  author: 
   signable: 1
+  signed: 0
+  fbType: 0
+  NeedSignature: 1
   triggerName: 0
+  refTriggerName: 0
   replacedFile: {fileID: 0}
   sibling: {fileID: 11400000, guid: 40836030d9caa2940bf1bbcfcfb6f41f, type: 2}
+  ifSkip2: 0

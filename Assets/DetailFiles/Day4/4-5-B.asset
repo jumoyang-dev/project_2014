@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 660021cdf5ae695429fbcd4e3e8a0fd8, type: 3}
+  m_Name: 4-5-B
+  m_EditorClassIdentifier: 
+  title: 4-5
+  description: "WELCOME <link=\"id_10\"><color=#a52a2aff><u>Station</link></color></u>
+    TWENTY!\r\nWith the surrender of their tyrant leader, the long disputed Middle
+    Eastern regions to the southwest of <link=\"id_10\"><color=#a52a2aff><u>Station</link></color></u>
+    Nineteen have finally seen the end to their sufferings, embracing the love of
+    the <link=\"id_04\"><color=#a52a2aff><u>Big Brother</link></color></u> and Ingsoc
+    gracefully\u2026...\r\n"
+  artwork: {fileID: 0}
+  type: 5
+  author: 
+  signable: 1
+  signed: 0
+  fbType: 1
+  NeedSignature: 1
+  triggerName: 0
+  refTriggerName: 0
+  replacedFile: {fileID: 0}
+  sibling: {fileID: 11400000, guid: d91459b6494b18247bfd16c825590e5b, type: 2}
+  ifSkip2: 0

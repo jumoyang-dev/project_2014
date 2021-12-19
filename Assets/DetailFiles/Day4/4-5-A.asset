@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 660021cdf5ae695429fbcd4e3e8a0fd8, type: 3}
+  m_Name: 4-5-A
+  m_EditorClassIdentifier: 
+  title: 4-5
+  description: "PREPARE FOR <link=\"id_10\"><color=#a52a2aff><u>Station</link></color></u>
+    TWENTY!\r\nAs the journey to claim the Middle Eastern regions to the southwest
+    of <link=\"id_10\"><color=#a52a2aff><u>Station</link></color></u> Nineteen is
+    coming to a foreseeable end, the people of <link=\"id_01\"><color=#a52a2aff><u>Oceania</link></color></u>
+    celebrate in joy to see another addition to the greatest state in the entire
+    world! \r\n"
+  artwork: {fileID: 0}
+  type: 4
+  author: 
+  signable: 1
+  signed: 0
+  fbType: 1
+  NeedSignature: 1
+  triggerName: 0
+  refTriggerName: 0
+  replacedFile: {fileID: 0}
+  sibling: {fileID: 11400000, guid: f0c935999543ce74c8d9200a0ebd58dc, type: 2}
+  ifSkip2: 0

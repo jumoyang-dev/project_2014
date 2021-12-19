@@ -12,16 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 560541c61703950408d84c871e5130a0, type: 3}
   m_Name: 5-4-A-Alpha
   m_EditorClassIdentifier: 
-  title: 
-  description: 
+  title: 5-4-A-Alpha
+  description: Hereby granting permission to the request for investigation.
   artwork: {fileID: 0}
   type: 1
-  sign: 
+  author: Big Brother
   signable: 1
   signed: 0
-  fbType: 0
+  fbType: 5
+  NeedSignature: 1
   triggerName: 0
   refTriggerName: 0
   replacedFile: {fileID: 0}
-  ifSkip2: 0
   sibling: {fileID: 11400000, guid: f7f70ae1f35963a4db7ff4a4076f9a56, type: 2}
+  ifSkip2: 0

@@ -12,16 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 560541c61703950408d84c871e5130a0, type: 3}
   m_Name: 6-2-Alpha
   m_EditorClassIdentifier: 
-  title: 
-  description: 
+  title: 6-2-Alpha
+  description: "Request approved\t"
   artwork: {fileID: 0}
   type: 1
-  sign: 
+  author: Big Brother
   signable: 1
   signed: 0
-  fbType: 0
+  fbType: 1
+  NeedSignature: 1
   triggerName: 0
   refTriggerName: 0
   replacedFile: {fileID: 0}
+  sibling: {fileID: 11400000, guid: 3e3ab3528f78afb4b9fe09cd491cc7ec, type: 2}
   ifSkip2: 0
-  sibling: {fileID: 0}

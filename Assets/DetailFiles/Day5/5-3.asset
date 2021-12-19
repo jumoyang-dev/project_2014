@@ -12,14 +12,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 660021cdf5ae695429fbcd4e3e8a0fd8, type: 3}
   m_Name: 5-3
   m_EditorClassIdentifier: 
-  title: 
-  description: 
+  title: 5-3
+  description: '[<link="id_14"><color=#a52a2aff><u>Nuva</link></color></u>-01 Report
+    No.1100010000111]
+
+    [Seeding Cycle]
+
+    Period: 02.01.2014 - 03.01.2014
+
+    Participants:
+    100,000
+
+    Male: 50%
+
+    Female: 50%
+
+    Success Rate: 92%
+
+    Production:
+    46,038 Newborns
+
+    1. Peace: 13,811 Newborns = 30%
+
+    2. Love: 16,573 Newborns
+    = 36%
+
+    3. Truth: 7,966 Newborns = 17%
+
+    4. Plenty: 7,688 Newborns =
+    16%
+
+'
   artwork: {fileID: 0}
   type: 3
-  sign: 
+  author: 
   signable: 1
   signed: 0
   fbType: 0
+  NeedSignature: 0
   triggerName: 0
   refTriggerName: 0
   replacedFile: {fileID: 0}
+  sibling: {fileID: 0}
+  ifSkip2: 0

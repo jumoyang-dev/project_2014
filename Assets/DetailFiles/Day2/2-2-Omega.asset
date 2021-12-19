@@ -13,15 +13,20 @@ MonoBehaviour:
   m_Name: 2-2-Omega
   m_EditorClassIdentifier: 
   title: 2-2-Omega
-  description: 2-2-Omega
+  description: "Designed to incorporate the new technology invented by the <link=\"id_06\"><color=#a52a2aff><u>Ministry
+    of Peace</link></color></u>. \r\nEach unit will be equipped with a <link=\"id_13\"><color=#a52a2aff><u>Septa</link></color></u>
+    Machine, providing all required experience, including sleeping, dining, and most
+    importantly, Party surveillance, all using the immersion simulated by the technology.
+    \r\n"
   artwork: {fileID: 0}
   type: 2
-  sign: 
+  author: 
   signable: 1
   signed: 0
   fbType: 0
+  NeedSignature: 1
   triggerName: 3
   refTriggerName: 0
   replacedFile: {fileID: 0}
-  ifSkip2: 0
   sibling: {fileID: 11400000, guid: 66a7743dfd50fa846a2db499b280b583, type: 2}
+  ifSkip2: 0

@@ -12,12 +12,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 660021cdf5ae695429fbcd4e3e8a0fd8, type: 3}
   m_Name: 2-3-B-0
   m_EditorClassIdentifier: 
-  title: 
-  description: 
+  title: <color=#ff0000ff>Telegram 306.18.36</color>
+  description: "To Your Glory:\r\n\r\nWith the bombing and massive releasing of <link=\"id_10\"><color=#a52a2aff><u>Station</link></color></u>
+    Sixteen, we have deemed it that the <link=\"id_10\"><color=#a52a2aff><u>Station</link></color></u>
+    is no longer habitable and should display no signs of life remaining. \r\nHowever,
+    Ryan Arnold, the local jurisdiction administrator, has obtained information regarding
+    the bombing prior to the event taking place, and has secretly fled back to <link=\"id_09\"><color=#a52a2aff><u>Airstrip</link></color></u>
+    One.\r\nCapturing Arnold is only a matter of time. We request your decision regarding
+    the disposal of Arnold. \r\nPlease review the proposals below and advise.\r\n"
   artwork: {fileID: 0}
   type: 3
-  sign: 
+  author: Ministry of Love, Headquarters
   signable: 1
+  signed: 0
+  fbType: 0
+  NeedSignature: 1
   triggerName: 0
   refTriggerName: 1
   replacedFile: {fileID: 11400000, guid: 29e6616b9ad62f948be8e7c9735cf8b4, type: 2}
+  sibling: {fileID: 0}
+  ifSkip2: 0

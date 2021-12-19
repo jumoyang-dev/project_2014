@@ -12,12 +12,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 660021cdf5ae695429fbcd4e3e8a0fd8, type: 3}
   m_Name: 2-4
   m_EditorClassIdentifier: 
-  title: 2-4
-  description: 2-42-42-42-42-42-4
+  title: <color=#ff0000ff>CLASSIFIED</color>
+  description: "Priority: MEDIUM\r\nCONFIDENTIAL CODE: 11101\r\n\r\nTo Your Glory:\r\n\r\nDespite
+    the various quality and performance checks of The <link=\"id_12\"><color=#a52a2aff><u>Device</link></color></u>
+    prior to its launch and all of its updates, we have recently discovered that
+    The <link=\"id_12\"><color=#a52a2aff><u>Device</link></color></u> could be used
+    to access a hidden connection that we term as \u201CThe Hind\u201D. It is a connection
+    not normally connectable if we use The <link=\"id_12\"><color=#a52a2aff><u>Device</link></color></u>
+    normally. We were able to discover the existence of it through a glitch of one
+    Party Member\u2019s <link=\"id_12\"><color=#a52a2aff><u>Device</link></color></u>
+    but were also quickly rejected from continuing the connection. \r\n\r\nDuring
+    the brief minute of connection that we were able to have, we noticed that The
+    Hind might possess information that should not be stored, discussed, nor displayed
+    on any of The <link=\"id_12\"><color=#a52a2aff><u>Device</link></color></u>\u2019s
+    connections.\r\n\r\nFurther investigation will be conducted regarding this matter.\r\n\r\n[PLEASE
+    DESTROY UPON REVIEWING]\r\n"
   artwork: {fileID: 0}
-  isLeft: 0
   type: 3
-  sign: 222222244444
+  author: 'On Behalf of <link="id_06"><color=#a52a2aff><u>Ministry of Peace</link></color></u>
+
+    On
+    Behalf of <link="id_08"><color=#a52a2aff><u>Ministry of Truth</link></color></u>
+
+    On
+    Behalf of Ministry of Love'
   signable: 1
+  signed: 0
+  fbType: 0
+  NeedSignature: 1
   triggerName: 0
+  refTriggerName: 0
   replacedFile: {fileID: 0}
+  sibling: {fileID: 0}
+  ifSkip2: 0

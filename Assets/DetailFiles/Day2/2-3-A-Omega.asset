@@ -13,15 +13,27 @@ MonoBehaviour:
   m_Name: 2-3-A-Omega
   m_EditorClassIdentifier: 
   title: 2-3-A-OMEGA
-  description: 2-3-A-OMEGA2-3-A-OMEGA2-3-A-OMEGA
+  description: "In Assistance to Your Glory\u2019s Decision:\r\n\r\nBased on the
+    current situation, we suggest that <link=\"id_10\"><color=#a52a2aff><u>Station</link></color></u>
+    Sixteen be eliminated immediately with the deployment of a nuclear bomb to achieve
+    mass releasing of the local <link=\"id_11\"><color=#a52a2aff><u>Proles</link></color></u>
+    populace, including the jurisdiction office, which has potentially been infiltrated
+    by and involved with the New Brotherhood. \r\nRyan Arnold, who has returned to
+    <link=\"id_09\"><color=#a52a2aff><u>Airstrip</link></color></u> One without prior
+    notice, is displaying suspicious behavior that should be treated as a sufficient
+    reason for an immediate execution to eliminate further threats from the New Brotherhood.\r\n"
   artwork: {fileID: 0}
   type: 2
-  sign: 2-3-A-OMEGA
+  author: 'Omega Strategy Team No.4
+
+    On behalf of <link="id_06"><color=#a52a2aff><u>Ministry
+    of Peace</link></color></u>'
   signable: 1
   signed: 0
   fbType: 0
+  NeedSignature: 1
   triggerName: 1
   refTriggerName: 0
   replacedFile: {fileID: 11400000, guid: 026605e74a6a04041a8ee90bfe4a5574, type: 2}
-  ifSkip2: 0
   sibling: {fileID: 11400000, guid: 29e6616b9ad62f948be8e7c9735cf8b4, type: 2}
+  ifSkip2: 0

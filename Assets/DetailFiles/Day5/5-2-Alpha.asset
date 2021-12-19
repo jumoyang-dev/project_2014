@@ -12,16 +12,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 560541c61703950408d84c871e5130a0, type: 3}
   m_Name: 5-2-Alpha
   m_EditorClassIdentifier: 
-  title: 
-  description: 
+  title: 5-2-Alpha
+  description: "In assistance to Your Glory\u2019s decision regarding the urgent
+    matter at hand:\r\n\r\nWe advise that the entire server of The <link=\"id_12\"><color=#a52a2aff><u>Device</link></color></u>
+    be shut off and all telecommunications be disconnected immediately. This shall
+    prevent further exchange among the thought criminals of the New Brotherhood.
+    We also advise the deployment of the Great Oceania Military to secure <link=\"id_09\"><color=#a52a2aff><u>Airstrip</link></color></u>
+    Ten as the message quoted above has strong indication that the New Brotherhood
+    has potential conspiracy to create another outbreak at <link=\"id_09\"><color=#a52a2aff><u>Airstrip</link></color></u>
+    Ten. \r\n\r\nPlease review and sign if Your Glory\u2019s consent is given to
+    proceed.\r\n"
   artwork: {fileID: 0}
   type: 1
-  sign: 
+  author: 'Alpha Strategy Team No.2
+
+    On behalf of the <link="id_06"><color=#a52a2aff><u>Ministry
+    of Peace</link></color></u>
+
+'
   signable: 1
   signed: 0
-  fbType: 0
+  fbType: 1
+  NeedSignature: 1
   triggerName: 0
   refTriggerName: 0
   replacedFile: {fileID: 0}
-  ifSkip2: 0
   sibling: {fileID: 11400000, guid: 7b5295b4c1214c94eb865a4ec0b3211b, type: 2}
+  ifSkip2: 0

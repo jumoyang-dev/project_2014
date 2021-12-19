@@ -12,14 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 660021cdf5ae695429fbcd4e3e8a0fd8, type: 3}
   m_Name: 3-3
   m_EditorClassIdentifier: 
-  title: 3-3-0
-  description: 3-3-03-3-03-3-03-3-03-3-0, 3-3-03-3-0
+  title: '<color=#ff0000ff>PERSONAL: Code - MPJT</color>'
+  description: "To Your Glory:\r\n\r\nBased on the result of our last check-in, I
+    believe that Your Glory\u2019s condition is deteriorating at a much faster speed
+    than we had expected. After a thorough discussion with Mr.Stewart, the Head Administrator
+    at the <link=\"id_06\"><color=#a52a2aff><u>Ministry of Peace</link></color></u>,
+    he believed that to also comply with Your Glory\u2019s intention to act on all
+    executive decisions, it is necessary to increase the dose of Your Glory\u2019s
+    medications to double the amount than before. \r\n\r\nThe medications shall be
+    delivered to Your Glory shortly.\r\n"
   artwork: {fileID: 0}
-  type: 0
-  sign: 3-2-0
+  type: 3
+  author: "James Thompson\r\nYour Glory\u2019s Primary Physician"
   signable: 1
   signed: 0
   fbType: 0
+  NeedSignature: 0
   triggerName: 0
   refTriggerName: 0
   replacedFile: {fileID: 0}

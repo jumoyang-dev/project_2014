@@ -13,19 +13,23 @@ MonoBehaviour:
   m_Name: 2-3-B-Alpha
   m_EditorClassIdentifier: 
   title: 2-3-b-alpha
-  description: '2-3-b-alpha
-
-    2-3-b-alpha
-
-    2-3-b-alpha2-3-b-alpha'
+  description: "In assistance to Your Glory\u2019s decision:\r\n\r\nAlthough Arnold
+    has proven a failure, we recommend that he be taken into the Quarters at the
+    <link=\"id_05\"><color=#a52a2aff><u>Ministry of Love</link></color></u> for questioning,
+    through which information might be obtained regarding the behavior of the local
+    <link=\"id_11\"><color=#a52a2aff><u>Proles</link></color></u> populace at <link=\"id_10\"><color=#a52a2aff><u>Station</link></color></u>
+    Sixteen to confirm whether the group has possible affiliation with the New Brotherhood.\r\n"
   artwork: {fileID: 0}
   type: 1
-  sign: 2-3-b-alpha
+  author: 'Alpha Strategy Team No.2
+
+    On behalf of Ministry of Love'
   signable: 1
   signed: 0
   fbType: 0
+  NeedSignature: 1
   triggerName: 0
   refTriggerName: 0
   replacedFile: {fileID: 11400000, guid: 29e6616b9ad62f948be8e7c9735cf8b4, type: 2}
-  ifSkip2: 0
   sibling: {fileID: 11400000, guid: 026605e74a6a04041a8ee90bfe4a5574, type: 2}
+  ifSkip2: 0

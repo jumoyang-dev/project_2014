@@ -13,15 +13,24 @@ MonoBehaviour:
   m_Name: 2-3-B-Omega
   m_EditorClassIdentifier: 
   title: 2-3-b-omega
-  description: 2-3-b-omega2-3-b-omega2-3-b-omega2-3-b-omega, 2-3-b-omega
+  description: "In assistance to Your Glory\u2019s decision:\r\n\r\nBased on the
+    poor performance of Arnold in terms of being unable to sustain control during
+    his term at <link=\"id_10\"><color=#a52a2aff><u>Station</link></color></u> Sixteen,
+    we suggest the execution of Arnold through conventional methods adopted at the
+    <link=\"id_05\"><color=#a52a2aff><u>Ministry of Love</link></color></u>. As a
+    failure, Arnold should not take use of further resources that are valuable to
+    the rest of Inner Party members.\r\n"
   artwork: {fileID: 0}
   type: 2
-  sign: 2-3-b-omega
+  author: 'Omega Strategy Team No.2
+
+    On behalf of Ministry of Love'
   signable: 1
   signed: 0
   fbType: 0
+  NeedSignature: 1
   triggerName: 0
   refTriggerName: 0
   replacedFile: {fileID: 11400000, guid: dc3cdf4399040284bbb8e1944dc277a9, type: 2}
-  ifSkip2: 0
   sibling: {fileID: 11400000, guid: 9489266153add0d4f90edd4df18a5e53, type: 2}
+  ifSkip2: 0

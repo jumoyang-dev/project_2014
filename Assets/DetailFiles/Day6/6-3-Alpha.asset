@@ -13,13 +13,20 @@ MonoBehaviour:
   m_Name: 6-3-Alpha
   m_EditorClassIdentifier: 
   title: 6-3-Alpha
-  description: 6-3-Alpha
+  description: "In assistance to Your Glory\u2019s decision:\r\n\r\nBased on the
+    facts stated above in General O\u2019Connor\u2019s telegram, we do suggest that
+    Darwin Stewart be executed immediately.\r\n"
   artwork: {fileID: 0}
   type: 1
-  sign: 
-  signable: 0
-  signed: 1
-  fbType: 0
+  author: 'Alpha Strategy Team No.1
+
+    On behalf of Ministry of Love
+
+'
+  signable: 1
+  signed: 0
+  fbType: 2
+  NeedSignature: 1
   triggerName: 5
   refTriggerName: 0
   replacedFile: {fileID: 0}

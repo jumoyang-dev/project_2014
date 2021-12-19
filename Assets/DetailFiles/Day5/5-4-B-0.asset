@@ -9,19 +9,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 560541c61703950408d84c871e5130a0, type: 3}
-  m_Name: 3-2-Omega
+  m_Script: {fileID: 11500000, guid: 660021cdf5ae695429fbcd4e3e8a0fd8, type: 3}
+  m_Name: 5-4-B-0
   m_EditorClassIdentifier: 
-  title: 3-2-Omega
-  description: 3-2-Omega
+  title: 
+  description: ?ECAEP SI RAW!
   artwork: {fileID: 0}
-  type: 2
-  sign: 
+  type: 5
+  author: 
   signable: 1
   signed: 0
   fbType: 0
+  NeedSignature: 0
   triggerName: 0
   refTriggerName: 0
   replacedFile: {fileID: 0}
-  sibling: {fileID: 11400000, guid: 141f737058bf9d64698ecdf43fff4b81, type: 2}
+  sibling: {fileID: 11400000, guid: 2567ebbd58b0b084889e515cbafbd88e, type: 2}
   ifSkip2: 0

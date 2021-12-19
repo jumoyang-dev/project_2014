@@ -13,15 +13,16 @@ MonoBehaviour:
   m_Name: 4-3-B-Omega
   m_EditorClassIdentifier: 
   title: 
-  description: 
+  description: Permission is denied to proceed with investigating Darwin Stewart.
   artwork: {fileID: 0}
   type: 2
-  sign: 
+  author: Big Brother
   signable: 1
   signed: 0
-  fbType: 0
+  fbType: 5
+  NeedSignature: 1
   triggerName: 0
   refTriggerName: 0
   replacedFile: {fileID: 0}
-  ifSkip2: 0
   sibling: {fileID: 11400000, guid: 129da4299b964ea45a1a287632413a0b, type: 2}
+  ifSkip2: 0

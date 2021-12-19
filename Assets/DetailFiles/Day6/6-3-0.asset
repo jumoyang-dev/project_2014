@@ -12,15 +12,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 660021cdf5ae695429fbcd4e3e8a0fd8, type: 3}
   m_Name: 6-3-0
   m_EditorClassIdentifier: 
-  title: 
-  description: 
+  title: <color=#ff0000ff>Telegram 399.3.73</color>
+  description: "To Your Glory:\r\n\r\nThe assimilation of the former <link=\"id_06\"><color=#a52a2aff><u>Ministry
+    of Peace</link></color></u> with the <link=\"id_05\"><color=#a52a2aff><u>Ministry
+    of Love</link></color></u> has been handled in an elegant manner. All criminals
+    who were involved with the development of The Hinge, the primary cause of the
+    increase in the New Brotherhood\u2019s influence within the Party, have been
+    executed. \r\nRegarding General Darwin Stewart, the Chair of the former <link=\"id_05\"><color=#a52a2aff><u>Ministry
+    of Love</link></color></u>, although he willingly suggested his own questioning
+    to be done with the <link=\"id_13\"><color=#a52a2aff><u>Septa</link></color></u>
+    Machine, with a total of 17 \u201CNear Death\u201D states reached, we were still
+    unable to identify if Stewart is indeed the Iron Fist. \r\nHowever, again citing
+    the incident on March 30th that had either killed or disabled all of the 20 participants
+    of the second <link=\"id_13\"><color=#a52a2aff><u>Septa</link></color></u> test,
+    most of whom were of immense importance to the Party, we still suggest the execution
+    of Stewart as the only method of punishment. \r\nPlease advise. \r\n"
   artwork: {fileID: 0}
   type: 3
-  sign: 
+  author: "O\u2019Connor\r\nOn behalf of Ministry of Love"
   signable: 1
   signed: 0
   fbType: 0
+  NeedSignature: 0
   triggerName: 0
   refTriggerName: 0
   replacedFile: {fileID: 0}
+  sibling: {fileID: 0}
   ifSkip2: 0

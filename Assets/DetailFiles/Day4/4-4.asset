@@ -12,14 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 660021cdf5ae695429fbcd4e3e8a0fd8, type: 3}
   m_Name: 4-4
   m_EditorClassIdentifier: 
-  title: 4-4
-  description: 4-4
+  title: '<color=#ff0000ff>PERSONAL Secret Channel: Code - MPDS</color>'
+  description: "Father,\r\n\r\nI have not contacted you for a while like this. Doctor
+    Thompson has informed me regarding your condition. Even with the increased dose,
+    based on your last check-in, I do see that your condition is still worsening.
+    Communicating with you not as The General of <link=\"id_06\"><color=#a52a2aff><u>Ministry
+    of Peace</link></color></u>, but as your son Darwin, I am deeply concerned that
+    continuing to work will further damage your health. If you wish to have some
+    rest and a reduced workload, I could assist you in handling your daily agenda.
+    I am also working on another machine that could essentially help with processing
+    documents based on your preferences. \r\nPlease remember to eat and take your
+    medication on time. \r\n"
   artwork: {fileID: 0}
   type: 3
-  sign: 3-2-0
+  author: 'With love and respect,
+
+    Your Son, Darwin Stewart'
   signable: 1
   signed: 0
   fbType: 0
+  NeedSignature: 0
   triggerName: 0
   refTriggerName: 0
   replacedFile: {fileID: 0}

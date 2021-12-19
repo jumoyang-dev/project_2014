@@ -12,16 +12,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 560541c61703950408d84c871e5130a0, type: 3}
   m_Name: 4-2-Alpha
   m_EditorClassIdentifier: 
-  title: 
-  description: 
+  title: 4-2-Alpha
+  description: "In assistance to Your Glory\u2019s decision:\r\n\r\nAs the majority
+    of the focus is on the establishment of <link=\"id_10\"><color=#a52a2aff><u>Station</link></color></u>
+    Twenty in the Southbound of the World, the <link=\"id_06\"><color=#a52a2aff><u>Ministry
+    of Peace</link></color></u> is currently incapable of sending sufficient manpower
+    and firepower to suppress the local turmoil at <link=\"id_10\"><color=#a52a2aff><u>Station</link></color></u>
+    Seventeen. Bombing of the local area to permanently eliminate any form of threat
+    is not advised as <link=\"id_10\"><color=#a52a2aff><u>Station</link></color></u>
+    Seventeen possesses a rich oil resource that is crucial to the development of
+    Oceania. \r\nWe suggest that the issue occurring at <link=\"id_10\"><color=#a52a2aff><u>Station</link></color></u>
+    Seventeen be postponed in terms of a proper resolution until the establishment
+    of <link=\"id_10\"><color=#a52a2aff><u>Station</link></color></u> Twenty is complete.
+    \r\nPlease review and sign if Your Glory\u2019s consent is given to proceed.\t\r\n"
   artwork: {fileID: 0}
   type: 1
-  sign: 
+  author: 'Alpha Strategy Team, No.3
+
+    On behalf of the <link="id_06"><color=#a52a2aff><u>Ministry
+    of Peace</link></color></u>
+
+'
   signable: 1
   signed: 0
   fbType: 0
+  NeedSignature: 1
   triggerName: 0
   refTriggerName: 0
   replacedFile: {fileID: 0}
-  ifSkip2: 0
   sibling: {fileID: 11400000, guid: 3f050088ae07ed449a5f26209d760e25, type: 2}
+  ifSkip2: 0

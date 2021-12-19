@@ -12,15 +12,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 560541c61703950408d84c871e5130a0, type: 3}
   m_Name: 3-4-Omega
   m_EditorClassIdentifier: 
-  title: 
-  description: 
+  title: 3-4-Omega
+  description: "In assistance to Your Glory\u2019s decision:\r\n\r\nAlthough reassigning
+    the extra members of Love to assist with the construction of the new Outer Party
+    homes seems reasonable, the members of Love, who are genetically less capable
+    of performing high intensity physical labors, will pose a great threat to the
+    quality of the construction. For the fact that the current <link=\"id_05\"><color=#a52a2aff><u>Ministry
+    of Love</link></color></u> at <link=\"id_09\"><color=#a52a2aff><u>Airstrip</link></color></u>
+    Nine does not require additional forces, the extra members of Love should be
+    mass released as they are potentially useless as of now. The construction of
+    the Outer Party homes could use assistance from other <link=\"id_09\"><color=#a52a2aff><u>Airstrip</link></color></u>s
+    or <link=\"id_10\"><color=#a52a2aff><u>Station</link></color></u>s to ensure
+    stability and quality.\r\nPlease review and sign if Your Glory\u2019s consent
+    is given.\r\n"
   artwork: {fileID: 0}
   type: 2
-  sign: 
+  author: 'Omega Strategy Team No.11
+
+    On behalf of the <link="id_07"><color=#a52a2aff><u>Ministry
+    of Plenty</link></color></u>'
   signable: 1
   signed: 0
   fbType: 0
+  NeedSignature: 1
   triggerName: 0
   refTriggerName: 0
   replacedFile: {fileID: 0}
-  sibling: {fileID: 0}
+  sibling: {fileID: 11400000, guid: 27ecee0813933c7439592342dac35337, type: 2}
+  ifSkip2: 0

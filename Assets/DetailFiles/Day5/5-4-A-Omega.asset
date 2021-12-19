@@ -12,16 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 560541c61703950408d84c871e5130a0, type: 3}
   m_Name: 5-4-A-Omega
   m_EditorClassIdentifier: 
-  title: 
-  description: 
+  title: 5-4-A-Omega
+  description: Hereby forbidding the investigation from commencing.
   artwork: {fileID: 0}
   type: 2
-  sign: 
+  author: Big Brother
   signable: 1
   signed: 0
-  fbType: 0
+  fbType: 5
+  NeedSignature: 1
   triggerName: 0
   refTriggerName: 0
   replacedFile: {fileID: 0}
-  ifSkip2: 0
   sibling: {fileID: 11400000, guid: c4c7942530228174aa1a30b17c244aec, type: 2}
+  ifSkip2: 0

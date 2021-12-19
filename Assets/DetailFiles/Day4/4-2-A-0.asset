@@ -12,14 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 660021cdf5ae695429fbcd4e3e8a0fd8, type: 3}
   m_Name: 4-2-A-0
   m_EditorClassIdentifier: 
-  title: 4-2-0
-  description: 4-2-04-2-04-2-04-2-0
+  title: <color=#ff0000ff>Telegram 321.3.1</color>
+  description: "To Your Glory:\r\n\r\nWith the deaths of the entire <link=\"id_10\"><color=#a52a2aff><u>Station</link></color></u>
+    Seventeen jurisdiction, the <link=\"id_11\"><color=#a52a2aff><u>proles</link></color></u>,
+    under the influence of the New Brotherhood, have declared <link=\"id_10\"><color=#a52a2aff><u>Station</link></color></u>
+    Seventeen independent. We suspect that the cause for the turmoil is due to dissatisfaction
+    of the additional allocation of resources to the neighboring Station Sixteen.Your
+    Glory\u2019s immediate attention is crucial for dealing with the local terrorists
+    and regaining control of the area.\r\nPlease review and advise.\r\n"
   artwork: {fileID: 0}
-  type: 4
-  sign: 3-2-0
+  type: 3
+  author: '<link="id_06"><color=#a52a2aff><u>Ministry of Peace</link></color></u>,
+    Headquarters
+
+'
   signable: 1
   signed: 0
   fbType: 0
+  NeedSignature: 0
   triggerName: 0
   refTriggerName: 0
   replacedFile: {fileID: 0}

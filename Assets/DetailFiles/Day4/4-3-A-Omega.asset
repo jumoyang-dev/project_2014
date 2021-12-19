@@ -12,16 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 560541c61703950408d84c871e5130a0, type: 3}
   m_Name: 4-3-A-Omega
   m_EditorClassIdentifier: 
-  title: 
-  description: 
+  title: 4-3-A-Omega
+  description: Permission is denied to execute Michael Freeman.
   artwork: {fileID: 0}
   type: 2
-  sign: 
+  author: Big Brother
   signable: 1
   signed: 0
   fbType: 0
+  NeedSignature: 1
   triggerName: 0
   refTriggerName: 2
   replacedFile: {fileID: 11400000, guid: 0b8dde167921c6c4698ecd856812a77e, type: 2}
-  ifSkip2: 0
   sibling: {fileID: 11400000, guid: 57a4abc71c3df91438252eb348bfb93b, type: 2}
+  ifSkip2: 0

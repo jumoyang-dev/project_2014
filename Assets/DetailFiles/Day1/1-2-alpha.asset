@@ -14,21 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   title: NaN
   description: "In Assistance to Your Glory\u2019s Decision:\r\n\r\nTo ensure stabilized
-    control in the recently acquired Station Sixteen, it is believed that more resources,
-    both manpower and firepower, are essential to assist the local jurisdiction in
-    commencing the necessary pressure and enforcement onto the local populace. A
-    5% increase in food allocation is believed to be sufficient to also enhance the
-    performance of the local office.\r\n\r"
+    control in the recently acquired <link=\"id_11\"><color=#a52a2aff><u><link=\"id_10\"><color=#a52a2aff><u>Station</link></color></u></link></color></u>Sixteen,
+    it is believed that more resources, both manpower and firepower, are essential
+    to assist the local jurisdiction in commencing the necessary pressure and enforcement
+    onto the local populace. A 5% increase in food allocation is believed to be sufficient
+    to also enhance the performance of the local office.\r\n\r"
   artwork: {fileID: 0}
   type: 1
-  sign: 'Alpha Strategy Team No.12
+  author: 'Alpha Strategy Team No.12
 
-    On behalf of Ministry of Peace
-
-'
-  signable: 0
-  signed: 1
+    On behalf of <link="id_06"><color=#a52a2aff><u>Ministry
+    of Peace</link></color></u>'
+  signable: 1
+  signed: 0
   fbType: 1
+  NeedSignature: 1
   triggerName: 0
   refTriggerName: 0
   replacedFile: {fileID: 0}

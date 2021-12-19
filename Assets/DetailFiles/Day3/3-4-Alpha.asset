@@ -12,15 +12,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 560541c61703950408d84c871e5130a0, type: 3}
   m_Name: 3-4-Alpha
   m_EditorClassIdentifier: 
-  title: 
-  description: 
+  title: 3-4-Alpha
+  description: "In assistance to Your Glory\u2019s decision:\r\n\r\nThe surplus of
+    members of Love is an excess as the current workload of Division Nine <link=\"id_05\"><color=#a52a2aff><u>Ministry
+    of Love</link></color></u> does not require additional assignment of laborers.
+    We suggest that the excess be transferred to the <link=\"id_07\"><color=#a52a2aff><u>Ministry
+    of Plenty</link></color></u> at <link=\"id_10\"><color=#a52a2aff><u>Station</link></color></u>
+    Nine and assist with the construction of the new Outer Party homes. <link=\"id_14\"><color=#a52a2aff><u>Nuva</link></color></u>
+    Machine-09 should have its focus readjusted to acknowledge this situation and
+    have a more balanced reproduction agenda for all Outer Party members. \r\nPlease
+    review and sign if Your Glory\u2019s consent is given.\r\n"
   artwork: {fileID: 0}
   type: 1
-  sign: 
+  author: 'Alpha Strategy Team No.20
+
+    On behalf of the <link="id_07"><color=#a52a2aff><u>Ministry
+    of Plenty</link></color></u>'
   signable: 1
   signed: 0
-  fbType: 0
+  fbType: 1
+  NeedSignature: 1
   triggerName: 0
   refTriggerName: 0
   replacedFile: {fileID: 0}
-  sibling: {fileID: 0}
+  sibling: {fileID: 11400000, guid: 2a7d15813b1d2a1428e0d9749ae95faf, type: 2}
+  ifSkip2: 0

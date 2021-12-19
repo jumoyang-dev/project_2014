@@ -13,22 +13,21 @@ MonoBehaviour:
   m_Name: 6-5
   m_EditorClassIdentifier: 
   title: 6-5
-  description: "In Assistance to Your Glory\u2019s Decision:\r\n\r\nAs the local
-    office has failed to exert control over the proles populace, on top of the proles
-    essential unnecessity to benefitting the overall social construct, it is deemed
-    feasible to permanently terminate the turmoil caused within Station Sixteen through
-    the measure of massive releasing. Station Sixteen onward could be decreased in
-    priority to focus on other stations. The jurisdiction and its administrator,
-    Ryan Arnold, should be released along with the Proles for their incapability
-    to exert control over the region.\r\nStation Sixteen will be removed from the
-    World Map and any form of documentation recording its existence will also be
-    destroyed upon the commencement of the proposed action.\r\n"
+  description: 'NO ONE IS FREE UNTIL EVERYONE IS FREE.
+
+    
+
+    We are Airstrip
+    One.
+
+'
   artwork: {fileID: 0}
   type: 3
-  sign: 
+  author: 
   signable: 1
   signed: 0
   fbType: 0
+  NeedSignature: 0
   triggerName: 0
   refTriggerName: 0
   replacedFile: {fileID: 0}

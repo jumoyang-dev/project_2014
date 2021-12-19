@@ -12,11 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 660021cdf5ae695429fbcd4e3e8a0fd8, type: 3}
   m_Name: 2-5-0
   m_EditorClassIdentifier: 
-  title: 2-5
-  description: 2-5 2-5 2-5 2-5, 2-52-5
+  title: '<color=#ff0000ff>PERSONAL: Code - MPDS</color>'
+  description: "To Your Glory:\r\n\r\nThis is Stewart writing a personal message
+    to Your Glory on behalf of the <link=\"id_06\"><color=#a52a2aff><u>Ministry of
+    Peace</link></color></u>. \r\nThe <link=\"id_13\"><color=#a52a2aff><u>Septa</link></color></u>
+    is ready for testing. I have selected two potential candidates as the first subjects
+    to be tested with. \r\nPlease review.\r\n"
   artwork: {fileID: 0}
   type: 3
-  sign: 2-52-52-5
+  author: 'With full respect,
+
+    D.Stewart
+
+    On behalf of <link="id_06"><color=#a52a2aff><u>Ministry
+    of Peace</link></color></u>'
   signable: 1
+  signed: 0
+  fbType: 0
+  NeedSignature: 1
   triggerName: 0
+  refTriggerName: 0
   replacedFile: {fileID: 0}
+  sibling: {fileID: 0}
+  ifSkip2: 0

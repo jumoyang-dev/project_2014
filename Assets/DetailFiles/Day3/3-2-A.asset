@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 560541c61703950408d84c871e5130a0, type: 3}
+  m_Name: 3-2-A
+  m_EditorClassIdentifier: 
+  title: NaN
+  description: 'The <link="id_13"><color=#a52a2aff><u>Septa</link></color></u> Machine,
+    a brand new technology designed with the purpose to provide immersive environments
+    for its users, grants Party members with opportunities to see our beloved <link="id_04"><color=#a52a2aff><u>Big
+    Brother</link></color></u> himself in the simulated world, express their personal
+    love and respect to our great leader, and listen to lectures given by His Glory
+    in the most desired environment. The <link="id_13"><color=#a52a2aff><u>Septa</link></color></u>
+    Machine was invented by the Big Brother himself, with assistance from Darwin
+    Stewart, the Head Administrator at the <link="id_06"><color=#a52a2aff><u>Ministry
+    of Peace</link></color></u>.
+
+'
+  artwork: {fileID: 0}
+  type: 4
+  author: 
+  signable: 1
+  signed: 0
+  fbType: 3
+  NeedSignature: 1
+  triggerName: 0
+  refTriggerName: 0
+  replacedFile: {fileID: 0}
+  sibling: {fileID: 11400000, guid: fbee635b2ebad5c46b48031da75fb0be, type: 2}
+  ifSkip2: 0

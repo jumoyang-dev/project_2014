@@ -12,14 +12,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 660021cdf5ae695429fbcd4e3e8a0fd8, type: 3}
   m_Name: 5-6-0
   m_EditorClassIdentifier: 
-  title: 
-  description: 
+  title: '<color=#ff0000ff>PERSONAL: Code - MPDS </color>'
+  description: "To Your Glory:\r\n\r\nThis is Stewart writing a personal message
+    to Your Glory on behalf of the <link=\"id_06\"><color=#a52a2aff><u>Ministry of
+    Peace</link></color></u>. \r\nWith the spectacular result of the <link=\"id_13\"><color=#a52a2aff><u>Septa</link></color></u>
+    Test 1.0 on its functionality within the <link=\"id_05\"><color=#a52a2aff><u>Ministry
+    of Love</link></color></u>, I hereby request permission for <link=\"id_13\"><color=#a52a2aff><u>Septa</link></color></u>
+    Test 2.0, targeting to test the machine\u2019s functionality to provide digital
+    communication and interaction for Party members with a simulated version of Your
+    Glory.\r\nThe test requires a minimum of 100 people for valuable results. As
+    Outer Party members are unaware as to what the <link=\"id_13\"><color=#a52a2aff><u>Septa</link></color></u>
+    Machine is, testing with Inner Party members is a more feasible option.\r\n\r\nPlease
+    review.\r\n"
   artwork: {fileID: 0}
   type: 3
-  sign: 
+  author: 'With full respect,
+
+    D.Stewart
+
+    On behalf of <link="id_06"><color=#a52a2aff><u>Ministry
+    of Peace</link></color></u>
+
+'
   signable: 1
   signed: 0
   fbType: 0
+  NeedSignature: 0
   triggerName: 0
   refTriggerName: 0
   replacedFile: {fileID: 0}
+  sibling: {fileID: 0}
+  ifSkip2: 0

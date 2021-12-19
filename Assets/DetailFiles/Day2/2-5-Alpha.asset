@@ -13,15 +13,16 @@ MonoBehaviour:
   m_Name: 2-5-Alpha
   m_EditorClassIdentifier: 
   title: 2-5-B-Alpha
-  description: '2-5-B-Alpha
-
-    2-5-B-Alpha'
+  description: "Upon learning of Your Glory\u2019s decision on Arnold, I suggest
+    that the individual be used as our first test subject to see the result of <link=\"id_13\"><color=#a52a2aff><u>Septa</link></color></u>\u2019s
+    simulation in terms of physical and mental influence.\r\n"
   artwork: {fileID: 0}
   type: 1
-  sign: 2-5-B-Alpha
+  author: 
   signable: 1
   signed: 0
   fbType: 0
+  NeedSignature: 1
   triggerName: 2
   refTriggerName: 0
   replacedFile: {fileID: 0}

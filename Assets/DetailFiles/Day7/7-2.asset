@@ -12,15 +12,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 660021cdf5ae695429fbcd4e3e8a0fd8, type: 3}
   m_Name: 7-2
   m_EditorClassIdentifier: 
-  title: 
-  description: 
+  title: '<color=#ff0000ff>PERSONAL: Code - MPJT</color>'
+  description: 'YOUR GLORY:
+
+    
+
+    THEY ARE HERE.
+
+    THEY ARE EVERYWHERE.
+
+    THEY
+    SAY I AM ONE OF THEM TOO.
+
+    PLEASE HELP MEEERRradqweads
+
+    
+
+    
+
+    We
+    will see you there, Big Brother.
+
+'
   artwork: {fileID: 0}
   type: 3
-  sign: 
+  author: 
   signable: 1
   signed: 0
   fbType: 0
+  NeedSignature: 0
   triggerName: 0
   refTriggerName: 0
   replacedFile: {fileID: 0}
+  sibling: {fileID: 0}
   ifSkip2: 0

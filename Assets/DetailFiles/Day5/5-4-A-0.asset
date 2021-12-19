@@ -12,16 +12,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 660021cdf5ae695429fbcd4e3e8a0fd8, type: 3}
   m_Name: 5-4-A-0
   m_EditorClassIdentifier: 
-  title: 5-4-A-0
-  description: 5-4-A-0
+  title: <color=#ff0000ff>CLASSIFIED</color>
+  description: "Priority: HIGH\r\nCONFIDENTIAL CODE: 11101\r\nYour Glory:\r\n\r\nHere
+    is a list of things that we have noticed based on our investigation and observation
+    of General Stewart in the past week:\r\n\r\n1. Members of other Ministries are
+    essentially forbidden to enter any premises owned, directed by, or related to
+    the <link=\"id_06\"><color=#a52a2aff><u>Ministry of Peace</link></color></u>.
+    \r\n2. Based on close contacts who have connections with the cronies of the General
+    himself, even his trusted ones have been unable to reach or see him recently.
+    \r\n3. All inquiries regarding The Hinge have been left unresolved as no response
+    has been received.\r\n\r\nI hereby request Your Glory\u2019s permission for members
+    of the <link=\"id_05\"><color=#a52a2aff><u>Ministry of Love</link></color></u>
+    to enter all premises related to the <link=\"id_06\"><color=#a52a2aff><u>Ministry
+    of Peace</link></color></u> for full investigation.\r\n"
   artwork: {fileID: 0}
-  type: 4
-  sign: 
+  type: 3
+  author: 'O''Connor
+
+    On behalf of Ministry of Love'
   signable: 1
   signed: 0
   fbType: 0
+  NeedSignature: 0
   triggerName: 0
-  refTriggerName: 0
-  replacedFile: {fileID: 0}
-  sibling: {fileID: 11400000, guid: 2c61e133cdd2d6946a5e1b314752b3b4, type: 2}
+  refTriggerName: 4
+  replacedFile: {fileID: 11400000, guid: 2c61e133cdd2d6946a5e1b314752b3b4, type: 2}
+  sibling: {fileID: 0}
   ifSkip2: 0

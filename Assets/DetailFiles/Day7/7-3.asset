@@ -12,15 +12,43 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 660021cdf5ae695429fbcd4e3e8a0fd8, type: 3}
   m_Name: 7-3
   m_EditorClassIdentifier: 
-  title: 
-  description: 
+  title: 7-3
+  description: '[<link="id_14"><color=#a52a2aff><u>Nuva</link></color></u>-01 Report
+    No.1100010111111]
+
+    [Seeding Cycle]
+
+    Period: ??.??.2014 - ??.??.2014
+
+    Participants:
+    0?
+
+    Male: 100%
+
+    Female: 100%?
+
+    Success Rate: 0%?
+
+    Production:
+    1,000,000,000,000 Newborns
+
+    1. Love: 1,000,000,000,000 Newborns
+
+    2.
+    Plenty: 1,000,000,000,000 Newborns?
+
+    3. Truth: 1,000,000,000,000 Newborns
+
+'
   artwork: {fileID: 0}
   type: 3
-  sign: 
+  author: 
   signable: 1
   signed: 0
   fbType: 0
+  NeedSignature: 0
   triggerName: 0
   refTriggerName: 0
   replacedFile: {fileID: 0}
+  sibling: {fileID: 0}
   ifSkip2: 0

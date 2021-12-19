@@ -12,16 +12,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 560541c61703950408d84c871e5130a0, type: 3}
   m_Name: 4-2-Omega
   m_EditorClassIdentifier: 
-  title: 
-  description: 
+  title: 4-2-Omega
+  description: "In assistance to Your Glory\u2019s decision:\r\n\r\nAs Your Glory
+    may have known, while originally the Party only had the Alpha team to assist
+    Your Glory in drafting solutions to agendas, the Omega team was designed to balance
+    the options provided by the Alpha team. Although the purpose of such solutions
+    is to save Your Glory\u2019s time in processing these matters, upon reviewing
+    the Alpha version of the proposal, we believe that such a plan is both inappropriate
+    and suspicious. For decades during which no actual evidence of collective rebellion
+    was found, this outbreak poses the greatest threat as the terroristic Brotherhood
+    utilizes the <link=\"id_11\"><color=#a52a2aff><u>proles</link></color></u>, making
+    up 78% of the entire population, as their main source of manpower. \r\nProposing
+    a plan which advocates for the delay of handling the situation, the Alpha team
+    has possibly been infiltrated by influences from the New Brotherhood. Combining
+    with the recent discovery of The Hinge, we believe that Alpha Strategy Team No.3
+    should be sentenced to the <link=\"id_05\"><color=#a52a2aff><u>Ministry of Love</link></color></u>
+    immediately for questioning. \r\nIf actual evidence of betrayal is found, the
+    entire team will be sent off to The Colosseum.\r\nPlease review and sign if Your
+    Glory\u2019s consent is given to proceed.\r\n"
   artwork: {fileID: 0}
   type: 2
-  sign: 
+  author: 'Omega Strategy Team No.1
+
+    On behalf of the <link="id_06"><color=#a52a2aff><u>Ministry
+    of Peace</link></color></u>'
   signable: 1
   signed: 0
-  fbType: 0
+  fbType: 4
+  NeedSignature: 1
   triggerName: 0
   refTriggerName: 0
   replacedFile: {fileID: 0}
-  ifSkip2: 0
   sibling: {fileID: 11400000, guid: 6ac8750147aaf0a46a5c366c762c3b8a, type: 2}
+  ifSkip2: 0

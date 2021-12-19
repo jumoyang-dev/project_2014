@@ -12,14 +12,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 660021cdf5ae695429fbcd4e3e8a0fd8, type: 3}
   m_Name: 5-5-0
   m_EditorClassIdentifier: 
-  title: 
-  description: 
+  title: <color=#ff0000ff>Telegram 321.3.89</color>
+  description: "To Your Glory:\r\n\r\nDespite the focus on the establishment of <link=\"id_10\"><color=#a52a2aff><u>Station</link></color></u>
+    Twenty, we received reports from the dispatched military force that NB-14 Fluval
+    missile, designed originally in October, 2013, has been put in use by the opposing
+    local <link=\"id_11\"><color=#a52a2aff><u>proles</link></color></u> during a
+    recent combat. \r\nThe launch of NB-14 Fluval eliminated more than half of the
+    camps based in the area, declaring the defeat of the dispatched military force.
+    \r\nUnless further troops are assigned to the area, the goal to establish <link=\"id_10\"><color=#a52a2aff><u>Station</link></color></u>
+    Twenty has fundamentally failed. \r\nWhile bombing the designated area is necessary
+    for retaliation, the source from which the alien <link=\"id_11\"><color=#a52a2aff><u>proles</link></color></u>
+    obtained the Oceanian missile has the higher priority in order to identify if
+    potential criminals are spies or traitors are hiding in the <link=\"id_06\"><color=#a52a2aff><u>Ministry
+    of Peace</link></color></u>.\r\n\r\nPlease advise.\r\n"
   artwork: {fileID: 0}
   type: 3
-  sign: 
+  author: Ministry of Love, Headquarters
   signable: 1
   signed: 0
   fbType: 0
+  NeedSignature: 1
   triggerName: 0
   refTriggerName: 0
   replacedFile: {fileID: 0}
+  sibling: {fileID: 0}
+  ifSkip2: 0

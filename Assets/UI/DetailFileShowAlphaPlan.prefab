@@ -306,7 +306,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -53, y: 70}
+  m_AnchoredPosition: {x: -490, y: 70}
   m_SizeDelta: {x: 415.8661, y: 69.38422}
   m_Pivot: {x: 1, y: 0}
 --- !u!222 &8662306126640777296
@@ -904,49 +904,30 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Balabala, balabala.
+  m_text: '
 
     Balabala, balabala.Balabala, balabala.
 
+    Balabala, balabala.Balabala,
+    balabala.
+
     Balaba?
+
+    Balabala, balabala.Balabala, balabala.
 
     Balabala,
     balabala.Balabala, balabala.
 
-    Balabala, balabala.Balabala, balabala.
-
     Balaba?
+
+    Balabala, balabala.Balabala, balabala.
 
     Balabala,
     balabala.Balabala, balabala.
 
-    Balabala, balabala.Balabala, balabala.
-
     Balaba?
 
-    Balabala,
-    balabala.Balabala, balabala.
-
-    Balabala, balabala.Balabala, balabala.
-
-    Balaba?
-
-    Balabala,
-    balabala.Balabala, balabala.
-
-    Balabala, balabala.Balabala, balabala.
-
-    Balaba?
-
-    Balabala,
-    balabala.Balabala, balabala.
-
-    Balabala, balabala.Balabala, balabala.
-
-    Balaba?
-
-    Balabala,
-    balabala.'
+    Balabala, balabala.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ac3c15d13fdd9b147a88eaad48a6624c, type: 2}
   m_sharedMaterial: {fileID: -5296358166426141547, guid: ac3c15d13fdd9b147a88eaad48a6624c, type: 2}

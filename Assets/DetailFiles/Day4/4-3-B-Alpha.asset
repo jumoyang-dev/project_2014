@@ -13,15 +13,16 @@ MonoBehaviour:
   m_Name: 4-3-B-Alpha
   m_EditorClassIdentifier: 
   title: 
-  description: 
+  description: Permission is granted to proceed with investigating Darwin Stewart.
   artwork: {fileID: 0}
   type: 1
-  sign: 
+  author: Big Brother
   signable: 1
   signed: 0
-  fbType: 0
+  fbType: 5
+  NeedSignature: 1
   triggerName: 4
   refTriggerName: 0
   replacedFile: {fileID: 0}
-  ifSkip2: 0
   sibling: {fileID: 11400000, guid: 0b8dde167921c6c4698ecd856812a77e, type: 2}
+  ifSkip2: 0

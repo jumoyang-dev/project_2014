@@ -12,16 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 560541c61703950408d84c871e5130a0, type: 3}
   m_Name: 4-3-A-Alpha
   m_EditorClassIdentifier: 
-  title: 
-  description: 
+  title: 4-3-A-Alpha
+  description: Permission is granted to proceed with the execution of Michael Freeman.
   artwork: {fileID: 0}
   type: 1
-  sign: 
+  author: Big Brother
   signable: 1
   signed: 0
-  fbType: 0
+  fbType: 2
+  NeedSignature: 1
   triggerName: 0
   refTriggerName: 2
   replacedFile: {fileID: 11400000, guid: 129da4299b964ea45a1a287632413a0b, type: 2}
-  ifSkip2: 0
   sibling: {fileID: 11400000, guid: 99640f9b9f8e81041b2ecee4b9493851, type: 2}
+  ifSkip2: 0

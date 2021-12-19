@@ -12,16 +12,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 560541c61703950408d84c871e5130a0, type: 3}
   m_Name: 5-5-Alpha
   m_EditorClassIdentifier: 
-  title: 
-  description: 
+  title: 5-5-Alpha
+  description: "In assistance to Your Glory\u2019s decision:\r\n\r\nWe recommend
+    that investigation takes place prior to the bombing of the alien <link=\"id_11\"><color=#a52a2aff><u>proles</link></color></u>
+    at <link=\"id_10\"><color=#a52a2aff><u>Station</link></color></u> Seventeen.
+    Although the questioning of all members who are involved with the task to build
+    <link=\"id_10\"><color=#a52a2aff><u>Station</link></color></u> Twenty and investigation
+    of all <link=\"id_06\"><color=#a52a2aff><u>Ministry of Peace</link></color></u>
+    members are necessary, such tasks might place our nation at great danger for
+    the threat that the New Brotherhood is posing recently. \r\nWe suggest that members
+    from the <link=\"id_05\"><color=#a52a2aff><u>Ministry of Love</link></color></u>
+    be sent over to <link=\"id_10\"><color=#a52a2aff><u>Station</link></color></u>
+    Seventeen as spies to retrieve information regarding their source of NB-14 Fluval
+    missiles. \r\n\r\nPlease review and sign if Your Glory\u2019s consent is given
+    to proceed.\r\n"
   artwork: {fileID: 0}
   type: 1
-  sign: 
+  author: 'Alpha Strategy Team No.2
+
+    On behalf of Ministry of Love
+
+'
   signable: 1
   signed: 0
-  fbType: 0
+  fbType: 4
+  NeedSignature: 1
   triggerName: 0
   refTriggerName: 0
   replacedFile: {fileID: 0}
-  ifSkip2: 0
   sibling: {fileID: 11400000, guid: 69cce2e4cf192be48ba1be6c9a4c3e90, type: 2}
+  ifSkip2: 0

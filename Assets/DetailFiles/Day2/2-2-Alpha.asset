@@ -12,12 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 560541c61703950408d84c871e5130a0, type: 3}
   m_Name: 2-2-Alpha
   m_EditorClassIdentifier: 
-  title: 
-  description: 
+  title: 2-2-Alpha
+  description: "Designed to ensure individuality of each unit. \r\nEach unit is equipped
+    with a Version-16 telescreen, a bed, a window, and a door.\r\nEach unit is on
+    average 42 square meters in size.\r\n"
   artwork: {fileID: 0}
   type: 1
-  sign: 
+  author: 
   signable: 1
+  signed: 0
+  fbType: 0
+  NeedSignature: 1
   triggerName: 0
+  refTriggerName: 0
   replacedFile: {fileID: 0}
   sibling: {fileID: 11400000, guid: a2d14ad8bb7cf0b48be4677a3948d78c, type: 2}
+  ifSkip2: 0

@@ -12,16 +12,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 560541c61703950408d84c871e5130a0, type: 3}
   m_Name: 5-2-Omega
   m_EditorClassIdentifier: 
-  title: 
-  description: 
+  title: 5-2-Omega
+  description: "In assistance to Your Glory\u2019s decision: \r\n\r\nAs much as <link=\"id_09\"><color=#a52a2aff><u>Airstrip</link></color></u>
+    Ten has been a long-established area that is of significant value to <link=\"id_01\"><color=#a52a2aff><u>Oceania</link></color></u>,
+    we believe that the resources available at the area could still be obtained from
+    <link=\"id_09\"><color=#a52a2aff><u>Airstrip</link></color></u> Six and <link=\"id_10\"><color=#a52a2aff><u>Station</link></color></u>
+    Two. As a result, for the fact that <link=\"id_09\"><color=#a52a2aff><u>Airstrip</link></color></u>
+    Ten only contains 59,532 Party members, if the New Brotherhood intends to create
+    another outbreak at the location, it is advised that preparation for the deployment
+    of a bomb is necessary to eliminate all threats to the Party and affiliations
+    to the New Brotherhood. \r\nIn the meantime, the \u201CSelf-destroy\u201D function
+    should be turned on globally for all <link=\"id_12\"><color=#a52a2aff><u>Device</link></color></u>s,
+    including all cellular towers responsible for establishing connections.\r\nPlease
+    review and sign if Your Glory\u2019s consent is given to proceed.\r\n"
   artwork: {fileID: 0}
   type: 2
-  sign: 
+  author: 'Omega Strategy Team No.1
+
+    On behalf of the <link="id_06"><color=#a52a2aff><u>Ministry
+    of Peace</link></color></u>
+
+'
   signable: 1
   signed: 0
-  fbType: 0
+  fbType: 2
+  NeedSignature: 1
   triggerName: 0
   refTriggerName: 0
   replacedFile: {fileID: 0}
-  ifSkip2: 0
   sibling: {fileID: 11400000, guid: 7963739f0bf34a24fb41cb54a646d775, type: 2}
+  ifSkip2: 0
