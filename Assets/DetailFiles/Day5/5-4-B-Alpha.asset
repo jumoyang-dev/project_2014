@@ -20,7 +20,7 @@ MonoBehaviour:
   signable: 1
   signed: 0
   fbType: 0
-  NeedSignature: 0
+  NeedSignature: 1
   triggerName: 0
   refTriggerName: 0
   replacedFile: {fileID: 0}
