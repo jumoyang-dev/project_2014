@@ -23,7 +23,7 @@ public class tableButton : MonoBehaviour
     }
     private void OnMouseDown()
     {
-        if(GetComponent<DesktopButton>().isDisabled)
+        if(GetComponent<DesktopButton>()!=null && GetComponent<DesktopButton>().isDisabled)
         {
             return;
         }
