@@ -22,7 +22,7 @@ MonoBehaviour:
   fbType: 5
   NeedSignature: 1
   triggerName: 0
-  refTriggerName: 0
-  replacedFile: {fileID: 0}
+  refTriggerName: 6
+  replacedFile: {fileID: 11400000, guid: 9c747bff67a14a647a3a17bad6ffd14f, type: 2}
   sibling: {fileID: 11400000, guid: f7f70ae1f35963a4db7ff4a4076f9a56, type: 2}
   ifSkip2: 0

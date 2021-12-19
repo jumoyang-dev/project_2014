@@ -21,7 +21,7 @@ MonoBehaviour:
   signed: 0
   fbType: 0
   NeedSignature: 0
-  triggerName: 0
+  triggerName: 6
   refTriggerName: 0
   replacedFile: {fileID: 0}
   sibling: {fileID: 11400000, guid: 2567ebbd58b0b084889e515cbafbd88e, type: 2}
