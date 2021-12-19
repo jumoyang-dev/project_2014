@@ -58,8 +58,6 @@ public enum BranchTriggerName
     Investigation,
     // day 6
     killedO,
-    // day 5
-    d54B,
 
 }
 // 每天指向下一天，包含支线
@@ -80,14 +78,6 @@ public enum FeedbackType
     Plant,
     Clean,
     Photo,
-}
-
-public enum ButtonStatus
-{
-    Normal=0,
-    Highlight,
-    Disabled,
-    Hover,
 }
 
 public class PublicMethods : MonoBehaviour
